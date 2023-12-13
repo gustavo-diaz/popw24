@@ -1,0 +1,46 @@
+---
+title: "Field Experiments I"
+date: "March 8, 2023"
+format: html
+---
+
+
+```{r setup, echo = FALSE, results = "asis"}
+# Slide showing functions
+source(here::here("R", "show_slides.R"))
+```
+
+## Overview
+
+The next two weeks are about field experiments, also known as randomized controlled trials (RCTs) or A/B testing. These are experiments aimed testing the impact of a policy intervention.
+
+Field experiments are diverse both in terms of design and their domains of application, hence the need for two weeks.
+
+The lab focuses on the stepped-wedge or staggered adoption design.
+
+
+## Reading
+
+- [{{< fa book >}}]{style="color: #ac1455;"} [RD section 18](https://book.declaredesign.org/experimental-causal.html)
+
+- [{{< fa file-lines >}}]{style="color: #ac1455;"} Banerjee, Abhijit, Esther Duflo, and Garima Sharma. 2021. [“Long-Term Effects of the Targeting the Ultra Poor Program.”](https://www.nber.org/system/files/working_papers/w28074/w28074.pdf) *American Economic Review: Insights* 3 (4): 471-486
+
+- [{{< fa file-lines >}}]{style="color: #ac1455;"} Pennycook, Gordon, Ziv Epstein, Mohsen Mosleh, Antonio A. Arechar, Dean Eckles, and David G. Rand. 2021. [“Shifting attention to accuracy can reduce misinformation online.”](https://www.nature.com/articles/s41586-021-03344-2) *Nature* 592: 590-595
+
+
+## Slides
+
+::: {.callout-tip}
+## Navigation
+
+Click on the frame below and use the arrows to navigate. You can type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) to see useful commands.
+:::
+
+```{r show-slides, echo = FALSE, results = "asis"}
+show_slide("/slides/09_slides")
+slide_buttons("/slides/09_slides")
+```
+
+## Lab
+
+[Field experimental designs I {{< fa laptop-code >}}](labs/09_lab.Rmd)

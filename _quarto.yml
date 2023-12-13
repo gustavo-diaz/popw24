@@ -1,0 +1,83 @@
+project:
+  type: website
+  output-dir: docs
+  # render:
+  #   - "!files/"
+  # resources:
+  #   - "files/"
+  
+# freezing seems to bork font size
+execute:
+  freeze: auto  # Re-render only when source changes
+  
+website:
+  title: "POLSCI 4SS3 <br> Public Opinion <br> and Policy"
+  description: "Homepage for POLSCI 4SS3 - Public Opinion and Policy at McMaster University, Winter 2024."
+  search: true
+  page-navigation: true
+  sidebar:
+    pinned: true
+    align: center
+    background: secondary
+    tools:
+      - icon: github
+        href: https://github.com/gustavo-diaz/popw24
+        text: "Source code"
+      - icon: person-fill
+        href: https://avenue.mcmaster.ca/
+        text: "Avenue"
+      - icon: cloud-fill
+        href: https://posit.cloud/
+        text: "Posit Cloud"
+        
+    style: "docked"
+    collapse-level: 1
+    contents:
+      - href: index.qmd
+        text: "Home"
+      - section: "Course information"
+        contents:
+          - href: syllabus.qmd
+            text: "Syllabus"
+          - href: schedule.qmd
+            text: "Schedule"
+          - href: assignments.qmd
+            text: "Assignments"
+      - section: "Content"
+        contents: 
+            - text: "Content Overview"
+              file: content/index.qmd
+            - text: "1. Introduction"
+              file: content/01_content.qmd
+            - text: "2. The MIDA framework"
+              file: content/02_content.qmd
+            - text: "3. Representative surveys"
+              file: content/03_content.qmd
+            - text: "4. Sensitive questions"
+              file: content/04_content.qmd
+            - text: "5. Survey experiments"
+              file: content/05_content.qmd
+            - text: "6. Convenience samples"
+              file: content/06_content.qmd
+            - text: "8. Evidence-informed policy"
+              file: content/08_content.qmd
+            - text: "9. Field experiments I"
+              file: content/09_content.qmd
+            - text: "10. Field experiments II"
+              file: content/10_content.qmd
+            - text: "11. Beyond experimentation"
+              file: content/11_content.qmd
+            - text: "12. Quasi-experiments"
+              file: content/12_content.qmd
+      - href: resources.qmd
+        text: "Resources"
+  page-footer:
+      left: © 2024 Gustavo Diaz
+      right: Powered by [{{< fa brands r-project >}}](https://cran.r-project.org/) and [Quarto](https://quarto.org/)
+      background: secondary
+format:
+  html:
+    theme: 
+      light: [flatly, custom.scss]
+      dark: [darkly, custom_dark.scss]
+

@@ -1,0 +1,499 @@
+[
+  {
+    "objectID": "resources/response_paper_template.html",
+    "href": "resources/response_paper_template.html",
+    "title": "Response Paper #X",
+    "section": "",
+    "text": "This an optional template for the response papers for our class. You can work directly on the .Rmd file or use it as a guideline to work on your own file. The only restriction is that your submission to Avenue must be a PDF. See the syllabus for formatting and extension guidelines.\nIf you are working off the template, see https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf for some tips on common writing operations in Rmarkdown.\nStart by replacing the relevant information in the preamble of the document. Including the number of the response paper, your personal details, and the reference to the week about which you are writing the paper.\nThe Overview section should indicate which reading for the week you are discussing, it summarizes its main finding and relevance in 2-3 sentences, and then briefly highlights the point that you want to make in your response. For example, in this response paper I want to criticize the use of a convenience sample instead of a representative sample. The overview should not take more than 2-3 paragraphs."
+  },
+  {
+    "objectID": "resources/response_paper_template.html#sub-sections",
+    "href": "resources/response_paper_template.html#sub-sections",
+    "title": "Response Paper #X",
+    "section": "Sub-sections",
+    "text": "Sub-sections\nIt may help to organize your thoughts into subsections so that you can address them one at a time."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Public Opinion and Policy",
+    "section": "",
+    "text": "This course explores quantitative research designs to answer questions about public opinion and policy in academia, government, and industry. In this website you will find all the course materials. Assignments must be submitted through Avenue.\n\nInstructor\n\n\nCourse details\n\n\nContact"
+  },
+  {
+    "objectID": "content/14_content.html",
+    "href": "content/14_content.html",
+    "title": "Quasi-experiments II",
+    "section": "",
+    "text": "We continue the conversation on quasi-experiments. This time we focus on difference-in-differences, a research design that relies on repeated observations of units before and after a policy is implemented to make claims about cause and effect. Unlike the previous week, we are not pretending that our data looks as if an experiment was conducted.\nThe lab discusses difference-in-differences designs."
+  },
+  {
+    "objectID": "content/14_content.html#overview",
+    "href": "content/14_content.html#overview",
+    "title": "Quasi-experiments II",
+    "section": "",
+    "text": "We continue the conversation on quasi-experiments. This time we focus on difference-in-differences, a research design that relies on repeated observations of units before and after a policy is implemented to make claims about cause and effect. Unlike the previous week, we are not pretending that our data looks as if an experiment was conducted.\nThe lab discusses difference-in-differences designs."
+  },
+  {
+    "objectID": "content/14_content.html#reading",
+    "href": "content/14_content.html#reading",
+    "title": "Quasi-experiments II",
+    "section": "Reading",
+    "text": "Reading\n\n RD section 16\n Leninger, Arndt, Marie-Lou Sohnius, Thorsten Faas, Sigrid Roßteutscher, and Armin Schäfer. 2022. “Temporary Disenfranchisement: Negative Side Effects of Lowering the Voting Age.” American Political Science Review"
+  },
+  {
+    "objectID": "content/14_content.html#slides",
+    "href": "content/14_content.html#slides",
+    "title": "Quasi-experiments II",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/14_content.html#lab",
+    "href": "content/14_content.html#lab",
+    "title": "Quasi-experiments II",
+    "section": "Lab",
+    "text": "Lab\nQuasi-experimental designs II"
+  },
+  {
+    "objectID": "content/12_content.html",
+    "href": "content/12_content.html",
+    "title": "Week 12: NO CLASS DUE TO INSTRUCTOR TRAVEL",
+    "section": "",
+    "text": "I have to cancel our meeting for this week. The course content has shifted one week.\nYou can participate in the following optional activities to improve your grade:\n\nRedo one of your previously submitted labs, or complete a lab that you missed\nSubmit a response paper for one of the weeks that you may have missed\n\nYou can do up to one lab and up to one response paper. These are due on April 2 at 11:59 PM.\nI hope this helps to make a smoother end of the semester."
+  },
+  {
+    "objectID": "content/12_content.html#overview",
+    "href": "content/12_content.html#overview",
+    "title": "Week 12: NO CLASS DUE TO INSTRUCTOR TRAVEL",
+    "section": "",
+    "text": "I have to cancel our meeting for this week. The course content has shifted one week.\nYou can participate in the following optional activities to improve your grade:\n\nRedo one of your previously submitted labs, or complete a lab that you missed\nSubmit a response paper for one of the weeks that you may have missed\n\nYou can do up to one lab and up to one response paper. These are due on April 2 at 11:59 PM.\nI hope this helps to make a smoother end of the semester."
+  },
+  {
+    "objectID": "content/10_content.html",
+    "href": "content/10_content.html",
+    "title": "Field Experiments II",
+    "section": "",
+    "text": "This is the second week of field experiments. We discuss block randomization and pre-post designs as variants from the canonical design. The Diaz and Rossiter (2023) reading is a bit technical, focus on understanding what block randomization and pre-post designs are. I suggest paying attention to sections 1 through 3 and then skimming the rest.\nThe lab focuses on the trade-offs of adopting these research design variants."
+  },
+  {
+    "objectID": "content/10_content.html#overview",
+    "href": "content/10_content.html#overview",
+    "title": "Field Experiments II",
+    "section": "",
+    "text": "This is the second week of field experiments. We discuss block randomization and pre-post designs as variants from the canonical design. The Diaz and Rossiter (2023) reading is a bit technical, focus on understanding what block randomization and pre-post designs are. I suggest paying attention to sections 1 through 3 and then skimming the rest.\nThe lab focuses on the trade-offs of adopting these research design variants."
+  },
+  {
+    "objectID": "content/10_content.html#reading",
+    "href": "content/10_content.html#reading",
+    "title": "Field Experiments II",
+    "section": "Reading",
+    "text": "Reading\n\n RD sections 20-22\n Kalla, Joshua, Frances Rosenbluth, and Dawn Langan Teele. 2018. “Are You My Mentor? A Field Experiment on Gender, Ethnicity, and Political Self-Starters.” Journal of Politics 80 (1): 337-341\n Diaz, Gustavo, and Erin Rossiter. 2023. “Balancing Precision and Retention in Experimental Design.” Working Paper"
+  },
+  {
+    "objectID": "content/10_content.html#slides",
+    "href": "content/10_content.html#slides",
+    "title": "Field Experiments II",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/10_content.html#lab",
+    "href": "content/10_content.html#lab",
+    "title": "Field Experiments II",
+    "section": "Lab",
+    "text": "Lab\nField experimental designs II"
+  },
+  {
+    "objectID": "content/08_content.html",
+    "href": "content/08_content.html",
+    "title": "Evidence-Informed Policy",
+    "section": "",
+    "text": "This week we change topics. We’ll start our discussion of public policy with an introduction to the evidence-informed policy movement. This movement emerges from collaborations between governments and academics using cutting-edge statistical techniques to produce more credible evidence to determine what policies work, where, and why.\nThe lab discusses hypothesis testing, a commonly used approach to quantify statements on whether a policy works."
+  },
+  {
+    "objectID": "content/08_content.html#overview",
+    "href": "content/08_content.html#overview",
+    "title": "Evidence-Informed Policy",
+    "section": "",
+    "text": "This week we change topics. We’ll start our discussion of public policy with an introduction to the evidence-informed policy movement. This movement emerges from collaborations between governments and academics using cutting-edge statistical techniques to produce more credible evidence to determine what policies work, where, and why.\nThe lab discusses hypothesis testing, a commonly used approach to quantify statements on whether a policy works."
+  },
+  {
+    "objectID": "content/08_content.html#reading",
+    "href": "content/08_content.html#reading",
+    "title": "Evidence-Informed Policy",
+    "section": "Reading",
+    "text": "Reading\n\n RD sections 11-13\n Bowers, Jake, and Paul F. Testa. 2019. “Better Government, Better Science: The Promise of and Challenges Facing the Evidence-Informed Policy Movement.” Annual Review of Political Science 22: 521-542"
+  },
+  {
+    "objectID": "content/08_content.html#slides",
+    "href": "content/08_content.html#slides",
+    "title": "Evidence-Informed Policy",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/08_content.html#lab",
+    "href": "content/08_content.html#lab",
+    "title": "Evidence-Informed Policy",
+    "section": "Lab",
+    "text": "Lab\nHypothesis testing"
+  },
+  {
+    "objectID": "content/05_content.html",
+    "href": "content/05_content.html",
+    "title": "Survey Experiments",
+    "section": "",
+    "text": "Some of the techniques we discussed last week to reduce sensitivity bias were survey experiments. A survey experiment uses random assignment to administer different pieces of information to respondents, and then compares changes in response to a common outcome. This week, we formalize the potential outcomes framework as a way to establish functional relationships in a model. This framework is useful to understand what we can learn in experiments, survey experiments included.\nThe lab explores the properties of some commonly used survey experimental designs."
+  },
+  {
+    "objectID": "content/05_content.html#overview",
+    "href": "content/05_content.html#overview",
+    "title": "Survey Experiments",
+    "section": "",
+    "text": "Some of the techniques we discussed last week to reduce sensitivity bias were survey experiments. A survey experiment uses random assignment to administer different pieces of information to respondents, and then compares changes in response to a common outcome. This week, we formalize the potential outcomes framework as a way to establish functional relationships in a model. This framework is useful to understand what we can learn in experiments, survey experiments included.\nThe lab explores the properties of some commonly used survey experimental designs."
+  },
+  {
+    "objectID": "content/05_content.html#reading",
+    "href": "content/05_content.html#reading",
+    "title": "Survey Experiments",
+    "section": "Reading",
+    "text": "Reading\n\n RD section 10\n Tomz, Michael R. and Jessica L. P. Weeks. 2013. “Public Opinion and the Democratic Peace.” American Political Science Review 107 (4): 849-865\n Eggers, Andrew C., Nick Vivyan, and Markus Wagner. 2018. “Corruption, Accountability, and Gender: Do Female Politicians Face Higher Standards in Public Life?” Journal of Politics 80 (1): 321-326"
+  },
+  {
+    "objectID": "content/05_content.html#slides",
+    "href": "content/05_content.html#slides",
+    "title": "Survey Experiments",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/05_content.html#lab",
+    "href": "content/05_content.html#lab",
+    "title": "Survey Experiments",
+    "section": "Lab",
+    "text": "Lab\nSurvey experimental designs"
+  },
+  {
+    "objectID": "content/03_content.html",
+    "href": "content/03_content.html",
+    "title": "Week 3: Panel Surveys",
+    "section": "",
+    "text": "Sign up for final project group using this form \nPanel surveys are surveys where the same respondents are asked questions multiple times. Sometimes these repeat the same questions to understand shifts in public opinion and the effect of events in between waves.\nAs with last week, the takeaway is that panel surveys are expensive and risk missing subjects across waves, this is called panel attrition. With fixed budgets, one may wonder if we are better off just conducting a one-shot survey, also called a cross-section with an increased sample size.\nWe have no new lab assignment this week. Instead, we will spend some time revisiting the lab from last week. I plan to spend some time comparing one-shot and panel surveys with simulations."
+  },
+  {
+    "objectID": "content/03_content.html#overview",
+    "href": "content/03_content.html#overview",
+    "title": "Week 3: Panel Surveys",
+    "section": "",
+    "text": "Sign up for final project group using this form \nPanel surveys are surveys where the same respondents are asked questions multiple times. Sometimes these repeat the same questions to understand shifts in public opinion and the effect of events in between waves.\nAs with last week, the takeaway is that panel surveys are expensive and risk missing subjects across waves, this is called panel attrition. With fixed budgets, one may wonder if we are better off just conducting a one-shot survey, also called a cross-section with an increased sample size.\nWe have no new lab assignment this week. Instead, we will spend some time revisiting the lab from last week. I plan to spend some time comparing one-shot and panel surveys with simulations."
+  },
+  {
+    "objectID": "content/03_content.html#reading",
+    "href": "content/03_content.html#reading",
+    "title": "Week 3: Panel Surveys",
+    "section": "Reading",
+    "text": "Reading\n\n RD sections 5-7, 15\n Esaiasson, Peter and Mikael Persson. 2014. “Does Studying Political Science Affect Civic Attitudes?: A Panel Comparison of Students of Politics, Law, and Mass Communication.” Journal of Political Science Education 10 (4): 375-385\n Claes, Ellen, and Marc Hooghe. 2017. “The Effect of Political Science Education on Political Trust and Interest: Results from a 5-year Panel Study.” Journal of Political Science Education 13 (1): 33-45"
+  },
+  {
+    "objectID": "content/03_content.html#slides",
+    "href": "content/03_content.html#slides",
+    "title": "Week 3: Panel Surveys",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/03_content.html#lab",
+    "href": "content/03_content.html#lab",
+    "title": "Week 3: Panel Surveys",
+    "section": "Lab",
+    "text": "Lab\nNo new lab! We will revisit the lab from last week."
+  },
+  {
+    "objectID": "content/01_content.html",
+    "href": "content/01_content.html",
+    "title": "Week 1: Introduction",
+    "section": "",
+    "text": "We go over the course theme, requirements, and tips to succeed.\nThe lab assignment for this week is a freebie. You will complete a survey of research interests to help me organize groups for the final project and will get full points by just completing the survey."
+  },
+  {
+    "objectID": "content/01_content.html#overview",
+    "href": "content/01_content.html#overview",
+    "title": "Week 1: Introduction",
+    "section": "",
+    "text": "We go over the course theme, requirements, and tips to succeed.\nThe lab assignment for this week is a freebie. You will complete a survey of research interests to help me organize groups for the final project and will get full points by just completing the survey."
+  },
+  {
+    "objectID": "content/01_content.html#reading",
+    "href": "content/01_content.html#reading",
+    "title": "Week 1: Introduction",
+    "section": "Reading",
+    "text": "Reading\nIt’s the first day. No reading!"
+  },
+  {
+    "objectID": "content/01_content.html#slides",
+    "href": "content/01_content.html#slides",
+    "title": "Week 1: Introduction",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/01_content.html#lab",
+    "href": "content/01_content.html#lab",
+    "title": "Week 1: Introduction",
+    "section": "Lab",
+    "text": "Lab\nSurvey of research interests \n\n\n\n\n\n\nDue\n\n\n\nFriday, January 13, 5 PM"
+  },
+  {
+    "objectID": "content/02_content.html",
+    "href": "content/02_content.html",
+    "title": "Week 2: Representative Surveys",
+    "section": "",
+    "text": "We start the topic of public opinion with representative surveys. As the name suggests, a representative survey is administered to a sample of respondents that resemble the demographic characteristics of the underlying population.\nThe punchline of this week is that conducting a true representative survey via random sampling is near impossible. Instead, most surveys use some form of quota or stratified sampling to ensure that the sample obtained resembles the population of interest.\nThe lab assignment for this week will be a guided introduction to R. By the end, we will compare different sampling techniques."
+  },
+  {
+    "objectID": "content/02_content.html#overview",
+    "href": "content/02_content.html#overview",
+    "title": "Week 2: Representative Surveys",
+    "section": "",
+    "text": "We start the topic of public opinion with representative surveys. As the name suggests, a representative survey is administered to a sample of respondents that resemble the demographic characteristics of the underlying population.\nThe punchline of this week is that conducting a true representative survey via random sampling is near impossible. Instead, most surveys use some form of quota or stratified sampling to ensure that the sample obtained resembles the population of interest.\nThe lab assignment for this week will be a guided introduction to R. By the end, we will compare different sampling techniques."
+  },
+  {
+    "objectID": "content/02_content.html#reading",
+    "href": "content/02_content.html#reading",
+    "title": "Week 2: Representative Surveys",
+    "section": "Reading",
+    "text": "Reading\n\n RD sections 1-4\n Schwarz, Norbert. 1999. “Self-reports: How the questions shape the answers.” American Psychologist 54 (2): 93-105\n Stephenson, Laura B., Allison Harell, Daniel Rubenson, and Peter John Loewen. 2021. “Measuring Preferences and Behaviors in the 2019 Canadian Election Study.” Canadian Journal of Political Science/Revue Canadienne de science politique"
+  },
+  {
+    "objectID": "content/02_content.html#slides",
+    "href": "content/02_content.html#slides",
+    "title": "Week 2: Representative Surveys",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/02_content.html#lab",
+    "href": "content/02_content.html#lab",
+    "title": "Week 2: Representative Surveys",
+    "section": "Lab",
+    "text": "Lab\nIntro to R and sampling from populations \n\n\n\n\n\n\nDue\n\n\n\nFriday, January 20, 5 PM"
+  },
+  {
+    "objectID": "content/04_content.html",
+    "href": "content/04_content.html",
+    "title": "Week 4: Sensitive Questions",
+    "section": "",
+    "text": "When surveys deal with sensitive topics, there is a chance that respondents conceal the truth in their answers. We call this sensitivity bias. This week, we review research designs that seek to reduce sensitivity biases by asking sensitive questions indirectly. Asking indirect questions takes attention away from the sensitive attitude of interest and ensures respondent anonymity.\nThe takeaway for this week is that these techniques reduce sensitivity bias, but they do so at the expense of statistical precision, so they may not always improve our ability to measure sensitive attitudes and behaviors. We illustrate this point in the lab."
+  },
+  {
+    "objectID": "content/04_content.html#overview",
+    "href": "content/04_content.html#overview",
+    "title": "Week 4: Sensitive Questions",
+    "section": "",
+    "text": "When surveys deal with sensitive topics, there is a chance that respondents conceal the truth in their answers. We call this sensitivity bias. This week, we review research designs that seek to reduce sensitivity biases by asking sensitive questions indirectly. Asking indirect questions takes attention away from the sensitive attitude of interest and ensures respondent anonymity.\nThe takeaway for this week is that these techniques reduce sensitivity bias, but they do so at the expense of statistical precision, so they may not always improve our ability to measure sensitive attitudes and behaviors. We illustrate this point in the lab."
+  },
+  {
+    "objectID": "content/04_content.html#reading",
+    "href": "content/04_content.html#reading",
+    "title": "Week 4: Sensitive Questions",
+    "section": "Reading",
+    "text": "Reading\n\n RD sections 8-9, 17\n Blair, Graeme. 2015. “Survey Methods for Sensitive Topics.” Comparative Politics Newsletter 12 (44): 12-16\n Creighton, Matthew J. and Amaney Jamal. 2015. “Does Islam play a role in anti-immigrant sentiment? An experimental approach.” Social Science Research 53 (1): 89-103\n Oliveros, Virginia and Daniel W. Gingerich. 2020. “Lying About Corruption in Surveys: Evidence from a Joint Response Model.” International Journal of Public Opinion Research 32 (2): 384-395"
+  },
+  {
+    "objectID": "content/04_content.html#slides",
+    "href": "content/04_content.html#slides",
+    "title": "Week 4: Sensitive Questions",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/04_content.html#lab",
+    "href": "content/04_content.html#lab",
+    "title": "Week 4: Sensitive Questions",
+    "section": "Lab",
+    "text": "Lab\nReducing sensitivity bias"
+  },
+  {
+    "objectID": "content/06_content.html",
+    "href": "content/06_content.html",
+    "title": "Convenience Samples",
+    "section": "",
+    "text": "Last week we learned about survey experiments. These are increasingly being conducted of convenience samples of online survey respondents. This brings questions about whether the results of experiments can generalize to the population of interest. When a finding can be generalized to a broader population, we say that it has external validity.\nThe lab explores the concept of external validity and its different flavors."
+  },
+  {
+    "objectID": "content/06_content.html#overview",
+    "href": "content/06_content.html#overview",
+    "title": "Convenience Samples",
+    "section": "",
+    "text": "Last week we learned about survey experiments. These are increasingly being conducted of convenience samples of online survey respondents. This brings questions about whether the results of experiments can generalize to the population of interest. When a finding can be generalized to a broader population, we say that it has external validity.\nThe lab explores the concept of external validity and its different flavors."
+  },
+  {
+    "objectID": "content/06_content.html#reading",
+    "href": "content/06_content.html#reading",
+    "title": "Convenience Samples",
+    "section": "Reading",
+    "text": "Reading\n\n Munger, Kevin, Ishita Gopal, Jonathan Nagler, Josuah A. Tucker. 2021. “Accessibility and generalizability: Are social media effects moderated by age or digital literacy?” Research & Politics 8 (2)\n Coppock, Alexander, Thomas J. Leeper, and Kevin J. Mullinix. 2018. “Generalizability of heterogeneous treatment effect estimates across samples.” Proceedings of the National Academy of Sciences 115 (49): 12441-12446"
+  },
+  {
+    "objectID": "content/06_content.html#slides",
+    "href": "content/06_content.html#slides",
+    "title": "Convenience Samples",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/06_content.html#lab",
+    "href": "content/06_content.html#lab",
+    "title": "Convenience Samples",
+    "section": "Lab",
+    "text": "Lab\nExternal validity"
+  },
+  {
+    "objectID": "content/09_content.html",
+    "href": "content/09_content.html",
+    "title": "Field Experiments I",
+    "section": "",
+    "text": "The next two weeks are about field experiments, also known as randomized controlled trials (RCTs) or A/B testing. These are experiments aimed testing the impact of a policy intervention.\nField experiments are diverse both in terms of design and their domains of application, hence the need for two weeks.\nThe lab focuses on the stepped-wedge or staggered adoption design."
+  },
+  {
+    "objectID": "content/09_content.html#overview",
+    "href": "content/09_content.html#overview",
+    "title": "Field Experiments I",
+    "section": "",
+    "text": "The next two weeks are about field experiments, also known as randomized controlled trials (RCTs) or A/B testing. These are experiments aimed testing the impact of a policy intervention.\nField experiments are diverse both in terms of design and their domains of application, hence the need for two weeks.\nThe lab focuses on the stepped-wedge or staggered adoption design."
+  },
+  {
+    "objectID": "content/09_content.html#reading",
+    "href": "content/09_content.html#reading",
+    "title": "Field Experiments I",
+    "section": "Reading",
+    "text": "Reading\n\n RD section 18\n Banerjee, Abhijit, Esther Duflo, and Garima Sharma. 2021. “Long-Term Effects of the Targeting the Ultra Poor Program.” American Economic Review: Insights 3 (4): 471-486\n Pennycook, Gordon, Ziv Epstein, Mohsen Mosleh, Antonio A. Arechar, Dean Eckles, and David G. Rand. 2021. “Shifting attention to accuracy can reduce misinformation online.” Nature 592: 590-595"
+  },
+  {
+    "objectID": "content/09_content.html#slides",
+    "href": "content/09_content.html#slides",
+    "title": "Field Experiments I",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/09_content.html#lab",
+    "href": "content/09_content.html#lab",
+    "title": "Field Experiments I",
+    "section": "Lab",
+    "text": "Lab\nField experimental designs I"
+  },
+  {
+    "objectID": "content/11_content.html",
+    "href": "content/11_content.html",
+    "title": "Beyond Experimentation",
+    "section": "",
+    "text": "We use experiments to understand whether a policy would work. We usually care about whether said policy works outside of the experimental setting. Experiments alone do not answer that question. Which opens a conversation on the scope and limitations of using experiments to inform policy-making.\nThe lab illustrates these ideas by trying to compare experiments in different contexts."
+  },
+  {
+    "objectID": "content/11_content.html#overview",
+    "href": "content/11_content.html#overview",
+    "title": "Beyond Experimentation",
+    "section": "",
+    "text": "We use experiments to understand whether a policy would work. We usually care about whether said policy works outside of the experimental setting. Experiments alone do not answer that question. Which opens a conversation on the scope and limitations of using experiments to inform policy-making.\nThe lab illustrates these ideas by trying to compare experiments in different contexts."
+  },
+  {
+    "objectID": "content/11_content.html#reading",
+    "href": "content/11_content.html#reading",
+    "title": "Beyond Experimentation",
+    "section": "Reading",
+    "text": "Reading\n\n RD section 23\n Deaton, Angus, and Nancy Cartwright. 2018. “Understanding and misunderstanding randomized controlled trials.” Social Science & Medicine 210: 2-21\n Slough, Tara, Daniel Rubenson, Ro’ee Levy, et al. 2021. “Adoption of community monitoring improves common pool resource management across contexts.” Proceedings of the National Academy of Sciences 118 (29): e2015367118"
+  },
+  {
+    "objectID": "content/11_content.html#slides",
+    "href": "content/11_content.html#slides",
+    "title": "Beyond Experimentation",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/11_content.html#lab",
+    "href": "content/11_content.html#lab",
+    "title": "Beyond Experimentation",
+    "section": "Lab",
+    "text": "Lab\nLimitations of experiments"
+  },
+  {
+    "objectID": "content/13_content.html",
+    "href": "content/13_content.html",
+    "title": "Quasi-experiments I",
+    "section": "",
+    "text": "Experiments are helpful tools in trying to determine whether a policy works. But in many cases experimentation is unethical or unfeasible. In these contexts, researchers can try to leverage features of naturally occurring data that provide comparable levels of control. These are called quasi-experiments because we are assuming we can analyze them as if they were experiments.\nThe lab introduces regression discontinuity designs, a common answer strategy for policies that use deterministic thresholds to determine eligibility."
+  },
+  {
+    "objectID": "content/13_content.html#overview",
+    "href": "content/13_content.html#overview",
+    "title": "Quasi-experiments I",
+    "section": "",
+    "text": "Experiments are helpful tools in trying to determine whether a policy works. But in many cases experimentation is unethical or unfeasible. In these contexts, researchers can try to leverage features of naturally occurring data that provide comparable levels of control. These are called quasi-experiments because we are assuming we can analyze them as if they were experiments.\nThe lab introduces regression discontinuity designs, a common answer strategy for policies that use deterministic thresholds to determine eligibility."
+  },
+  {
+    "objectID": "content/13_content.html#reading",
+    "href": "content/13_content.html#reading",
+    "title": "Quasi-experiments I",
+    "section": "Reading",
+    "text": "Reading\n\n RD section 16\n Hoekstra, Mark. 2009. “The Effect of Attending the Flagship State University on Earnings: A Discontinuity-Based Approach.” The Review of Economics and Statistics 91 (4): 717-724"
+  },
+  {
+    "objectID": "content/13_content.html#slides",
+    "href": "content/13_content.html#slides",
+    "title": "Quasi-experiments I",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/13_content.html#lab",
+    "href": "content/13_content.html#lab",
+    "title": "Quasi-experiments I",
+    "section": "Lab",
+    "text": "Lab\nQuasi-experimental designs I"
+  },
+  {
+    "objectID": "content/index.html",
+    "href": "content/index.html",
+    "title": "Content Overview",
+    "section": "",
+    "text": "You can use the sidebar to navigate the course content organized by weeks.\nFor each week, you will find:\n\nA brief overview of the week’s topic\nA list of the required readings. Both sections of the textbook  and research articles .\n\n\n\n\n\n\n\nAccessing readings off-campus\n\n\n\nUse this link for instructions to access library resources off-campus. I find the browser bookmarklet helpful.\n\n\n\nLinks to the slides in HTML  and PDF \n\n\n\n\n\n\n\nNote\n\n\n\nI like to make HTML slides to include code and animations. I make PDF slides available in case you want to print or save them locally.\n\n\n\nLinks to the corresponding weekly lab assignment \n\n\n\n\n\n\n\nTip\n\n\n\nYou can download  file for the assignments, edit it with your work, and compile it to PDF when you are ready to submit!"
+  },
+  {
+    "objectID": "resources/final_project_template.html",
+    "href": "resources/final_project_template.html",
+    "title": "Final Project Template",
+    "section": "",
+    "text": "The introduction should take no more than two pages and summarize the project. From, it should be clear:\n\nWhat are you studying\nWhat we know about it so far\nWhy it is important to study it further\nWhat are you proposing to do\nWhat research design are you using\nHow good the research design is\nWhat challenged does your proposal or research design face"
+  },
+  {
+    "objectID": "resources/final_project_template.html#model",
+    "href": "resources/final_project_template.html#model",
+    "title": "Final Project Template",
+    "section": "Model",
+    "text": "Model\nHere you encode your beliefs about the world. What are the main outcomes of interest? How are they distributed, what is their range? Are there any endogenous and exogenous variables to consider?\nFormulating these beliefs about the world as a directed acyclic graph or as potential outcomes may help clarify what to code."
+  },
+  {
+    "objectID": "resources/final_project_template.html#inquiry",
+    "href": "resources/final_project_template.html#inquiry",
+    "title": "Final Project Template",
+    "section": "Inquiry",
+    "text": "Inquiry\nHere you specify and justify the main quantity of interest. Why these quantity and not others? You can have more than one inquiry if you deem it necessary, but you should explain why you need more than one."
+  },
+  {
+    "objectID": "resources/final_project_template.html#data-strategy",
+    "href": "resources/final_project_template.html#data-strategy",
+    "title": "Final Project Template",
+    "section": "Data strategy",
+    "text": "Data strategy\nHere you specify how would you collect data from the world. Is this an experiment? How will you assign conditions? Why did you choose this design over other alternatives? Why did you choose to ask the survey question in this way?"
+  },
+  {
+    "objectID": "resources/final_project_template.html#answer-strategy",
+    "href": "resources/final_project_template.html#answer-strategy",
+    "title": "Final Project Template",
+    "section": "Answer strategy",
+    "text": "Answer strategy\nHere you specify the procedures to summarize your data. You should convince the reader here that the estimator you choose is the best approximation available to the inquiry of interest, so you should mention at least one alternative or explain whether a superior estimation procedure is not available in this application."
+  }
+]

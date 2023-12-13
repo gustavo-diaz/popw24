@@ -1,0 +1,28 @@
+---
+title: "Content Overview"
+---
+
+You can use the sidebar to navigate the course content organized by weeks. 
+
+For each week, you will find:
+
+- A brief **overview** of the week's topic
+
+- A list of the **required readings**. Both sections of the **textbook** [{{< fa book >}}]{style="color: #ac1455;"} and **research articles** [{{< fa file-lines >}}]{style="color: #ac1455;"}.
+
+::: {.callout-tip}
+## Accessing readings off-campus
+Use [this link](https://library.mcmaster.ca/services/off-campus-access) for instructions to access library resources off-campus. I find the browser bookmarklet helpful.
+:::
+
+- Links to the slides in **HTML** [{{< fa arrow-up-right-from-square >}}]{style="color: blue;"} and **PDF** [{{< fa file-pdf >}}]{style="color: #ac1455;"}
+
+::: {.callout-note}
+I like to make HTML slides to include code and animations. I make PDF slides available in case you want to print or save them locally.
+:::
+
+- Links to the corresponding **weekly lab assignment** [{{< fa laptop-code >}}]{style="color: #ac1455;"}
+
+::: {.callout-tip}
+You can download [{{< fa brands r-project >}}]{style="color: #ac1455;"} file for the assignments, edit it with your work, and compile it to PDF when you are ready to submit!
+:::
