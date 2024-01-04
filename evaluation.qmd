@@ -1,0 +1,106 @@
+---
+title: "Course Evaluation"
+format:
+  html:
+    toc: true
+---
+
+This page provides additional details on course evaluations. See the [syllabus](/syllabus.qmd) for more details.
+
+## Grading
+
+This course uses a labor-based grading agreement, commonly known as contract grading. In this course, instead of being given a final grade based on how “good” your submitted assignments are, your final grade will be based on the amount of labor you put into the course. I practice, this means you will receive full marks (up to a B+) for completing the baseline grading contract.
+
+Assignments will not be given marks individually. Instead, you will receive a grade at the end of the term based on how many satisfactory assignments you submitted, how many extra assignments you submitted, and how often you missed class or submitted work late.
+
+By enrolling in this course, you accept the general terms of the grading agreement. We will have an opportunity to discuss expectations and negotiate modifications to the grading agreement during the first course meeting. 
+
+<!-- The Course Policies section below outlines the contract grading policies in more detail. -->
+
+## Assignments
+
+Your final grade will depend on the following components.
+
+1. Attendance and participation
+2. Weekly lab assignments, due on Mondays at 5 PM
+3. Response papers, due on Wednesdays at 8:30 PM
+4. Optional final project: Pre-analysis plan, due April 25 at 11:59 PM
+
+
+### Attendance and participation
+
+I expect you to engage actively in this class. At a minimum, I expect you to come to lecture ready to discuss the material and collaborate with your peers on weekly assignments. To meet the grading contract, you should miss no more than three classes and have a “satisfactory” participation mark toward the end of the semester.
+
+To obtain a satisfactory participation mark, you must make interventions conducive to a productive and respectful learning environment for yourself and others during class, office hours, online communications, or through other means that best suit your learning style.
+
+We all have different interests and personalities, so I will keep an open mind about what constitutes satisfactory participation, and I encourage you to be proactive about pursuing the participation avenues that are most productive for you. I will grade your participation status as satisfactory (S) or unsatisfactory (U) once during mid-term recess and once after the last week of instruction. You can schedule a meeting with me at any point of the semester to discuss how to secure a satisfactory participation mark.
+
+### Weekly lab assignments, due on Mondays at 5 PM
+
+We will have weekly assignments aimed at practicing the application of course material with statistical software. These range from coding exercises to evaluating and improving research designs. You are encouraged to work on these assignments in groups during the lab sessions and beyond, but you must submit individual reports.
+
+We will start working on the weekly assignments during our lab session. On most weeks, you will need additional time to finish them. There will be 11 weekly lab assignments in total, but only 9 marked as satisfactory are required to meet the baseline grading contract.
+
+### Response papers, due on Wednesdays at 8:30 AM
+
+You can choose to write a response paper in the weeks that involve reading original research studies. A response paper is a short form document that summarizes the question, relevance, and research design of a study and then uses the course material to critically evaluate an aspect of its design or implementation. The main task is to identify questions and issues that require our attention during the discussion portion of our weekly meeting. You are expected to engage actively during class discussion in the weeks you write a response paper. In weeks with multiple assigned papers, you can choose whichever you prefer to discuss. The course website contains a template with guidelines on how to write a response paper for this course. Response papers are due 24 hours before our class meeting.
+
+Response papers should be between 700 and 1,000 words. You are required to complete at least 3 response papers with a satisfactory mark to meet the baseline grading contract.
+
+
+### Optional final project: Pre-analysis plan, due on April 25 by 11:59 PM
+
+Your optional final project is a pre-analysis plan. This is a document that outlines the steps of a future study addressing a novel question of academic interest or policy/industry relevance. This document identifies a problem or question that needs to be addressed, explains its relevance or novelty, proposes a research design, and evaluates its properties to guide implementation. The [Resources](/resources.qmd) will host resources to write a pre-analysis plan. Pre-analysis plans should range from 3,000 to 4,000 words.
+
+You can reach out to me via email to indicate your interest in completing this optional final assignment by April 4 at 11:59PM. I will circulate instructions for the pre-analysis plan to those who sign up on April 8 before 5PM.
+
+## Grading policy
+
+The requirements listed in the previous section constitute the baseline grading contract. By meeting the baseline grading contract, you are guaranteed a B+ (79 points in the McMaster grading scale).
+
+To meet the baseline grading contract, you should:
+
+- Miss no more than 3 class meetings.
+- Complete 9 weekly lab assignments satisfactorily.
+- Complete 3 response papers satisfactorily.
+- Be delayed (by a maximum of 24 hours) on more than one assignment.
+- Be late (by a maximum of 7 days) on no more than one assignment.
+- Have a satisfactory participation status by the end of the semester.
+
+Each missed class meeting or delayed or late assignment beyond this threshold will lower your grade by 3.5 points. Not delivering and assignment at all will lower your grade by 7.5 points.
+
+To improve your grade points, you can:
+
+- Complete extra weekly lab assignments or response papers, each additional assignment in this category will increase your grade by 3.5 points.
+- Complete the optional final assignment for 10 points.
+
+You may choose to complete as many extra or optional assignments to improve your grade, the only limitation is that the number of response papers you complete should not exceed the number of weekly lab assignments you complete by the end of the semester.
+
+## Contract grading
+
+### Why contract grading?
+
+The main motivation to deviate from conventional grading is to emphasize the amount of work and learning you put in the course over getting correct answers. My primary objective in this course is to make you think hard and carefully about research design, so I do not want to tie your grade to a specific set of answers or a grading rubric.
+
+I also believe that contract grading leads to a more caring learning environment in two ways. First, emphasizing work and learning over correctness gives you an opportunity to bring yourself, your interests, and career goals to the classroom and course materials. Second, it breaks the traditional power structure between instructor and students by allowing you to be the owner of your final grade. You can put as little or as much work in this course as the grade you aim to obtain and there is nothing I can do about it other than determining if the amount of work you put in an assignment is satisfactory or not.
+
+The name "contract grading" reflects that the syllabus is essentially an agreement between me, the instructor, and you, the student, about how much work you should complete to get the grade you want. As any contract, the terms are negotiable and we will have an opportunity to make adjustments as both parties see fit in the first day of class.
+
+### What counts as satisfactory/unsatisfactory for assignments?^[Credit for this language goes to [Marika Brown](https://marikabrown.com/).]
+
+In general, submitting a satisfactory assignment means that you follow the assignment instructions and complete the list of questions or tasks. If you do not satisfactorily complete an assignment (as in, you do not complete the assignment requirements but still submit the assignment), **you will not automatically "fail" the assignment**. Instead, I will contact you to let you know **which part of the assignment was unsatisfactory** and **ask you to resubmit the assignment** within an appropriate time frame. The goal here is not to punish you, but to give you an opportunity to learn from your mistakes without fear of failure/lost grades. As a general rule, I do not advice exploiting this rule since you will have assignments due nearly every week and the workload can easily snowball beyond control.
+
+There is one other situation where you might submit a completed assignment and have your work deemed "unsatisfactory." These are instances in which the work is completed, but the content is intentionally or obviously harmful. For example, racist, sexist, homophobic, transphobic, ableist, or otherwise. If the person reading your work finds it to be harmful, you will be contacted to discuss the issue. However, submissions that are repeatedly engaging in harmful behavior will be deemed unsatisfactory and recorded as missing.
+
+### Where can I learn more about contract grading?
+
+Here are some useful links:
+
+- Melzer, Dan, D.J. Quinn, Lisa Sperber, & Sarah Faye. "So Your Instructor is Using Contract Grading…" <https://writingcommons.org/article/so-your-instructor-is-using-contract-grading/>
+
+- Steve Sears. "Reducing stress and increasing engagement with 'contract grading'." An interview with [Marika Brown](https://marikabrown.com/) about her motivation to introduce contract grading. <https://mi.mcmaster.ca/reducing-stress-and-increasing-engagement-with-contract-grading/>
+
+- Inoue, Asao B. 2019. *Labor-Based Grading Contracts: Building Equity and Inclusion in the Compassionate Writing Classroom.* University Press of Colorado. <https://wac.colostate.edu/books/perspectives/labor/>
+
+- Stommel, Jesse. "How to Ungrade." <https://www.jessestommel.com/how-to-ungrade/>
+

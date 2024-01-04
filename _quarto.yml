@@ -35,14 +35,10 @@ website:
     contents:
       - href: index.qmd
         text: "Home"
-      - section: "Course information"
-        contents:
-          - href: syllabus.qmd
-            text: "Syllabus"
-          - href: schedule.qmd
-            text: "Schedule"
-          - href: assignments.qmd
-            text: "Assignments"
+      - href: syllabus.qmd
+        text: "Syllabus"
+      - href: evaluation.qmd
+        text: "Evaluation"
       - section: "Content"
         contents: 
             - text: "Content Overview"
