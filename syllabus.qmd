@@ -35,13 +35,13 @@ By the end of the course students should be able to:
 
 The main textbook we will follow is:
 
-- Blair, Graeme, Alexander Coppock, and Macartan Humphreys. 2022. [*Research Design: Declaration, Diagnosis, Redesign*](https://book.declaredesign.org/). Princeton University Press
+- Blair, Graeme, Alexander Coppock, and Macartan Humphreys. 2022. [*Research Design in the Social Sciences: Declaration, Diagnosis, Redesign*](https://book.declaredesign.org/). Princeton University Press
 
 You can read the digital copy of the book for free by using the link above or purchase the physical version if you choose. Purchasing the book is not necessary to succeed in this course. The rest of the syllabus refers to this book with the initials RD.
 
 The companion textbook is:
 
-- Grolemund, Garret and Hadley Wickham. 2017. [*R for Data Science*](https://r4ds.had.co.nz/). O’Reilly Media Inc
+- Grolemund, Garret, Mine Çetinkaya-Rundel, and Hadley Wickham. 2023. [*R for Data Science*](https://r4ds.hadley.nz/). O’Reilly Media Inc
 
 Once again, you can read the digital copy of this book for free with the link above. You are not required to read this book for this course but consulting it on occasion may help you overcome hurdles while working with statistical software. Since the digital version is constantly updated, I do not recommend buying a physical copy.
 

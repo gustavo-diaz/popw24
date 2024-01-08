@@ -63,7 +63,7 @@ To meet the baseline grading contract, you should:
 - Miss no more than 3 class meetings.
 - Complete 9 weekly lab assignments satisfactorily.
 - Complete 3 response papers satisfactorily.
-- Be delayed (by a maximum of 24 hours) on more than one assignment.
+- Be delayed (by a maximum of 24 hours) on no more than one assignment.
 - Be late (by a maximum of 7 days) on no more than one assignment.
 - Have a satisfactory participation status by the end of the semester.
 

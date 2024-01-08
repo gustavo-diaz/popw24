@@ -13,7 +13,7 @@ source(here::here("R", "show_slides.R"))
 
 We go over the course theme, requirements, and tips to succeed.
 
-The lab assignment for this week is a freebie. You will install R and RStudio and learn a bit about the project workflow. This will be helpful to keep your work on the weekly lab assignments organized.
+The lab assignment for this week is a freebie. You will install R and RStudio and learn a bit about the project oriented workflow. This will be helpful to keep your work on the weekly lab assignments organized.
 
 ## Reading
 
