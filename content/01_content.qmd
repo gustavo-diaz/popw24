@@ -1,6 +1,6 @@
 ---
 title: "Week 1: Introduction"
-date: "January 11, 2023"
+date: "January 11, 2024"
 format: html
 ---
 
@@ -13,7 +13,7 @@ source(here::here("R", "show_slides.R"))
 
 We go over the course theme, requirements, and tips to succeed.
 
-The lab assignment for this week is a freebie. You will complete a survey of research interests to help me organize groups for the final project and will get full points by just completing the survey.
+The lab assignment for this week is a freebie. You will install R and RStudio and learn a bit about the project workflow. This will be helpful to keep your work on the weekly lab assignments organized.
 
 ## Reading
 
@@ -24,7 +24,7 @@ It's the first day. No reading!
 ::: {.callout-tip}
 ## Navigation
 
-Click on the frame below and use the arrows to navigate. You can type <kbd class="text-info">?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) to see useful commands.
+Click on the frame below and use the arrows to navigate. You can type <kbd class="text-info">?</kbd> (or <kbd class="text-info">shift</kbd> + <kbd class="text-info">/</kbd>) to see useful commands.
 :::
 
 ```{r show-slides, echo = FALSE, results = "asis"}
@@ -35,10 +35,10 @@ slide_buttons("/slides/01_slides")
 
 ## Lab
 
-[Survey of research interests {{< fa file-pen >}}](https://forms.gle/JVocaVQRaJS1x3YM6)
+TBD
 
 ::: {.callout-warning}
 ## Due
 
-Friday, January 13, 5 PM
+Monday, January 15, 5 PM
 :::

@@ -214,14 +214,14 @@
     "href": "content/01_content.html",
     "title": "Week 1: Introduction",
     "section": "",
-    "text": "We go over the course theme, requirements, and tips to succeed.\nThe lab assignment for this week is a freebie. You will complete a survey of research interests to help me organize groups for the final project and will get full points by just completing the survey."
+    "text": "We go over the course theme, requirements, and tips to succeed.\nThe lab assignment for this week is a freebie. You will install R and RStudio and learn a bit about the project workflow."
   },
   {
     "objectID": "content/01_content.html#overview",
     "href": "content/01_content.html#overview",
     "title": "Week 1: Introduction",
     "section": "",
-    "text": "We go over the course theme, requirements, and tips to succeed.\nThe lab assignment for this week is a freebie. You will complete a survey of research interests to help me organize groups for the final project and will get full points by just completing the survey."
+    "text": "We go over the course theme, requirements, and tips to succeed.\nThe lab assignment for this week is a freebie. You will install R and RStudio and learn a bit about the project workflow."
   },
   {
     "objectID": "content/01_content.html#reading",
@@ -242,7 +242,7 @@
     "href": "content/01_content.html#lab",
     "title": "Week 1: Introduction",
     "section": "Lab",
-    "text": "Lab\nSurvey of research interests \n\n\n\n\n\n\nDue\n\n\n\nFriday, January 13, 5 PM"
+    "text": "Lab\nTBD\n\n\n\n\n\n\nDue\n\n\n\nMonday, January 15, 5 PM"
   },
   {
     "objectID": "content/02_content.html",
@@ -634,7 +634,7 @@
     "href": "evaluation.html#contract-grading",
     "title": "Course Evaluation",
     "section": "Contract grading",
-    "text": "Contract grading\n\nWhy contract grading?\nThe main motivation to deviate from conventional grading is to emphasize the amount of work and learning you put in the course over getting correct answers. My primary objective in this course is to make you think hard and carefully about research design, so I do not want to tie your grade to a specific set of answers or a grading rubric.\nI also believe that contract grading leads to a more caring learning environment in two ways. First, emphasizing work and learning over correctness gives you an opportunity to bring yourself, your interests, and career goals to the classroom and course materials. Second, it breaks the traditional power structure between instructor and students by allowing you to be the owner of your final grade. You can put as little or as much work in this course as the grade you aim to obtain and there is nothing I can do about it other than determining if the amount of work you put in an assignment is satisfactory or not.\nThe name “contract grading” reflects that the syllabus is essentially an agreement between me, the instructor, and you, the student, about how much work you should complete to get the grade you want. As any contract, the terms are negotiable and we will have an opportunity to make adjustments as both parties see fit in the first day of class.\n\n\nWhat counts as satisfactory/unsatisfactory for assignments?1\nIn general, submitting a satisfactory assignment means that you follow the assignment instructions and complete the list of questions or tasks. If you do not satisfactorily complete an assignment (as in, you do not complete the assignment requirements but still submit the assignment), you will not automatically “fail” the assignment. Instead, I will contact you to let you know which part of the assignment was unsatisfactory and ask you to resubmit the assignment within an appropriate time frame. The goal here is not to punish you, but to give you an opportunity to learn from your mistakes without fear of failure/lost grades. As a general rule, I do not advice exploiting this rule since you will have assignments due nearly every week and the workload can easily snowball beyond control.\nThere is one other situation where you might submit a completed assignment and have your work deemed “unsatisfactory.” These are instances in which the work is completed, but the content is intentionally or obviously harmful. For example, racist, sexist, homophobic, transphobic, ableist, or otherwise. If the person reading your work finds it to be harmful, you will be contacted to discuss the issue. However, submissions that are repeatedly engaging in harmful behavior will be deemed unsatisfactory and recorded as missing.\n\n\nWhere can I learn more about contract grading?\nHere are some useful links:\n\nMelzer, Dan, D.J. Quinn, Lisa Sperber, & Sarah Faye. “So Your Instructor is Using Contract Grading…” https://writingcommons.org/article/so-your-instructor-is-using-contract-grading/\nSteve Sears. “Reducing stress and increasing engagement with ‘contract grading’.” An interview with Marika Brown about her motivation to introduce contract grading. https://mi.mcmaster.ca/reducing-stress-and-increasing-engagement-with-contract-grading/\nInoue, Asao B. 2019. Labor-Based Grading Contracts: Building Equity and Inclusion in the Compassionate Writing Classroom. University Press of Colorado. https://wac.colostate.edu/books/perspectives/labor/\nStommel, Jesse. “How to Ungrade.” https://www.jessestommel.com/how-to-ungrade/"
+    "text": "Contract grading\n\nWhy contract grading?\nThe main motivation to deviate from conventional grading is to emphasize the amount of work and learning you put in the course over getting correct answers. My primary objective in this course is to make you think hard and carefully about research design, so I do not want to tie your grade to a specific set of answers or a grading rubric.\nI also believe that contract grading leads to a more caring learning environment in two ways. First, emphasizing work and learning over correctness gives you an opportunity to bring yourself, your interests, and career goals to the classroom and course materials. Second, it breaks the traditional power structure between instructor and students by allowing you to be the owner of your final grade. You can put as little or as much work in this course as the grade you aim to obtain and there is nothing I can do about it other than determining if the amount of work you put in an assignment is satisfactory or not.\nThe name “contract grading” reflects that the syllabus is essentially an agreement between me, the instructor, and you, the student, about how much work you should complete to get the grade you want. As any contract, the terms are negotiable and we will have an opportunity to make adjustments as both parties see fit in the first day of class.\n\n\nWhat counts as satisfactory/unsatisfactory for assignments?1\nIn general, submitting a satisfactory assignment means that you follow the assignment instructions and complete the list of questions or tasks. If your assignment is marked as unsatisfactory, I will share detailed feedback of what parts of it need improvement. If you wish to resubmit and assignment marked as unsatisfactory, you must receive instructor approval before doing so. To keep your workload manageable, I will not allow you to redo an assignment marked as unsatisfactory unless doing so is necessary to get the grade you want. The goal here is not to punish you, but to give you an opportunity to learn from your mistakes without fear of failure/lost grades and to avoid an excessive workload. My advice is to do your best to stay on top of assignments but not stress too much if you miss a few.\nThere is one other situation where you might submit a completed assignment and have your work deemed “unsatisfactory.” These are instances in which the work is completed, but the content is intentionally or obviously harmful. For example, racist, sexist, homophobic, transphobic, ableist, or otherwise. If the person reading your work finds it to be harmful, you will be contacted to discuss the issue. However, submissions that are repeatedly engaging in harmful behavior will be deemed unsatisfactory and recorded as missing.\n\n\nWhere can I learn more about contract grading?\nHere are some useful links:\n\nMelzer, Dan, D.J. Quinn, Lisa Sperber, & Sarah Faye. “So Your Instructor is Using Contract Grading…” https://writingcommons.org/article/so-your-instructor-is-using-contract-grading/\nSteve Sears. “Reducing stress and increasing engagement with ‘contract grading’.” An interview with Marika Brown about her motivation to introduce contract grading. https://mi.mcmaster.ca/reducing-stress-and-increasing-engagement-with-contract-grading/\nInoue, Asao B. 2019. Labor-Based Grading Contracts: Building Equity and Inclusion in the Compassionate Writing Classroom. University Press of Colorado. https://wac.colostate.edu/books/perspectives/labor/\nStommel, Jesse. “How to Ungrade.” https://www.jessestommel.com/how-to-ungrade/"
   },
   {
     "objectID": "evaluation.html#footnotes",
@@ -642,5 +642,33 @@
     "title": "Course Evaluation",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nCredit for this language goes to Marika Brown.↩︎"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "I will upload .Rmd templates here that you can use to work on your assignments in R.\nFor the weekly labs, you can use the corresponding files in the Content page as templates.\n\nResponse paper template"
+  },
+  {
+    "objectID": "resources.html#templates",
+    "href": "resources.html#templates",
+    "title": "Resources",
+    "section": "",
+    "text": "I will upload .Rmd templates here that you can use to work on your assignments in R.\nFor the weekly labs, you can use the corresponding files in the Content page as templates.\n\nResponse paper template"
+  },
+  {
+    "objectID": "resources.html#coding",
+    "href": "resources.html#coding",
+    "title": "Resources",
+    "section": "Coding",
+    "text": "Coding\n\nAccessing software\n\nInstallation instructions for R and RStudio in different platforms:   \nPosit Cloud. Also accessible with the  icon in the navigation bar\nList of computer labs on campus\n\n\n\nTips and resources\n\nThe Data Analysis Support Hub at the library has video tutorials and lets you schedule consultations to get help with assignments in R\nLearn R within the R console using Swirl\nR Markdown cheat sheet\nRStudio cheat sheets to learn about commonly used packages in the tidyverse\nThe DeclareDesign library of research designs may be useful to get started on lab assignments\nProject oriented workflow to keep track of your work in R\nTry the here package for relative path management"
+  },
+  {
+    "objectID": "resources.html#reading",
+    "href": "resources.html#reading",
+    "title": "Resources",
+    "section": "Reading",
+    "text": "Reading\nI do my best to assign as little reading as possible. Still, some of the readings are full of technical terms, tables, figures, and math. I expect our class discussions to start from the main findings of a study and then work backwards to understand how a study was conducted and why it was done so in a certain why.\nThis means that you may have to pay extra attention to things that you tend to ignore when reading for other courses. My advice is to try to read strategically. I find this guide by Amelia Hoover Green useful.\nI find myself at odds about assigning readings with a lot of math. On the one hand, I find equations useful to talk about general design ideas that we can then translate to specific research contexts. On the other hand, I got into political science because I wanted to avoid math as much as possible (it didn’t work), which means I have to fight my natural inclination of skipping all the formulas formulae formulæ.\nOver time, I have learned that the problem is not so much the math, but the language attached to it. Academic articles often expect the audience to be an insider that already knows how to read the math, so they skip the plain language explanation. I find it useful to try to rewrite equations in words as I take notes, but that takes time that you may not have.\nI plan to use some of our class time clarifying important quantities of with words and coding examples."
   }
 ]
