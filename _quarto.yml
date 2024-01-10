@@ -7,7 +7,7 @@ project:
     - "!resources/"
   resources:
     - "slides/"
-    - "labs/*.Rmd"
+    - "labs/"
     - "resources/"
     - "CNAME"
   
