@@ -1,502 +1,5 @@
 [
   {
-    "objectID": "resources/response_paper_template.html",
-    "href": "resources/response_paper_template.html",
-    "title": "Response Paper #X",
-    "section": "",
-    "text": "This an optional template for the response papers for our class. You can work directly on the .Rmd file or use it as a guideline to work on your own file. The only restriction is that your submission to Avenue must be a PDF. See the syllabus for formatting and extension guidelines.\nIf you are working off the template, see https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf for some tips on common writing operations in Rmarkdown.\nStart by replacing the relevant information in the preamble of the document. Including the number of the response paper, your personal details, and the reference to the week about which you are writing the paper.\nThe Overview section should indicate which reading for the week you are discussing, it summarizes its main finding and relevance in 2-3 sentences, and then briefly highlights the point that you want to make in your response. For example, in this response paper I want to criticize the use of a convenience sample instead of a representative sample. The overview should not take more than 2-3 paragraphs."
-  },
-  {
-    "objectID": "resources/response_paper_template.html#sub-sections",
-    "href": "resources/response_paper_template.html#sub-sections",
-    "title": "Response Paper #X",
-    "section": "Sub-sections",
-    "text": "Sub-sections\nIt may help to organize your thoughts into subsections so that you can address them one at a time."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Public Opinion and Policy",
-    "section": "",
-    "text": "This course explores quantitative research designs to answer questions about public opinion and policy in academia, government, and industry. We will examine how to conduct surveys to understand variation in public opinion or attitudes toward several subjects across the world. We will also examine empirical strategies to generate credible evidence to inform policy and decision-making in different contexts.\nIn this website you will find all the course materials. Assignments must be submitted through Avenue.\n\n\n\n   Dr. Gustavo Diaz\n   KTH 505\n   diazg2@mcmaster.ca\n   Schedule a meeting\n\n\n\n\n\n   Thursdays\n   2:30-5:20 PM\n   See Avenue\n   January 11-April 4, 2024\n\n\n\n\nSend an email or schedule a meeting. I usually respond to emails within 24 hours. Please schedule meetings at least 8 hours in advance."
-  },
-  {
-    "objectID": "content/14_content.html",
-    "href": "content/14_content.html",
-    "title": "Quasi-experiments II",
-    "section": "",
-    "text": "We continue the conversation on quasi-experiments. This time we focus on difference-in-differences, a research design that relies on repeated observations of units before and after a policy is implemented to make claims about cause and effect. Unlike the previous week, we are not pretending that our data looks as if an experiment was conducted.\nThe lab discusses difference-in-differences designs."
-  },
-  {
-    "objectID": "content/14_content.html#overview",
-    "href": "content/14_content.html#overview",
-    "title": "Quasi-experiments II",
-    "section": "",
-    "text": "We continue the conversation on quasi-experiments. This time we focus on difference-in-differences, a research design that relies on repeated observations of units before and after a policy is implemented to make claims about cause and effect. Unlike the previous week, we are not pretending that our data looks as if an experiment was conducted.\nThe lab discusses difference-in-differences designs."
-  },
-  {
-    "objectID": "content/14_content.html#reading",
-    "href": "content/14_content.html#reading",
-    "title": "Quasi-experiments II",
-    "section": "Reading",
-    "text": "Reading\n\n RD section 16\n Leninger, Arndt, Marie-Lou Sohnius, Thorsten Faas, Sigrid Roßteutscher, and Armin Schäfer. 2022. “Temporary Disenfranchisement: Negative Side Effects of Lowering the Voting Age.” American Political Science Review"
-  },
-  {
-    "objectID": "content/14_content.html#slides",
-    "href": "content/14_content.html#slides",
-    "title": "Quasi-experiments II",
-    "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
-  },
-  {
-    "objectID": "content/14_content.html#lab",
-    "href": "content/14_content.html#lab",
-    "title": "Quasi-experiments II",
-    "section": "Lab",
-    "text": "Lab\nQuasi-experimental designs II"
-  },
-  {
-    "objectID": "content/12_content.html",
-    "href": "content/12_content.html",
-    "title": "Week 12: NO CLASS DUE TO INSTRUCTOR TRAVEL",
-    "section": "",
-    "text": "I have to cancel our meeting for this week. The course content has shifted one week.\nYou can participate in the following optional activities to improve your grade:\n\nRedo one of your previously submitted labs, or complete a lab that you missed\nSubmit a response paper for one of the weeks that you may have missed\n\nYou can do up to one lab and up to one response paper. These are due on April 2 at 11:59 PM.\nI hope this helps to make a smoother end of the semester."
-  },
-  {
-    "objectID": "content/12_content.html#overview",
-    "href": "content/12_content.html#overview",
-    "title": "Week 12: NO CLASS DUE TO INSTRUCTOR TRAVEL",
-    "section": "",
-    "text": "I have to cancel our meeting for this week. The course content has shifted one week.\nYou can participate in the following optional activities to improve your grade:\n\nRedo one of your previously submitted labs, or complete a lab that you missed\nSubmit a response paper for one of the weeks that you may have missed\n\nYou can do up to one lab and up to one response paper. These are due on April 2 at 11:59 PM.\nI hope this helps to make a smoother end of the semester."
-  },
-  {
-    "objectID": "content/10_content.html",
-    "href": "content/10_content.html",
-    "title": "Field Experiments II",
-    "section": "",
-    "text": "This is the second week of field experiments. We discuss block randomization and pre-post designs as variants from the canonical design. The Diaz and Rossiter (2023) reading is a bit technical, focus on understanding what block randomization and pre-post designs are. I suggest paying attention to sections 1 through 3 and then skimming the rest.\nThe lab focuses on the trade-offs of adopting these research design variants."
-  },
-  {
-    "objectID": "content/10_content.html#overview",
-    "href": "content/10_content.html#overview",
-    "title": "Field Experiments II",
-    "section": "",
-    "text": "This is the second week of field experiments. We discuss block randomization and pre-post designs as variants from the canonical design. The Diaz and Rossiter (2023) reading is a bit technical, focus on understanding what block randomization and pre-post designs are. I suggest paying attention to sections 1 through 3 and then skimming the rest.\nThe lab focuses on the trade-offs of adopting these research design variants."
-  },
-  {
-    "objectID": "content/10_content.html#reading",
-    "href": "content/10_content.html#reading",
-    "title": "Field Experiments II",
-    "section": "Reading",
-    "text": "Reading\n\n RD sections 20-22\n Kalla, Joshua, Frances Rosenbluth, and Dawn Langan Teele. 2018. “Are You My Mentor? A Field Experiment on Gender, Ethnicity, and Political Self-Starters.” Journal of Politics 80 (1): 337-341\n Diaz, Gustavo, and Erin Rossiter. 2023. “Balancing Precision and Retention in Experimental Design.” Working Paper"
-  },
-  {
-    "objectID": "content/10_content.html#slides",
-    "href": "content/10_content.html#slides",
-    "title": "Field Experiments II",
-    "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
-  },
-  {
-    "objectID": "content/10_content.html#lab",
-    "href": "content/10_content.html#lab",
-    "title": "Field Experiments II",
-    "section": "Lab",
-    "text": "Lab\nField experimental designs II"
-  },
-  {
-    "objectID": "content/08_content.html",
-    "href": "content/08_content.html",
-    "title": "Evidence-Informed Policy",
-    "section": "",
-    "text": "This week we change topics. We’ll start our discussion of public policy with an introduction to the evidence-informed policy movement. This movement emerges from collaborations between governments and academics using cutting-edge statistical techniques to produce more credible evidence to determine what policies work, where, and why.\nThe lab discusses hypothesis testing, a commonly used approach to quantify statements on whether a policy works."
-  },
-  {
-    "objectID": "content/08_content.html#overview",
-    "href": "content/08_content.html#overview",
-    "title": "Evidence-Informed Policy",
-    "section": "",
-    "text": "This week we change topics. We’ll start our discussion of public policy with an introduction to the evidence-informed policy movement. This movement emerges from collaborations between governments and academics using cutting-edge statistical techniques to produce more credible evidence to determine what policies work, where, and why.\nThe lab discusses hypothesis testing, a commonly used approach to quantify statements on whether a policy works."
-  },
-  {
-    "objectID": "content/08_content.html#reading",
-    "href": "content/08_content.html#reading",
-    "title": "Evidence-Informed Policy",
-    "section": "Reading",
-    "text": "Reading\n\n RD sections 11-13\n Bowers, Jake, and Paul F. Testa. 2019. “Better Government, Better Science: The Promise of and Challenges Facing the Evidence-Informed Policy Movement.” Annual Review of Political Science 22: 521-542"
-  },
-  {
-    "objectID": "content/08_content.html#slides",
-    "href": "content/08_content.html#slides",
-    "title": "Evidence-Informed Policy",
-    "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
-  },
-  {
-    "objectID": "content/08_content.html#lab",
-    "href": "content/08_content.html#lab",
-    "title": "Evidence-Informed Policy",
-    "section": "Lab",
-    "text": "Lab\nHypothesis testing"
-  },
-  {
-    "objectID": "content/05_content.html",
-    "href": "content/05_content.html",
-    "title": "Survey Experiments",
-    "section": "",
-    "text": "Some of the techniques we discussed last week to reduce sensitivity bias were survey experiments. A survey experiment uses random assignment to administer different pieces of information to respondents, and then compares changes in response to a common outcome. This week, we formalize the potential outcomes framework as a way to establish functional relationships in a model. This framework is useful to understand what we can learn in experiments, survey experiments included.\nThe lab explores the properties of some commonly used survey experimental designs."
-  },
-  {
-    "objectID": "content/05_content.html#overview",
-    "href": "content/05_content.html#overview",
-    "title": "Survey Experiments",
-    "section": "",
-    "text": "Some of the techniques we discussed last week to reduce sensitivity bias were survey experiments. A survey experiment uses random assignment to administer different pieces of information to respondents, and then compares changes in response to a common outcome. This week, we formalize the potential outcomes framework as a way to establish functional relationships in a model. This framework is useful to understand what we can learn in experiments, survey experiments included.\nThe lab explores the properties of some commonly used survey experimental designs."
-  },
-  {
-    "objectID": "content/05_content.html#reading",
-    "href": "content/05_content.html#reading",
-    "title": "Survey Experiments",
-    "section": "Reading",
-    "text": "Reading\n\n RD section 10\n Tomz, Michael R. and Jessica L. P. Weeks. 2013. “Public Opinion and the Democratic Peace.” American Political Science Review 107 (4): 849-865\n Eggers, Andrew C., Nick Vivyan, and Markus Wagner. 2018. “Corruption, Accountability, and Gender: Do Female Politicians Face Higher Standards in Public Life?” Journal of Politics 80 (1): 321-326"
-  },
-  {
-    "objectID": "content/05_content.html#slides",
-    "href": "content/05_content.html#slides",
-    "title": "Survey Experiments",
-    "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
-  },
-  {
-    "objectID": "content/05_content.html#lab",
-    "href": "content/05_content.html#lab",
-    "title": "Survey Experiments",
-    "section": "Lab",
-    "text": "Lab\nSurvey experimental designs"
-  },
-  {
-    "objectID": "content/03_content.html",
-    "href": "content/03_content.html",
-    "title": "Week 3: Panel Surveys",
-    "section": "",
-    "text": "Sign up for final project group using this form \nPanel surveys are surveys where the same respondents are asked questions multiple times. Sometimes these repeat the same questions to understand shifts in public opinion and the effect of events in between waves.\nAs with last week, the takeaway is that panel surveys are expensive and risk missing subjects across waves, this is called panel attrition. With fixed budgets, one may wonder if we are better off just conducting a one-shot survey, also called a cross-section with an increased sample size.\nWe have no new lab assignment this week. Instead, we will spend some time revisiting the lab from last week. I plan to spend some time comparing one-shot and panel surveys with simulations."
-  },
-  {
-    "objectID": "content/03_content.html#overview",
-    "href": "content/03_content.html#overview",
-    "title": "Week 3: Panel Surveys",
-    "section": "",
-    "text": "Sign up for final project group using this form \nPanel surveys are surveys where the same respondents are asked questions multiple times. Sometimes these repeat the same questions to understand shifts in public opinion and the effect of events in between waves.\nAs with last week, the takeaway is that panel surveys are expensive and risk missing subjects across waves, this is called panel attrition. With fixed budgets, one may wonder if we are better off just conducting a one-shot survey, also called a cross-section with an increased sample size.\nWe have no new lab assignment this week. Instead, we will spend some time revisiting the lab from last week. I plan to spend some time comparing one-shot and panel surveys with simulations."
-  },
-  {
-    "objectID": "content/03_content.html#reading",
-    "href": "content/03_content.html#reading",
-    "title": "Week 3: Panel Surveys",
-    "section": "Reading",
-    "text": "Reading\n\n RD sections 5-7, 15\n Esaiasson, Peter and Mikael Persson. 2014. “Does Studying Political Science Affect Civic Attitudes?: A Panel Comparison of Students of Politics, Law, and Mass Communication.” Journal of Political Science Education 10 (4): 375-385\n Claes, Ellen, and Marc Hooghe. 2017. “The Effect of Political Science Education on Political Trust and Interest: Results from a 5-year Panel Study.” Journal of Political Science Education 13 (1): 33-45"
-  },
-  {
-    "objectID": "content/03_content.html#slides",
-    "href": "content/03_content.html#slides",
-    "title": "Week 3: Panel Surveys",
-    "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
-  },
-  {
-    "objectID": "content/03_content.html#lab",
-    "href": "content/03_content.html#lab",
-    "title": "Week 3: Panel Surveys",
-    "section": "Lab",
-    "text": "Lab\nNo new lab! We will revisit the lab from last week."
-  },
-  {
-    "objectID": "content/01_content.html",
-    "href": "content/01_content.html",
-    "title": "Week 1: Introduction",
-    "section": "",
-    "text": "We go over the course theme, requirements, and tips to succeed.\nThe lab assignment for this week is a freebie. You will install R and RStudio and learn a bit about the project oriented workflow. This will be helpful to keep your work on the weekly lab assignments organized."
-  },
-  {
-    "objectID": "content/01_content.html#overview",
-    "href": "content/01_content.html#overview",
-    "title": "Week 1: Introduction",
-    "section": "",
-    "text": "We go over the course theme, requirements, and tips to succeed.\nThe lab assignment for this week is a freebie. You will install R and RStudio and learn a bit about the project oriented workflow. This will be helpful to keep your work on the weekly lab assignments organized."
-  },
-  {
-    "objectID": "content/01_content.html#reading",
-    "href": "content/01_content.html#reading",
-    "title": "Week 1: Introduction",
-    "section": "Reading",
-    "text": "Reading\nIt’s the first day. No reading!"
-  },
-  {
-    "objectID": "content/01_content.html#slides",
-    "href": "content/01_content.html#slides",
-    "title": "Week 1: Introduction",
-    "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
-  },
-  {
-    "objectID": "content/01_content.html#lab",
-    "href": "content/01_content.html#lab",
-    "title": "Week 1: Introduction",
-    "section": "Lab",
-    "text": "Lab\nTBD\n\n\n\n\n\n\nDue\n\n\n\nMonday, January 15, 5 PM"
-  },
-  {
-    "objectID": "content/02_content.html",
-    "href": "content/02_content.html",
-    "title": "Week 2: Representative Surveys",
-    "section": "",
-    "text": "We start the topic of public opinion with representative surveys. As the name suggests, a representative survey is administered to a sample of respondents that resemble the demographic characteristics of the underlying population.\nThe punchline of this week is that conducting a true representative survey via random sampling is near impossible. Instead, most surveys use some form of quota or stratified sampling to ensure that the sample obtained resembles the population of interest.\nThe lab assignment for this week will be a guided introduction to R. By the end, we will compare different sampling techniques."
-  },
-  {
-    "objectID": "content/02_content.html#overview",
-    "href": "content/02_content.html#overview",
-    "title": "Week 2: Representative Surveys",
-    "section": "",
-    "text": "We start the topic of public opinion with representative surveys. As the name suggests, a representative survey is administered to a sample of respondents that resemble the demographic characteristics of the underlying population.\nThe punchline of this week is that conducting a true representative survey via random sampling is near impossible. Instead, most surveys use some form of quota or stratified sampling to ensure that the sample obtained resembles the population of interest.\nThe lab assignment for this week will be a guided introduction to R. By the end, we will compare different sampling techniques."
-  },
-  {
-    "objectID": "content/02_content.html#reading",
-    "href": "content/02_content.html#reading",
-    "title": "Week 2: Representative Surveys",
-    "section": "Reading",
-    "text": "Reading\n\n RD sections 1-4\n Schwarz, Norbert. 1999. “Self-reports: How the questions shape the answers.” American Psychologist 54 (2): 93-105\n Stephenson, Laura B., Allison Harell, Daniel Rubenson, and Peter John Loewen. 2021. “Measuring Preferences and Behaviors in the 2019 Canadian Election Study.” Canadian Journal of Political Science/Revue Canadienne de science politique"
-  },
-  {
-    "objectID": "content/02_content.html#slides",
-    "href": "content/02_content.html#slides",
-    "title": "Week 2: Representative Surveys",
-    "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
-  },
-  {
-    "objectID": "content/02_content.html#lab",
-    "href": "content/02_content.html#lab",
-    "title": "Week 2: Representative Surveys",
-    "section": "Lab",
-    "text": "Lab\nIntro to R and sampling from populations \n\n\n\n\n\n\nDue\n\n\n\nFriday, January 20, 5 PM"
-  },
-  {
-    "objectID": "content/04_content.html",
-    "href": "content/04_content.html",
-    "title": "Week 4: Sensitive Questions",
-    "section": "",
-    "text": "When surveys deal with sensitive topics, there is a chance that respondents conceal the truth in their answers. We call this sensitivity bias. This week, we review research designs that seek to reduce sensitivity biases by asking sensitive questions indirectly. Asking indirect questions takes attention away from the sensitive attitude of interest and ensures respondent anonymity.\nThe takeaway for this week is that these techniques reduce sensitivity bias, but they do so at the expense of statistical precision, so they may not always improve our ability to measure sensitive attitudes and behaviors. We illustrate this point in the lab."
-  },
-  {
-    "objectID": "content/04_content.html#overview",
-    "href": "content/04_content.html#overview",
-    "title": "Week 4: Sensitive Questions",
-    "section": "",
-    "text": "When surveys deal with sensitive topics, there is a chance that respondents conceal the truth in their answers. We call this sensitivity bias. This week, we review research designs that seek to reduce sensitivity biases by asking sensitive questions indirectly. Asking indirect questions takes attention away from the sensitive attitude of interest and ensures respondent anonymity.\nThe takeaway for this week is that these techniques reduce sensitivity bias, but they do so at the expense of statistical precision, so they may not always improve our ability to measure sensitive attitudes and behaviors. We illustrate this point in the lab."
-  },
-  {
-    "objectID": "content/04_content.html#reading",
-    "href": "content/04_content.html#reading",
-    "title": "Week 4: Sensitive Questions",
-    "section": "Reading",
-    "text": "Reading\n\n RD sections 8-9, 17\n Blair, Graeme. 2015. “Survey Methods for Sensitive Topics.” Comparative Politics Newsletter 12 (44): 12-16\n Creighton, Matthew J. and Amaney Jamal. 2015. “Does Islam play a role in anti-immigrant sentiment? An experimental approach.” Social Science Research 53 (1): 89-103\n Oliveros, Virginia and Daniel W. Gingerich. 2020. “Lying About Corruption in Surveys: Evidence from a Joint Response Model.” International Journal of Public Opinion Research 32 (2): 384-395"
-  },
-  {
-    "objectID": "content/04_content.html#slides",
-    "href": "content/04_content.html#slides",
-    "title": "Week 4: Sensitive Questions",
-    "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
-  },
-  {
-    "objectID": "content/04_content.html#lab",
-    "href": "content/04_content.html#lab",
-    "title": "Week 4: Sensitive Questions",
-    "section": "Lab",
-    "text": "Lab\nReducing sensitivity bias"
-  },
-  {
-    "objectID": "content/06_content.html",
-    "href": "content/06_content.html",
-    "title": "Convenience Samples",
-    "section": "",
-    "text": "Last week we learned about survey experiments. These are increasingly being conducted of convenience samples of online survey respondents. This brings questions about whether the results of experiments can generalize to the population of interest. When a finding can be generalized to a broader population, we say that it has external validity.\nThe lab explores the concept of external validity and its different flavors."
-  },
-  {
-    "objectID": "content/06_content.html#overview",
-    "href": "content/06_content.html#overview",
-    "title": "Convenience Samples",
-    "section": "",
-    "text": "Last week we learned about survey experiments. These are increasingly being conducted of convenience samples of online survey respondents. This brings questions about whether the results of experiments can generalize to the population of interest. When a finding can be generalized to a broader population, we say that it has external validity.\nThe lab explores the concept of external validity and its different flavors."
-  },
-  {
-    "objectID": "content/06_content.html#reading",
-    "href": "content/06_content.html#reading",
-    "title": "Convenience Samples",
-    "section": "Reading",
-    "text": "Reading\n\n Munger, Kevin, Ishita Gopal, Jonathan Nagler, Josuah A. Tucker. 2021. “Accessibility and generalizability: Are social media effects moderated by age or digital literacy?” Research & Politics 8 (2)\n Coppock, Alexander, Thomas J. Leeper, and Kevin J. Mullinix. 2018. “Generalizability of heterogeneous treatment effect estimates across samples.” Proceedings of the National Academy of Sciences 115 (49): 12441-12446"
-  },
-  {
-    "objectID": "content/06_content.html#slides",
-    "href": "content/06_content.html#slides",
-    "title": "Convenience Samples",
-    "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
-  },
-  {
-    "objectID": "content/06_content.html#lab",
-    "href": "content/06_content.html#lab",
-    "title": "Convenience Samples",
-    "section": "Lab",
-    "text": "Lab\nExternal validity"
-  },
-  {
-    "objectID": "content/09_content.html",
-    "href": "content/09_content.html",
-    "title": "Field Experiments I",
-    "section": "",
-    "text": "The next two weeks are about field experiments, also known as randomized controlled trials (RCTs) or A/B testing. These are experiments aimed testing the impact of a policy intervention.\nField experiments are diverse both in terms of design and their domains of application, hence the need for two weeks.\nThe lab focuses on the stepped-wedge or staggered adoption design."
-  },
-  {
-    "objectID": "content/09_content.html#overview",
-    "href": "content/09_content.html#overview",
-    "title": "Field Experiments I",
-    "section": "",
-    "text": "The next two weeks are about field experiments, also known as randomized controlled trials (RCTs) or A/B testing. These are experiments aimed testing the impact of a policy intervention.\nField experiments are diverse both in terms of design and their domains of application, hence the need for two weeks.\nThe lab focuses on the stepped-wedge or staggered adoption design."
-  },
-  {
-    "objectID": "content/09_content.html#reading",
-    "href": "content/09_content.html#reading",
-    "title": "Field Experiments I",
-    "section": "Reading",
-    "text": "Reading\n\n RD section 18\n Banerjee, Abhijit, Esther Duflo, and Garima Sharma. 2021. “Long-Term Effects of the Targeting the Ultra Poor Program.” American Economic Review: Insights 3 (4): 471-486\n Pennycook, Gordon, Ziv Epstein, Mohsen Mosleh, Antonio A. Arechar, Dean Eckles, and David G. Rand. 2021. “Shifting attention to accuracy can reduce misinformation online.” Nature 592: 590-595"
-  },
-  {
-    "objectID": "content/09_content.html#slides",
-    "href": "content/09_content.html#slides",
-    "title": "Field Experiments I",
-    "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
-  },
-  {
-    "objectID": "content/09_content.html#lab",
-    "href": "content/09_content.html#lab",
-    "title": "Field Experiments I",
-    "section": "Lab",
-    "text": "Lab\nField experimental designs I"
-  },
-  {
-    "objectID": "content/11_content.html",
-    "href": "content/11_content.html",
-    "title": "Beyond Experimentation",
-    "section": "",
-    "text": "We use experiments to understand whether a policy would work. We usually care about whether said policy works outside of the experimental setting. Experiments alone do not answer that question. Which opens a conversation on the scope and limitations of using experiments to inform policy-making.\nThe lab illustrates these ideas by trying to compare experiments in different contexts."
-  },
-  {
-    "objectID": "content/11_content.html#overview",
-    "href": "content/11_content.html#overview",
-    "title": "Beyond Experimentation",
-    "section": "",
-    "text": "We use experiments to understand whether a policy would work. We usually care about whether said policy works outside of the experimental setting. Experiments alone do not answer that question. Which opens a conversation on the scope and limitations of using experiments to inform policy-making.\nThe lab illustrates these ideas by trying to compare experiments in different contexts."
-  },
-  {
-    "objectID": "content/11_content.html#reading",
-    "href": "content/11_content.html#reading",
-    "title": "Beyond Experimentation",
-    "section": "Reading",
-    "text": "Reading\n\n RD section 23\n Deaton, Angus, and Nancy Cartwright. 2018. “Understanding and misunderstanding randomized controlled trials.” Social Science & Medicine 210: 2-21\n Slough, Tara, Daniel Rubenson, Ro’ee Levy, et al. 2021. “Adoption of community monitoring improves common pool resource management across contexts.” Proceedings of the National Academy of Sciences 118 (29): e2015367118"
-  },
-  {
-    "objectID": "content/11_content.html#slides",
-    "href": "content/11_content.html#slides",
-    "title": "Beyond Experimentation",
-    "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
-  },
-  {
-    "objectID": "content/11_content.html#lab",
-    "href": "content/11_content.html#lab",
-    "title": "Beyond Experimentation",
-    "section": "Lab",
-    "text": "Lab\nLimitations of experiments"
-  },
-  {
-    "objectID": "content/13_content.html",
-    "href": "content/13_content.html",
-    "title": "Quasi-experiments I",
-    "section": "",
-    "text": "Experiments are helpful tools in trying to determine whether a policy works. But in many cases experimentation is unethical or unfeasible. In these contexts, researchers can try to leverage features of naturally occurring data that provide comparable levels of control. These are called quasi-experiments because we are assuming we can analyze them as if they were experiments.\nThe lab introduces regression discontinuity designs, a common answer strategy for policies that use deterministic thresholds to determine eligibility."
-  },
-  {
-    "objectID": "content/13_content.html#overview",
-    "href": "content/13_content.html#overview",
-    "title": "Quasi-experiments I",
-    "section": "",
-    "text": "Experiments are helpful tools in trying to determine whether a policy works. But in many cases experimentation is unethical or unfeasible. In these contexts, researchers can try to leverage features of naturally occurring data that provide comparable levels of control. These are called quasi-experiments because we are assuming we can analyze them as if they were experiments.\nThe lab introduces regression discontinuity designs, a common answer strategy for policies that use deterministic thresholds to determine eligibility."
-  },
-  {
-    "objectID": "content/13_content.html#reading",
-    "href": "content/13_content.html#reading",
-    "title": "Quasi-experiments I",
-    "section": "Reading",
-    "text": "Reading\n\n RD section 16\n Hoekstra, Mark. 2009. “The Effect of Attending the Flagship State University on Earnings: A Discontinuity-Based Approach.” The Review of Economics and Statistics 91 (4): 717-724"
-  },
-  {
-    "objectID": "content/13_content.html#slides",
-    "href": "content/13_content.html#slides",
-    "title": "Quasi-experiments I",
-    "section": "Slides",
-    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
-  },
-  {
-    "objectID": "content/13_content.html#lab",
-    "href": "content/13_content.html#lab",
-    "title": "Quasi-experiments I",
-    "section": "Lab",
-    "text": "Lab\nQuasi-experimental designs I"
-  },
-  {
-    "objectID": "content/index.html",
-    "href": "content/index.html",
-    "title": "Content Overview",
-    "section": "",
-    "text": "You can use the sidebar to navigate the course content organized by weeks.\nFor each week, you will find:\n\nA brief overview of the week’s topic\nA list of the required readings. Both sections of the textbook  and research articles .\n\n\n\n\n\n\n\nAccessing readings off-campus\n\n\n\nUse this link for instructions to access library resources off-campus. I find the browser bookmarklet helpful.\n\n\n\nLinks to the slides in HTML  and PDF \n\n\n\n\n\n\n\nNote\n\n\n\nI like to make HTML slides to include code and animations. I make PDF slides available in case you want to print or save them locally.\n\n\n\nLinks to the corresponding weekly lab assignment \n\n\n\n\n\n\n\nTip\n\n\n\nYou can download  file for the assignments, edit it with your work, and compile it to PDF when you are ready to submit!"
-  },
-  {
-    "objectID": "resources/final_project_template.html",
-    "href": "resources/final_project_template.html",
-    "title": "Final Project Template",
-    "section": "",
-    "text": "The introduction should take no more than two pages and summarize the project. From, it should be clear:\n\nWhat are you studying\nWhat we know about it so far\nWhy it is important to study it further\nWhat are you proposing to do\nWhat research design are you using\nHow good the research design is\nWhat challenged does your proposal or research design face"
-  },
-  {
-    "objectID": "resources/final_project_template.html#model",
-    "href": "resources/final_project_template.html#model",
-    "title": "Final Project Template",
-    "section": "Model",
-    "text": "Model\nHere you encode your beliefs about the world. What are the main outcomes of interest? How are they distributed, what is their range? Are there any endogenous and exogenous variables to consider?\nFormulating these beliefs about the world as a directed acyclic graph or as potential outcomes may help clarify what to code."
-  },
-  {
-    "objectID": "resources/final_project_template.html#inquiry",
-    "href": "resources/final_project_template.html#inquiry",
-    "title": "Final Project Template",
-    "section": "Inquiry",
-    "text": "Inquiry\nHere you specify and justify the main quantity of interest. Why these quantity and not others? You can have more than one inquiry if you deem it necessary, but you should explain why you need more than one."
-  },
-  {
-    "objectID": "resources/final_project_template.html#data-strategy",
-    "href": "resources/final_project_template.html#data-strategy",
-    "title": "Final Project Template",
-    "section": "Data strategy",
-    "text": "Data strategy\nHere you specify how would you collect data from the world. Is this an experiment? How will you assign conditions? Why did you choose this design over other alternatives? Why did you choose to ask the survey question in this way?"
-  },
-  {
-    "objectID": "resources/final_project_template.html#answer-strategy",
-    "href": "resources/final_project_template.html#answer-strategy",
-    "title": "Final Project Template",
-    "section": "Answer strategy",
-    "text": "Answer strategy\nHere you specify the procedures to summarize your data. You should convince the reader here that the estimator you choose is the best approximation available to the inquiry of interest, so you should mention at least one alternative or explain whether a superior estimation procedure is not available in this application."
-  },
-  {
     "objectID": "syllabus.html",
     "href": "syllabus.html",
     "title": "Syllabus",
@@ -539,53 +42,18 @@
     "text": "Policies\n\nSubmitting assignments\nPrompts for assignments will be available in the course website. You should upload assignments via Avenue.\nAssignments should use the author-date citation style of the Chicago Manual of Style. You do not need to include citations for the weekly lab assignments, but you can do so if you wish.\nYou can use the templates available in the Resources tab to format your assignments, slight modifications within RStudio are acceptable. If you write assignments outside of RStudio, they should be double-spaced, 12 pt font, with 1-inch margins. Assignments do not require a cover sheet. Figures, tables, and bibliography are not part of word counts. You can use this tool to count words in PDF documents.\n\n\nLate assignments\nIn this course, assignments are designed to be cumulative; each assignment builds on the last. For this reason, it is important to not fall behind and to complete assignments on time. Assignments are considered delayed if they are submitted after one hour but within 24 hours of the due date. Assignments will be considered late if they are submitted after 24 hours but before 7 days of the due date. Assignments not submitted within 7 days of the due date will be considered as not delivered.\nUse of the MSAF form will automatically move the due date 72 hours, with no other possibility of extension or late submission without additional confirmation of the circumstances by the Faculty advising office. If you use the MSAF form for an assignment, you do not need to email me. Just turn in the assignment within 72 hours via Avenue or to the Political Science office (KTH 527). There is a drop box for after hours.\n\n\nOther policies\nSee the PDF version of the syllabus for McMaster University policies that may apply to this course."
   },
   {
-    "objectID": "docs/syllabus.html",
-    "href": "docs/syllabus.html",
-    "title": "Syllabus",
-    "section": "",
-    "text": "This course explores quantitative research designs to answer questions about public opinion and policy in academia, government, and industry. We will examine how to conduct surveys to understand variation in public opinion or attitudes toward several subjects across the world. We will also examine empirical strategies to generate credible evidence to inform policy and decision-making in different contexts.\nThe main learning objective of this course is to develop standards to think about the appropriate research design before conducting a study. This is useful to those working with quantitative data either directly or indirectly. We will work towards that goal through a combination of reading, discussion, and hands-on practice.\nStudents will have the opportunity to practice working with statistical software to evaluate and compare the statistical properties of alternative research designs. Students will also get the chance to practice discussing and communicating research design choices to a general or expert audience through speech and writing.\nThis course contributes to the Research Methods and/or Analysis requirement for the Concurrent Certificate in Applied Social Sciences Research. As such, it relies heavily on statistics as the main tool to think about research design. Students are expected to have taken at least POLSCI 3NN3 – Statistical Analysis of Primary Data or have equivalent experience with statistics and statistical programming software. I expect us to understand the main findings of a quantitative social science study and work backwards from there to discuss the research design choices that researchers made. I also expect, but not assume, some experience with loading, cleaning, and analyzing data."
-  },
-  {
-    "objectID": "docs/syllabus.html#description-fa-file-pdf",
-    "href": "docs/syllabus.html#description-fa-file-pdf",
-    "title": "Syllabus",
-    "section": "",
-    "text": "This course explores quantitative research designs to answer questions about public opinion and policy in academia, government, and industry. We will examine how to conduct surveys to understand variation in public opinion or attitudes toward several subjects across the world. We will also examine empirical strategies to generate credible evidence to inform policy and decision-making in different contexts.\nThe main learning objective of this course is to develop standards to think about the appropriate research design before conducting a study. This is useful to those working with quantitative data either directly or indirectly. We will work towards that goal through a combination of reading, discussion, and hands-on practice.\nStudents will have the opportunity to practice working with statistical software to evaluate and compare the statistical properties of alternative research designs. Students will also get the chance to practice discussing and communicating research design choices to a general or expert audience through speech and writing.\nThis course contributes to the Research Methods and/or Analysis requirement for the Concurrent Certificate in Applied Social Sciences Research. As such, it relies heavily on statistics as the main tool to think about research design. Students are expected to have taken at least POLSCI 3NN3 – Statistical Analysis of Primary Data or have equivalent experience with statistics and statistical programming software. I expect us to understand the main findings of a quantitative social science study and work backwards from there to discuss the research design choices that researchers made. I also expect, but not assume, some experience with loading, cleaning, and analyzing data."
-  },
-  {
-    "objectID": "docs/syllabus.html#objectives",
-    "href": "docs/syllabus.html#objectives",
-    "title": "Syllabus",
-    "section": "Objectives",
-    "text": "Objectives\nBy the end of the course students should be able to:\n\nUnderstand the components of a research design and their properties\nRead and critically evaluate research outputs about public opinion and policy\nWork fluently with statistical programming software and learn new techniques on their own\nDesign, evaluate, and implement quantitative studies using the workflow proposed in this course"
-  },
-  {
-    "objectID": "docs/syllabus.html#materials",
-    "href": "docs/syllabus.html#materials",
-    "title": "Syllabus",
-    "section": "Materials",
-    "text": "Materials\n\nReading\nThe main textbook we will follow is:\n\nBlair, Graeme, Alexander Coppock, and Macartan Humphreys. 2022. Research Design: Declaration, Diagnosis, Redesign. Forthcoming at Princeton University Press\n\nYou can read the digital copy of the book for free by using the link above. The physical version is not available for purchase yet. The rest of the syllabus refers to this book with the initials RD.\nThe companion textbook is:\n\nGrolemund, Garret and Hadley Wickham. 2017. R for Data Science. O’Reilly Media Inc\n\nOnce again, you can read the digital copy of this book for free with the link above. You are not required to read this book for this course but consulting it on occasion may help you overcome hurdles while working with statistical software. Since the digital version is constantly updated, I do not recommend buying a physical copy.\nWe will also read academic papers that discuss or apply the research designs we will cover. Most of these are available through the library’s subscription. See this link for instructions to access library resources while off campus. If not available through the library or elsewhere online, I will upload them to the course website.\n\n\nSoftware\nWe will use R and RStudio to program research designs and evaluate their properties. The advantage of R is that it is free and open source, meaning that you will be able to apply everything you learn in this course anywhere else. The disadvantage is a somewhat steep learning curve. I believe the investment is worthwhile for anyone working with data or in data-adjacent careers.\nThe computers in our classroom should have a recent installation of both programs. While I expect us to spend some class meeting time working with R, you will most likely need access to the software outside of the classroom. You are welcome to bring a laptop to class.\nYou can install R and RStudio in your personal computer. You can use this link for installation instructions on Windows and MacOS (ignore the parts about package building). See this link for installation instructions on Chromebooks, which is a bit more involved.\nYou can also use Posit Cloud to access RStudio from any web browser. A free account should be sufficient for the purposes of this course and has the advantage of letting you access your work across devices.\nYou should reach out to the instructor if you foresee any challenges with accessing computing resources outside of the classroom."
-  },
-  {
-    "objectID": "docs/syllabus.html#evaluation",
-    "href": "docs/syllabus.html#evaluation",
-    "title": "Syllabus",
-    "section": "Evaluation",
-    "text": "Evaluation\nSee the Assignments page for more details.\n\n\n\n\n\n\n\n\nAssignment\nPercent\n\n\n\n\nAttendance and participation\n10%\n\n\nWeekly lab assignments (best 10)\n30% (3% each)\n\n\nResponse papers (best 3)\n30% (10% each)\n\n\nFinal project meetings\n10%\n\n\nFinal project: Pre-analysis plan\n20%\n\n\n\n\nGrades will be based on the McMaster University scale:\n\n\n\n\n\n\n\n\n\n\nMark\nGrade\nMark\nGrade\n\n\n\n\n90-100%\nA+\n63-66%\nC\n\n\n85-90%\nA\n60-62%\nC-\n\n\n80-84%\nA-\n57-59%\nD+\n\n\n77-79%\nB+\n53-56%\nD\n\n\n73-76%\nB\n50-52%\nD-\n\n\n70-72%\nB-\n0-49%\nF\n\n\n67-69%\nC+"
-  },
-  {
-    "objectID": "docs/syllabus.html#policies",
-    "href": "docs/syllabus.html#policies",
-    "title": "Syllabus",
-    "section": "Policies",
-    "text": "Policies\n\nSubmitting assignments\nPrompts for assignments will be available in the course website. You should upload assignments via Avenue.\nAssignments should use the author-date citation style of the Chicago Manual of Style. You do not need to include citations for the weekly lab assignments, but you can do so if you wish.\nYou can use the templates available in the course website to format your assignments, slight modifications within RStudio are acceptable. If you write assignments outside RStudio, they should be double-spaced, 12 pt font, with 1-inch margins. Assignments do not require a cover sheet. Figures, tables, and bibliography are not part of word counts. You can use this tool to count words in PDF documents.\n\n\nLate assignments\nIn this course, assignments are designed to be cumulative; each assignment builds on the last. For this reason, it is important to not fall behind and to complete assignments on time. Assignments turned in within one hour of the due date will only be eligible for 95% of the total value. Assignments turned after one hour but within 24 hours of the due date will be eligible for a maximum grade of B+. Assignments received after 24 hours of the due date will be eligible for a maximum grade of C+. Late assignments will not be accepted after 48 hours after the original due date.\nUse of the MSAF form will automatically move the due date 72 hours, with no other possibility of extension or late submission without additional confirmation of the circumstances by the Faculty advising office. If you use the MSAF form for an assignment, you do not need to email me. Just turn in the assignment within 72 hours via Avenue or to the Political Science office (KTH 527). There is a drop box for after hours.\n\n\nOther policies\nSee the PDF version of the syllabus for McMaster University policies that may apply to this course."
-  },
-  {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
     "text": "This is an overview of the semester. As the semester goes on, I will update this page with links to slides, readings, and lab assignments.\nYou can also check the Content page for details.\n\n\n\n\n Week\n Date\n Content\n Lab\n\n\n\n\n1\nJanuary 11\nIntroduction\nGetting started\n\n\n2\nJanuary 18\nThe MIDA framework\nIntro to R and RStudio\n\n\n3\nJanuary 25\nRepresentative surveys\nSampling and descriptive inference\n\n\n4\nFebruary 1\nSensitive questions\nReducing sensitivity bias\n\n\n5\nFebruary 8\nSurvey experiments\nSurvey experimental designs\n\n\n6\nFebruary 15\nConvenience samples\nExternal validity\n\n\n7\nFebruary 22\nMid-term recess\n\n\n\n8\nFebruary 29\nEvidence-informed policy\nHypothesis testing\n\n\n9\nMarch 7\nField experiments I\nField experimental designs I\n\n\n10\nMarch 14\nField experiments II\nField experimental designs II\n\n\n11\nMarch 21\nBeyond experimentation\nLimitations of experiments\n\n\n12\nMarch 28\nQuasi-experiments\nQuasi-experimental designs\n\n\n13\nApril 4\nNO CLASS – INSTRUCTOR TRAVEL\n\n\n\n\nApril 25\nOptional final project due"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Public Opinion and Policy",
+    "section": "",
+    "text": "This course explores quantitative research designs to answer questions about public opinion and policy in academia, government, and industry. We will examine how to conduct surveys to understand variation in public opinion or attitudes toward several subjects across the world. We will also examine empirical strategies to generate credible evidence to inform policy and decision-making in different contexts.\nIn this website you will find all the course materials. Assignments must be submitted through Avenue.\n\n\n\n   Dr. Gustavo Diaz\n   KTH 505\n   diazg2@mcmaster.ca\n   Schedule a meeting\n\n\n\n\n\n   Thursdays\n   2:30-5:20 PM\n   See Avenue\n   January 11-April 4, 2024\n\n\n\n\nSend an email or schedule a meeting. I usually respond to emails within 24 hours. Please schedule meetings at least 8 hours in advance."
   },
   {
     "objectID": "index.html#course-description",
@@ -600,6 +68,447 @@
     "title": "Public Opinion and Policy",
     "section": "Schedule",
     "text": "Schedule\n\n\n\n\n Week\n Date\n Content\n Lab\n\n\n\n\n1\nJanuary 11\nIntroduction\nGetting started\n\n\n2\nJanuary 18\nThe MIDA framework\nIntro to R and RStudio\n\n\n3\nJanuary 25\nRepresentative surveys\nSampling and descriptive inference\n\n\n4\nFebruary 1\nSensitive questions\nReducing sensitivity bias\n\n\n5\nFebruary 8\nSurvey experiments\nSurvey experimental designs\n\n\n6\nFebruary 15\nConvenience samples\nExternal validity\n\n\n7\nFebruary 22\nMid-term recess\n\n\n\n8\nFebruary 29\nEvidence-informed policy\nHypothesis testing\n\n\n9\nMarch 7\nField experiments I\nField experimental designs I\n\n\n10\nMarch 14\nField experiments II\nField experimental designs II\n\n\n11\nMarch 21\nBeyond experimentation\nLimitations of experiments\n\n\n12\nMarch 28\nQuasi-experiments\nQuasi-experimental designs\n\n\n13\nApril 4\nNO CLASS – INSTRUCTOR TRAVEL\n\n\n\n\nApril 25\nOptional final project due"
+  },
+  {
+    "objectID": "content/index.html",
+    "href": "content/index.html",
+    "title": "Content Overview",
+    "section": "",
+    "text": "You can use the sidebar to navigate the course content organized by weeks.\nFor each week, you will find:\n\nA brief overview of the week’s topic\nA list of the required readings. Both sections of the textbook  and research articles .\n\n\n\n\n\n\n\nAccessing readings off-campus\n\n\n\nUse this link for instructions to access library resources off-campus. I find the browser bookmarklet helpful.\n\n\n\nLinks to the slides in HTML  and PDF \n\n\n\n\n\n\n\nNote\n\n\n\nI like to make HTML slides to include code and animations. I make PDF slides available in case you want to print or save them locally.\n\n\n\nLinks to the corresponding weekly lab assignment \n\n\n\n\n\n\n\nTip\n\n\n\nYou can download  file for the assignments, edit it with your work, and compile it to PDF when you are ready to submit!"
+  },
+  {
+    "objectID": "content/13_content.html",
+    "href": "content/13_content.html",
+    "title": "Quasi-experiments I",
+    "section": "",
+    "text": "Experiments are helpful tools in trying to determine whether a policy works. But in many cases experimentation is unethical or unfeasible. In these contexts, researchers can try to leverage features of naturally occurring data that provide comparable levels of control. These are called quasi-experiments because we are assuming we can analyze them as if they were experiments.\nThe lab introduces regression discontinuity designs, a common answer strategy for policies that use deterministic thresholds to determine eligibility."
+  },
+  {
+    "objectID": "content/13_content.html#overview",
+    "href": "content/13_content.html#overview",
+    "title": "Quasi-experiments I",
+    "section": "",
+    "text": "Experiments are helpful tools in trying to determine whether a policy works. But in many cases experimentation is unethical or unfeasible. In these contexts, researchers can try to leverage features of naturally occurring data that provide comparable levels of control. These are called quasi-experiments because we are assuming we can analyze them as if they were experiments.\nThe lab introduces regression discontinuity designs, a common answer strategy for policies that use deterministic thresholds to determine eligibility."
+  },
+  {
+    "objectID": "content/13_content.html#reading",
+    "href": "content/13_content.html#reading",
+    "title": "Quasi-experiments I",
+    "section": "Reading",
+    "text": "Reading\n\n RD section 16\n Hoekstra, Mark. 2009. “The Effect of Attending the Flagship State University on Earnings: A Discontinuity-Based Approach.” The Review of Economics and Statistics 91 (4): 717-724"
+  },
+  {
+    "objectID": "content/13_content.html#slides",
+    "href": "content/13_content.html#slides",
+    "title": "Quasi-experiments I",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/13_content.html#lab",
+    "href": "content/13_content.html#lab",
+    "title": "Quasi-experiments I",
+    "section": "Lab",
+    "text": "Lab\nQuasi-experimental designs I"
+  },
+  {
+    "objectID": "content/11_content.html",
+    "href": "content/11_content.html",
+    "title": "Beyond Experimentation",
+    "section": "",
+    "text": "We use experiments to understand whether a policy would work. We usually care about whether said policy works outside of the experimental setting. Experiments alone do not answer that question. Which opens a conversation on the scope and limitations of using experiments to inform policy-making.\nThe lab illustrates these ideas by trying to compare experiments in different contexts."
+  },
+  {
+    "objectID": "content/11_content.html#overview",
+    "href": "content/11_content.html#overview",
+    "title": "Beyond Experimentation",
+    "section": "",
+    "text": "We use experiments to understand whether a policy would work. We usually care about whether said policy works outside of the experimental setting. Experiments alone do not answer that question. Which opens a conversation on the scope and limitations of using experiments to inform policy-making.\nThe lab illustrates these ideas by trying to compare experiments in different contexts."
+  },
+  {
+    "objectID": "content/11_content.html#reading",
+    "href": "content/11_content.html#reading",
+    "title": "Beyond Experimentation",
+    "section": "Reading",
+    "text": "Reading\n\n RD section 23\n Deaton, Angus, and Nancy Cartwright. 2018. “Understanding and misunderstanding randomized controlled trials.” Social Science & Medicine 210: 2-21\n Slough, Tara, Daniel Rubenson, Ro’ee Levy, et al. 2021. “Adoption of community monitoring improves common pool resource management across contexts.” Proceedings of the National Academy of Sciences 118 (29): e2015367118"
+  },
+  {
+    "objectID": "content/11_content.html#slides",
+    "href": "content/11_content.html#slides",
+    "title": "Beyond Experimentation",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/11_content.html#lab",
+    "href": "content/11_content.html#lab",
+    "title": "Beyond Experimentation",
+    "section": "Lab",
+    "text": "Lab\nLimitations of experiments"
+  },
+  {
+    "objectID": "content/09_content.html",
+    "href": "content/09_content.html",
+    "title": "Field Experiments I",
+    "section": "",
+    "text": "The next two weeks are about field experiments, also known as randomized controlled trials (RCTs) or A/B testing. These are experiments aimed testing the impact of a policy intervention.\nField experiments are diverse both in terms of design and their domains of application, hence the need for two weeks.\nThe lab focuses on the stepped-wedge or staggered adoption design."
+  },
+  {
+    "objectID": "content/09_content.html#overview",
+    "href": "content/09_content.html#overview",
+    "title": "Field Experiments I",
+    "section": "",
+    "text": "The next two weeks are about field experiments, also known as randomized controlled trials (RCTs) or A/B testing. These are experiments aimed testing the impact of a policy intervention.\nField experiments are diverse both in terms of design and their domains of application, hence the need for two weeks.\nThe lab focuses on the stepped-wedge or staggered adoption design."
+  },
+  {
+    "objectID": "content/09_content.html#reading",
+    "href": "content/09_content.html#reading",
+    "title": "Field Experiments I",
+    "section": "Reading",
+    "text": "Reading\n\n RD section 18\n Banerjee, Abhijit, Esther Duflo, and Garima Sharma. 2021. “Long-Term Effects of the Targeting the Ultra Poor Program.” American Economic Review: Insights 3 (4): 471-486\n Pennycook, Gordon, Ziv Epstein, Mohsen Mosleh, Antonio A. Arechar, Dean Eckles, and David G. Rand. 2021. “Shifting attention to accuracy can reduce misinformation online.” Nature 592: 590-595"
+  },
+  {
+    "objectID": "content/09_content.html#slides",
+    "href": "content/09_content.html#slides",
+    "title": "Field Experiments I",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/09_content.html#lab",
+    "href": "content/09_content.html#lab",
+    "title": "Field Experiments I",
+    "section": "Lab",
+    "text": "Lab\nField experimental designs I"
+  },
+  {
+    "objectID": "content/06_content.html",
+    "href": "content/06_content.html",
+    "title": "Convenience Samples",
+    "section": "",
+    "text": "Last week we learned about survey experiments. These are increasingly being conducted of convenience samples of online survey respondents. This brings questions about whether the results of experiments can generalize to the population of interest. When a finding can be generalized to a broader population, we say that it has external validity.\nThe lab explores the concept of external validity and its different flavors."
+  },
+  {
+    "objectID": "content/06_content.html#overview",
+    "href": "content/06_content.html#overview",
+    "title": "Convenience Samples",
+    "section": "",
+    "text": "Last week we learned about survey experiments. These are increasingly being conducted of convenience samples of online survey respondents. This brings questions about whether the results of experiments can generalize to the population of interest. When a finding can be generalized to a broader population, we say that it has external validity.\nThe lab explores the concept of external validity and its different flavors."
+  },
+  {
+    "objectID": "content/06_content.html#reading",
+    "href": "content/06_content.html#reading",
+    "title": "Convenience Samples",
+    "section": "Reading",
+    "text": "Reading\n\n Munger, Kevin, Ishita Gopal, Jonathan Nagler, Josuah A. Tucker. 2021. “Accessibility and generalizability: Are social media effects moderated by age or digital literacy?” Research & Politics 8 (2)\n Coppock, Alexander, Thomas J. Leeper, and Kevin J. Mullinix. 2018. “Generalizability of heterogeneous treatment effect estimates across samples.” Proceedings of the National Academy of Sciences 115 (49): 12441-12446"
+  },
+  {
+    "objectID": "content/06_content.html#slides",
+    "href": "content/06_content.html#slides",
+    "title": "Convenience Samples",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/06_content.html#lab",
+    "href": "content/06_content.html#lab",
+    "title": "Convenience Samples",
+    "section": "Lab",
+    "text": "Lab\nExternal validity"
+  },
+  {
+    "objectID": "content/04_content.html",
+    "href": "content/04_content.html",
+    "title": "Week 4: Sensitive Questions",
+    "section": "",
+    "text": "When surveys deal with sensitive topics, there is a chance that respondents conceal the truth in their answers. We call this sensitivity bias. This week, we review research designs that seek to reduce sensitivity biases by asking sensitive questions indirectly. Asking indirect questions takes attention away from the sensitive attitude of interest and ensures respondent anonymity.\nThe takeaway for this week is that these techniques reduce sensitivity bias, but they do so at the expense of statistical precision, so they may not always improve our ability to measure sensitive attitudes and behaviors. We illustrate this point in the lab."
+  },
+  {
+    "objectID": "content/04_content.html#overview",
+    "href": "content/04_content.html#overview",
+    "title": "Week 4: Sensitive Questions",
+    "section": "",
+    "text": "When surveys deal with sensitive topics, there is a chance that respondents conceal the truth in their answers. We call this sensitivity bias. This week, we review research designs that seek to reduce sensitivity biases by asking sensitive questions indirectly. Asking indirect questions takes attention away from the sensitive attitude of interest and ensures respondent anonymity.\nThe takeaway for this week is that these techniques reduce sensitivity bias, but they do so at the expense of statistical precision, so they may not always improve our ability to measure sensitive attitudes and behaviors. We illustrate this point in the lab."
+  },
+  {
+    "objectID": "content/04_content.html#reading",
+    "href": "content/04_content.html#reading",
+    "title": "Week 4: Sensitive Questions",
+    "section": "Reading",
+    "text": "Reading\n\n RD sections 8-9, 17\n Blair, Graeme. 2015. “Survey Methods for Sensitive Topics.” Comparative Politics Newsletter 12 (44): 12-16\n Creighton, Matthew J. and Amaney Jamal. 2015. “Does Islam play a role in anti-immigrant sentiment? An experimental approach.” Social Science Research 53 (1): 89-103\n Oliveros, Virginia and Daniel W. Gingerich. 2020. “Lying About Corruption in Surveys: Evidence from a Joint Response Model.” International Journal of Public Opinion Research 32 (2): 384-395"
+  },
+  {
+    "objectID": "content/04_content.html#slides",
+    "href": "content/04_content.html#slides",
+    "title": "Week 4: Sensitive Questions",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/04_content.html#lab",
+    "href": "content/04_content.html#lab",
+    "title": "Week 4: Sensitive Questions",
+    "section": "Lab",
+    "text": "Lab\nReducing sensitivity bias"
+  },
+  {
+    "objectID": "content/02_content.html",
+    "href": "content/02_content.html",
+    "title": "Week 2: Representative Surveys",
+    "section": "",
+    "text": "We start the topic of public opinion with representative surveys. As the name suggests, a representative survey is administered to a sample of respondents that resemble the demographic characteristics of the underlying population.\nThe punchline of this week is that conducting a true representative survey via random sampling is near impossible. Instead, most surveys use some form of quota or stratified sampling to ensure that the sample obtained resembles the population of interest.\nThe lab assignment for this week will be a guided introduction to R. By the end, we will compare different sampling techniques."
+  },
+  {
+    "objectID": "content/02_content.html#overview",
+    "href": "content/02_content.html#overview",
+    "title": "Week 2: Representative Surveys",
+    "section": "",
+    "text": "We start the topic of public opinion with representative surveys. As the name suggests, a representative survey is administered to a sample of respondents that resemble the demographic characteristics of the underlying population.\nThe punchline of this week is that conducting a true representative survey via random sampling is near impossible. Instead, most surveys use some form of quota or stratified sampling to ensure that the sample obtained resembles the population of interest.\nThe lab assignment for this week will be a guided introduction to R. By the end, we will compare different sampling techniques."
+  },
+  {
+    "objectID": "content/02_content.html#reading",
+    "href": "content/02_content.html#reading",
+    "title": "Week 2: Representative Surveys",
+    "section": "Reading",
+    "text": "Reading\n\n RD sections 1-4\n Schwarz, Norbert. 1999. “Self-reports: How the questions shape the answers.” American Psychologist 54 (2): 93-105\n Stephenson, Laura B., Allison Harell, Daniel Rubenson, and Peter John Loewen. 2021. “Measuring Preferences and Behaviors in the 2019 Canadian Election Study.” Canadian Journal of Political Science/Revue Canadienne de science politique"
+  },
+  {
+    "objectID": "content/02_content.html#slides",
+    "href": "content/02_content.html#slides",
+    "title": "Week 2: Representative Surveys",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/02_content.html#lab",
+    "href": "content/02_content.html#lab",
+    "title": "Week 2: Representative Surveys",
+    "section": "Lab",
+    "text": "Lab\nIntro to R and sampling from populations \n\n\n\n\n\n\nDue\n\n\n\nFriday, January 20, 5 PM"
+  },
+  {
+    "objectID": "content/01_content.html",
+    "href": "content/01_content.html",
+    "title": "Week 1: Introduction",
+    "section": "",
+    "text": "We go over the course theme, requirements, and tips to succeed.\nThe lab assignment for this week is a freebie. You will install R and RStudio and learn a bit about the project oriented workflow. This will be helpful to keep your work on the weekly lab assignments organized."
+  },
+  {
+    "objectID": "content/01_content.html#overview",
+    "href": "content/01_content.html#overview",
+    "title": "Week 1: Introduction",
+    "section": "",
+    "text": "We go over the course theme, requirements, and tips to succeed.\nThe lab assignment for this week is a freebie. You will install R and RStudio and learn a bit about the project oriented workflow. This will be helpful to keep your work on the weekly lab assignments organized."
+  },
+  {
+    "objectID": "content/01_content.html#reading",
+    "href": "content/01_content.html#reading",
+    "title": "Week 1: Introduction",
+    "section": "Reading",
+    "text": "Reading\nIt’s the first day. No reading!"
+  },
+  {
+    "objectID": "content/01_content.html#slides",
+    "href": "content/01_content.html#slides",
+    "title": "Week 1: Introduction",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/01_content.html#lab",
+    "href": "content/01_content.html#lab",
+    "title": "Week 1: Introduction",
+    "section": "Lab",
+    "text": "Lab\nTBD\n\n\n\n\n\n\nDue\n\n\n\nMonday, January 15, 5 PM"
+  },
+  {
+    "objectID": "content/03_content.html",
+    "href": "content/03_content.html",
+    "title": "Week 3: Panel Surveys",
+    "section": "",
+    "text": "Sign up for final project group using this form \nPanel surveys are surveys where the same respondents are asked questions multiple times. Sometimes these repeat the same questions to understand shifts in public opinion and the effect of events in between waves.\nAs with last week, the takeaway is that panel surveys are expensive and risk missing subjects across waves, this is called panel attrition. With fixed budgets, one may wonder if we are better off just conducting a one-shot survey, also called a cross-section with an increased sample size.\nWe have no new lab assignment this week. Instead, we will spend some time revisiting the lab from last week. I plan to spend some time comparing one-shot and panel surveys with simulations."
+  },
+  {
+    "objectID": "content/03_content.html#overview",
+    "href": "content/03_content.html#overview",
+    "title": "Week 3: Panel Surveys",
+    "section": "",
+    "text": "Sign up for final project group using this form \nPanel surveys are surveys where the same respondents are asked questions multiple times. Sometimes these repeat the same questions to understand shifts in public opinion and the effect of events in between waves.\nAs with last week, the takeaway is that panel surveys are expensive and risk missing subjects across waves, this is called panel attrition. With fixed budgets, one may wonder if we are better off just conducting a one-shot survey, also called a cross-section with an increased sample size.\nWe have no new lab assignment this week. Instead, we will spend some time revisiting the lab from last week. I plan to spend some time comparing one-shot and panel surveys with simulations."
+  },
+  {
+    "objectID": "content/03_content.html#reading",
+    "href": "content/03_content.html#reading",
+    "title": "Week 3: Panel Surveys",
+    "section": "Reading",
+    "text": "Reading\n\n RD sections 5-7, 15\n Esaiasson, Peter and Mikael Persson. 2014. “Does Studying Political Science Affect Civic Attitudes?: A Panel Comparison of Students of Politics, Law, and Mass Communication.” Journal of Political Science Education 10 (4): 375-385\n Claes, Ellen, and Marc Hooghe. 2017. “The Effect of Political Science Education on Political Trust and Interest: Results from a 5-year Panel Study.” Journal of Political Science Education 13 (1): 33-45"
+  },
+  {
+    "objectID": "content/03_content.html#slides",
+    "href": "content/03_content.html#slides",
+    "title": "Week 3: Panel Surveys",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/03_content.html#lab",
+    "href": "content/03_content.html#lab",
+    "title": "Week 3: Panel Surveys",
+    "section": "Lab",
+    "text": "Lab\nNo new lab! We will revisit the lab from last week."
+  },
+  {
+    "objectID": "content/05_content.html",
+    "href": "content/05_content.html",
+    "title": "Survey Experiments",
+    "section": "",
+    "text": "Some of the techniques we discussed last week to reduce sensitivity bias were survey experiments. A survey experiment uses random assignment to administer different pieces of information to respondents, and then compares changes in response to a common outcome. This week, we formalize the potential outcomes framework as a way to establish functional relationships in a model. This framework is useful to understand what we can learn in experiments, survey experiments included.\nThe lab explores the properties of some commonly used survey experimental designs."
+  },
+  {
+    "objectID": "content/05_content.html#overview",
+    "href": "content/05_content.html#overview",
+    "title": "Survey Experiments",
+    "section": "",
+    "text": "Some of the techniques we discussed last week to reduce sensitivity bias were survey experiments. A survey experiment uses random assignment to administer different pieces of information to respondents, and then compares changes in response to a common outcome. This week, we formalize the potential outcomes framework as a way to establish functional relationships in a model. This framework is useful to understand what we can learn in experiments, survey experiments included.\nThe lab explores the properties of some commonly used survey experimental designs."
+  },
+  {
+    "objectID": "content/05_content.html#reading",
+    "href": "content/05_content.html#reading",
+    "title": "Survey Experiments",
+    "section": "Reading",
+    "text": "Reading\n\n RD section 10\n Tomz, Michael R. and Jessica L. P. Weeks. 2013. “Public Opinion and the Democratic Peace.” American Political Science Review 107 (4): 849-865\n Eggers, Andrew C., Nick Vivyan, and Markus Wagner. 2018. “Corruption, Accountability, and Gender: Do Female Politicians Face Higher Standards in Public Life?” Journal of Politics 80 (1): 321-326"
+  },
+  {
+    "objectID": "content/05_content.html#slides",
+    "href": "content/05_content.html#slides",
+    "title": "Survey Experiments",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/05_content.html#lab",
+    "href": "content/05_content.html#lab",
+    "title": "Survey Experiments",
+    "section": "Lab",
+    "text": "Lab\nSurvey experimental designs"
+  },
+  {
+    "objectID": "content/08_content.html",
+    "href": "content/08_content.html",
+    "title": "Evidence-Informed Policy",
+    "section": "",
+    "text": "This week we change topics. We’ll start our discussion of public policy with an introduction to the evidence-informed policy movement. This movement emerges from collaborations between governments and academics using cutting-edge statistical techniques to produce more credible evidence to determine what policies work, where, and why.\nThe lab discusses hypothesis testing, a commonly used approach to quantify statements on whether a policy works."
+  },
+  {
+    "objectID": "content/08_content.html#overview",
+    "href": "content/08_content.html#overview",
+    "title": "Evidence-Informed Policy",
+    "section": "",
+    "text": "This week we change topics. We’ll start our discussion of public policy with an introduction to the evidence-informed policy movement. This movement emerges from collaborations between governments and academics using cutting-edge statistical techniques to produce more credible evidence to determine what policies work, where, and why.\nThe lab discusses hypothesis testing, a commonly used approach to quantify statements on whether a policy works."
+  },
+  {
+    "objectID": "content/08_content.html#reading",
+    "href": "content/08_content.html#reading",
+    "title": "Evidence-Informed Policy",
+    "section": "Reading",
+    "text": "Reading\n\n RD sections 11-13\n Bowers, Jake, and Paul F. Testa. 2019. “Better Government, Better Science: The Promise of and Challenges Facing the Evidence-Informed Policy Movement.” Annual Review of Political Science 22: 521-542"
+  },
+  {
+    "objectID": "content/08_content.html#slides",
+    "href": "content/08_content.html#slides",
+    "title": "Evidence-Informed Policy",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/08_content.html#lab",
+    "href": "content/08_content.html#lab",
+    "title": "Evidence-Informed Policy",
+    "section": "Lab",
+    "text": "Lab\nHypothesis testing"
+  },
+  {
+    "objectID": "content/10_content.html",
+    "href": "content/10_content.html",
+    "title": "Field Experiments II",
+    "section": "",
+    "text": "This is the second week of field experiments. We discuss block randomization and pre-post designs as variants from the canonical design. The Diaz and Rossiter (2023) reading is a bit technical, focus on understanding what block randomization and pre-post designs are. I suggest paying attention to sections 1 through 3 and then skimming the rest.\nThe lab focuses on the trade-offs of adopting these research design variants."
+  },
+  {
+    "objectID": "content/10_content.html#overview",
+    "href": "content/10_content.html#overview",
+    "title": "Field Experiments II",
+    "section": "",
+    "text": "This is the second week of field experiments. We discuss block randomization and pre-post designs as variants from the canonical design. The Diaz and Rossiter (2023) reading is a bit technical, focus on understanding what block randomization and pre-post designs are. I suggest paying attention to sections 1 through 3 and then skimming the rest.\nThe lab focuses on the trade-offs of adopting these research design variants."
+  },
+  {
+    "objectID": "content/10_content.html#reading",
+    "href": "content/10_content.html#reading",
+    "title": "Field Experiments II",
+    "section": "Reading",
+    "text": "Reading\n\n RD sections 20-22\n Kalla, Joshua, Frances Rosenbluth, and Dawn Langan Teele. 2018. “Are You My Mentor? A Field Experiment on Gender, Ethnicity, and Political Self-Starters.” Journal of Politics 80 (1): 337-341\n Diaz, Gustavo, and Erin Rossiter. 2023. “Balancing Precision and Retention in Experimental Design.” Working Paper"
+  },
+  {
+    "objectID": "content/10_content.html#slides",
+    "href": "content/10_content.html#slides",
+    "title": "Field Experiments II",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/10_content.html#lab",
+    "href": "content/10_content.html#lab",
+    "title": "Field Experiments II",
+    "section": "Lab",
+    "text": "Lab\nField experimental designs II"
+  },
+  {
+    "objectID": "content/12_content.html",
+    "href": "content/12_content.html",
+    "title": "Week 12: NO CLASS DUE TO INSTRUCTOR TRAVEL",
+    "section": "",
+    "text": "I have to cancel our meeting for this week. The course content has shifted one week.\nYou can participate in the following optional activities to improve your grade:\n\nRedo one of your previously submitted labs, or complete a lab that you missed\nSubmit a response paper for one of the weeks that you may have missed\n\nYou can do up to one lab and up to one response paper. These are due on April 2 at 11:59 PM.\nI hope this helps to make a smoother end of the semester."
+  },
+  {
+    "objectID": "content/12_content.html#overview",
+    "href": "content/12_content.html#overview",
+    "title": "Week 12: NO CLASS DUE TO INSTRUCTOR TRAVEL",
+    "section": "",
+    "text": "I have to cancel our meeting for this week. The course content has shifted one week.\nYou can participate in the following optional activities to improve your grade:\n\nRedo one of your previously submitted labs, or complete a lab that you missed\nSubmit a response paper for one of the weeks that you may have missed\n\nYou can do up to one lab and up to one response paper. These are due on April 2 at 11:59 PM.\nI hope this helps to make a smoother end of the semester."
+  },
+  {
+    "objectID": "content/14_content.html",
+    "href": "content/14_content.html",
+    "title": "Quasi-experiments II",
+    "section": "",
+    "text": "We continue the conversation on quasi-experiments. This time we focus on difference-in-differences, a research design that relies on repeated observations of units before and after a policy is implemented to make claims about cause and effect. Unlike the previous week, we are not pretending that our data looks as if an experiment was conducted.\nThe lab discusses difference-in-differences designs."
+  },
+  {
+    "objectID": "content/14_content.html#overview",
+    "href": "content/14_content.html#overview",
+    "title": "Quasi-experiments II",
+    "section": "",
+    "text": "We continue the conversation on quasi-experiments. This time we focus on difference-in-differences, a research design that relies on repeated observations of units before and after a policy is implemented to make claims about cause and effect. Unlike the previous week, we are not pretending that our data looks as if an experiment was conducted.\nThe lab discusses difference-in-differences designs."
+  },
+  {
+    "objectID": "content/14_content.html#reading",
+    "href": "content/14_content.html#reading",
+    "title": "Quasi-experiments II",
+    "section": "Reading",
+    "text": "Reading\n\n RD section 16\n Leninger, Arndt, Marie-Lou Sohnius, Thorsten Faas, Sigrid Roßteutscher, and Armin Schäfer. 2022. “Temporary Disenfranchisement: Negative Side Effects of Lowering the Voting Age.” American Political Science Review"
+  },
+  {
+    "objectID": "content/14_content.html#slides",
+    "href": "content/14_content.html#slides",
+    "title": "Quasi-experiments II",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n\n\nNavigation\n\n\n\nClick on the frame below and use the arrows to navigate. You can type ? (or shift + /) to see useful commands.\n\n\n\nYour browser does not support frame view, please use the links below.\n\n\n Open in a new window  Download PDF"
+  },
+  {
+    "objectID": "content/14_content.html#lab",
+    "href": "content/14_content.html#lab",
+    "title": "Quasi-experiments II",
+    "section": "Lab",
+    "text": "Lab\nQuasi-experimental designs II"
   },
   {
     "objectID": "evaluation.html",
@@ -700,13 +609,6 @@
     "text": "Why public opinion and policy?\n\n\nBoth are important for the operation of government and adjacent organizations\n\n\n\n\nWhy together?\n\n\n\n\nBoth are important and difficult/expensive to get right\n\n\n\n\nMinimize mistakes before conducting a study"
   },
   {
-    "objectID": "slides/01_slides.html#was-this-a-mistake",
-    "href": "slides/01_slides.html#was-this-a-mistake",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
-    "section": "Was this a mistake?",
-    "text": "Was this a mistake?\n\nNo wrong answers!"
-  },
-  {
     "objectID": "slides/01_slides.html#content-warning-fa-skull-crossbones",
     "href": "slides/01_slides.html#content-warning-fa-skull-crossbones",
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
@@ -749,6 +651,27 @@
     "text": "Computer access\n\nWork on assignments during our weekly meetings and beyond\n + RStudio works on most laptops and has a cloud option\nSee popw24.gustavodiaz.org/resources for installation guides\nComputers in the classroom should work\nComputer labs open when courses are not scheduled"
   },
   {
+    "objectID": "slides/01_slides.html#assignments",
+    "href": "slides/01_slides.html#assignments",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Assignments",
+    "text": "Assignments\n\nAttendance and participation\nWeekly lab assignments, due on Mondays at 5 PM\nResponse papers, due on Wednesdays at 8:30 PM\nOptional final project: Pre-analysis plan, due April 25 at 11:59 PM\n\n\n\nSee the syllabus for details and policies"
+  },
+  {
+    "objectID": "slides/01_slides.html#contract-grading",
+    "href": "slides/01_slides.html#contract-grading",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Contract grading",
+    "text": "Contract grading\n\nTo get a B+:\n\nMiss no more than 3 class meetings\n9 out of 11 weekly lab assignments\n3 response papers satisfactorily\nBe delayed/late on no more than one assignment\nHave satisfactory participation status\n\n\n\n\nSee the evaluation page for specifics"
+  },
+  {
+    "objectID": "slides/01_slides.html#grading-policies",
+    "href": "slides/01_slides.html#grading-policies",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Grading policies",
+    "text": "Grading policies\n\nImprove your grade by completing more assignments or the final project\nMissing/delayed/late assignments decrease your grade\nMake up work only if necessary\n\n\n\nSee the evaluation page for specifics"
+  },
+  {
     "objectID": "slides/01_slides.html#semester-at-a-glance",
     "href": "slides/01_slides.html#semester-at-a-glance",
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
@@ -775,62 +698,6 @@
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": "Stay in touch!",
     "text": "Stay in touch!\n\n KTH 505\n diazg2@mcmaster.ca\n calendly.com/diazg/student-hours\n\n\n\nInfo also in course website"
-  },
-  {
-    "objectID": "slides/01_slides.html#take-home-part-research-interests-survey",
-    "href": "slides/01_slides.html#take-home-part-research-interests-survey",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
-    "section": "Take home part: Research interests survey",
-    "text": "Take home part: Research interests survey\n\nLink available before the end of today\nDue on Friday, January 13, at 5 PM\nI will use this to create group categories that you will sign up for"
-  },
-  {
-    "objectID": "slides/01_slides.html#now-install-and-play-around-with-r",
-    "href": "slides/01_slides.html#now-install-and-play-around-with-r",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
-    "section": "Now: Install and play around with R",
-    "text": "Now: Install and play around with R\npopw23.gustavodiaz.org/resources.html"
-  },
-  {
-    "objectID": "slides/01_slides.html#example",
-    "href": "slides/01_slides.html#example",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
-    "section": "Example",
-    "text": "Example\n\n\n\n\n\n\n\nSource: https://www.cbc.ca/news/health/private-health-care-taxpayer-money-1.6777470"
-  },
-  {
-    "objectID": "slides/01_slides.html#assignments",
-    "href": "slides/01_slides.html#assignments",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
-    "section": "Assignments",
-    "text": "Assignments\n\nAttendance and participation\nWeekly lab assignments, due on Mondays at 5 PM\nResponse papers, due on Wednesdays at 8:30 PM\nOptional final project: Pre-analysis plan, due April 25 at 11:59 PM\n\n\n\nSee the syllabus for details and policies"
-  },
-  {
-    "objectID": "slides/01_slides.html#contract-grading",
-    "href": "slides/01_slides.html#contract-grading",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
-    "section": "Contract grading",
-    "text": "Contract grading\n\nTo get a B+:\n\nMiss no more than 3 class meetings\n9 out of 11 weekly lab assignments\n3 response papers satisfactorily\nBe delayed/late on no more than one assignment\nHave satisfactory participation status\n\n\n\n\nSee the evaluation page for specifics"
-  },
-  {
-    "objectID": "slides/01_slides.html#what-affects-your-grade",
-    "href": "slides/01_slides.html#what-affects-your-grade",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
-    "section": "What affects your grade?",
-    "text": "What affects your grade?\n\nImprove your grade by completing more assignments or the final project\nMissing/late assignments decrease your grade\n\n\n\nSee the evaluation for specifics"
-  },
-  {
-    "objectID": "slides/01_slides.html#grading-policies",
-    "href": "slides/01_slides.html#grading-policies",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
-    "section": "Grading policies",
-    "text": "Grading policies\n\nImprove your grade by completing more assignments or the final project\nMissing/delayed/late assignments decrease your grade\nMake up work only if necessary\n\n\n\nSee the evaluation page for specifics"
-  },
-  {
-    "objectID": "slides/01_slides.html",
-    "href": "slides/01_slides.html",
-    "title": "Materials",
-    "section": "",
-    "text": "Prof. Gustavo Diaz\nDepartment of Political Science\nMcMaster University\npopw24.gustavodiaz.org"
   },
   {
     "objectID": "slides/01_slides.html#now-install-and-get-acquainted-with-r",

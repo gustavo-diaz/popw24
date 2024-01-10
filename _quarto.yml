@@ -1,10 +1,17 @@
 project:
   type: website
   output-dir: docs
-  # render:
-  #   - "!files/"
-  # resources:
-  #   - "files/"
+  render: 
+    - "*.qmd"
+    - "!labs/"
+    - "!resources/"
+  resources:
+    - "slides/"
+    - "labs/*.Rmd"
+    - "resources/"
+    - "CNAME"
+  
+
   
 # freezing seems to bork font size
 execute:

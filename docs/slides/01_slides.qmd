@@ -1,0 +1,266 @@
+---
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    slide-number: false
+---
+
+```{r setup, message=FALSE, warning=FALSE, include=FALSE}
+library(tidyverse)
+library(pander)
+```
+
+::: {style="text-align: center"}
+## Public Opinion and Policy {.center background-color="#ac1455"}
+
+### POLSCI 4SS3
+
+### Winter 2024
+
+
+**Prof. Gustavo Diaz**\
+Department of Political Science\
+McMaster University\
+[popw24.gustavodiaz.org](https://popw24.gustavodiaz.org/)
+:::
+
+## Welcome!
+
+This course is about **quantitative research designs** applied to **public opinion and policy**
+
+. . .
+
+-   **Quantitative:** Data analysis using statistics and statistical programming software
+
+. . .
+
+-   **Research design:** Thinking about how research is conducted
+
+## Welcome! {visibility="uncounted"}
+
+This course is about **quantitative research designs** applied to **public opinion and policy**
+
+-   **Public opinion:** Views among the "general" public
+
+. . .
+
+-   **(Public) policy:** Government actions and how to carry them (decision making)
+
+## Why public opinion and policy?
+
+. . .
+
+-   Both are important for the operation of government and adjacent organizations
+
+. . .
+
+-   Why ***together***?
+
+. . .
+
+-   Both are important and difficult/expensive to get right
+
+. . .
+
+-   Minimize mistakes **before** conducting a study
+
+---
+
+![](figs/private_clinics.png){fig-align="center" width=70%}
+
+::: aside
+**Source:** <https://www.cbc.ca/news/health/private-health-care-taxpayer-money-1.6777470>
+:::
+
+## Content warning {{< fa skull-crossbones >}}
+
+-   We will rely heavily on **math** and **statistics** to think about the properties of a research design
+
+. . .
+
+-   You will be asked to:
+
+    -   Read technical writing
+    -   Understand and explain statistical concepts
+    -   Apply them in writing and coding
+    -   Write a statistics-heavy final project `(optional)`
+
+::: {style="text-align: center"}
+# Materials {.center background-color="#FDBF57"}
+:::
+
+## Course website
+
+[popw24.gustavodiaz.org](https://popw24.gustavodiaz.org/)
+
+![](figs/website.png){fig-align="center"}
+
+## Required reading
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](figs/rd_book.jpg){fig-align="center" width=90%}
+:::
+
+::: {.column width="60%"}
+
+-   **FREE ONLINE. DO NOT BUY**
+
+-   Short chapters with math and code
+
+-   Read 1-3 sections + 1-2 research articles per week
+:::
+
+::::
+
+::: aside
+[book.declaredesign.org](https://book.declaredesign.org/)
+:::
+
+## Suggested reading
+
+:::: {.columns}
+
+::: {.column width="60%"}
+- **ALSO FREE ONLINE. DO NOT BUY**
+
+- Second edition
+
+- Good to consult while working on lab assignments
+
+
+:::
+
+::: {.column width="40%"}
+![](figs/r4ds.jpg){fig-align="center"}
+:::
+
+::::
+
+::: aside
+[r4ds.hadley.nz](https://r4ds.hadley.nz/)
+:::
+
+
+## Software
+
+[{{< fa brands r-project >}}](https://www.r-project.org/) and [RStudio](https://posit.co/downloads/)
+
+![](figs/rstudio_ide.png){fig-align="center"}
+
+## Computer access
+
+-   Work on assignments during our weekly meetings and beyond
+
+-   {{< fa brands r-project >}} + RStudio works on most laptops and has a cloud option
+
+-   See [popw24.gustavodiaz.org/resources](https://popw24.gustavodiaz.org/resources.html) for installation guides
+
+-   Computers in the classroom should work
+
+-   Computer labs open when courses are not scheduled [{{< fa arrow-up-right-from-square >}}](https://uts.mcmaster.ca/services/teaching-and-learning/computer-labs/)
+
+::: {style="text-align: center"}
+# Evaluation {.center background-color="#FDBF57"}
+:::
+
+## Assignments
+
+1. Attendance and participation
+2. Weekly lab assignments, due on Mondays at 5 PM
+3. Response papers, due on Wednesdays at 8:30 PM
+4. Optional final project: Pre-analysis plan, due April 25 at 11:59 PM
+
+::: aside
+See the [syllabus](https://popw24.gustavodiaz.org/syllabus.html) for details and policies
+:::
+
+## Contract grading
+
+- To get a B+:
+
+    - Miss no more than 3 class meetings
+    - 9 out of 11 weekly lab assignments
+    - 3 response papers satisfactorily
+    - Be delayed/late on no more than one assignment
+    - Have satisfactory participation status
+    
+::: aside
+See the [evaluation](https://popw24.gustavodiaz.org/evaluation.html) page for specifics
+:::
+    
+## Grading policies
+
+- Improve your grade by completing more assignments or the final project
+
+- Missing/delayed/late assignments decrease your grade
+
+- Make up work **only if necessary**
+
+
+::: aside
+See the [evaluation](https://popw24.gustavodiaz.org/evaluation.html) page for specifics
+:::
+
+::: {style="text-align: center"}
+# Schedule {.center background-color="#FDBF57"}
+:::
+
+## Semester at a glance
+
+-   **First half:** Focus on designs for public opinion (surveys)
+
+-   **Second half:** Focus on public policy (experiments, RCTs, AB testing)
+
+- Weekly **reading** and **lab assignments**
+
+- Choose weeks to write **response papers** 
+
+- Choose whether to do **final project** by April 4
+
+## Class meeting
+
+-   Brief lecture (\< 30 min)
+
+-   Discussion (\~ 40 min)
+
+-   Break (10 min)
+
+-   Lab (Remaining time)
+
+
+::: {style="text-align: center"}
+# Tips {.center background-color="#FDBF57"}
+:::
+
+## Doing well in this course
+
+-   Content is cumulative. Stay engaged!
+
+-   Work with others, especially on coding
+
+-   Come to class prepared to work backwards from **findings** to **research design choices**
+
+-   See also [popw24.gustavodiaz.org/resources](https://popw24.gustavodiaz.org/resources.html)
+
+## Stay in touch!
+
+-   {{< fa university >}} KTH 505
+-   {{< fa envelope >}} <a href="mailto:diazg2@mcmaster.ca">diazg2@mcmaster.ca</a>
+-   {{< fa calendar-check >}} [calendly.com/diazg/student-hours](https://calendly.com/diazg/student-hours)
+
+::: aside
+Info also in [course website](https://popw24.gustavodiaz.org/)
+:::
+
+::: {style="text-align: center"}
+# {{< fa laptop-code >}} Lab {.center background-color="#007096"}
+:::
+
+
+## Now: Install and get acquainted with R
+
+[popw24.gustavodiaz.org/content](https://popw24.gustavodiaz.org/content/)
+
+[popw24.gustavodiaz.org/resources](https://popw24.gustavodiaz.org/resources.html)
