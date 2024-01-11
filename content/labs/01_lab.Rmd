@@ -26,6 +26,8 @@ header-includes:
 fontsize: 12pt
 ---
 
+# Overview
+
 ```{r setup, include=FALSE}
 # This code chunk sets up the global options
 # It won't be visible when you knit to PDF
@@ -39,7 +41,9 @@ knitr::opts_chunk$set(echo = TRUE)
 # We want this for lab assignments
 ```
 
-# Overview
+
+
+
 
 The first lab will help you set up R and RStudio and create a working directory for this class on your computer or the cloud.
 
