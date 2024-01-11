@@ -42,9 +42,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-
-
-
 The first lab will help you set up R and RStudio and create a working directory for this class on your computer or the cloud.
 
 # Part 1: Set up R and RStudio
