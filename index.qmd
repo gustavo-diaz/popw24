@@ -20,7 +20,7 @@ In this website you will find all the course materials. Assignments must be subm
 - {{< fa user >}} &nbsp; [Dr. Gustavo Diaz](https://gustavodiaz.org/)
 - {{< fa university >}} &nbsp; KTH 505
 - {{< fa envelope >}} &nbsp; <a href="mailto:diazg2@mcmaster.ca">diazg2@mcmaster.ca</a>
-- {{< fa calendar-check >}} &nbsp; [Schedule a meeting](TBD)
+- {{< fa calendar-check >}} &nbsp; [Schedule a meeting](https://calendly.com/diazg/student-hours)
 
 ### Course details
 
