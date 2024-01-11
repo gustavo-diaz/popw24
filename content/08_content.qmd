@@ -1,6 +1,6 @@
 ---
 title: "Evidence-Informed Policy"
-date: "March 1, 2023"
+date: "February 29, 2023"
 format: html
 ---
 
@@ -19,16 +19,16 @@ The lab discusses hypothesis testing, a commonly used approach to quantify state
 
 ## Reading
 
-- [{{< fa book >}}]{style="color: #ac1455;"} [RD sections 11-13](https://book.declaredesign.org/redesigning.html)
+- {{< fa book >}} [RD sections 11-13](https://book.declaredesign.org/declaration-diagnosis-redesign/redesigning.html)
 
-- [{{< fa file-lines >}}]{style="color: #ac1455;"} Bowers, Jake, and Paul F. Testa. 2019. [“Better Government, Better Science: The Promise of and Challenges Facing the Evidence-Informed Policy Movement.”](https://doi.org/10.1146/annurev-polisci-050517-124041) *Annual Review of Political Science* 22: 521-542
+- {{< fa file-lines >}} Bowers, Jake, and Paul F. Testa. 2019. [“Better Government, Better Science: The Promise of and Challenges Facing the Evidence-Informed Policy Movement.”](https://doi.org/10.1146/annurev-polisci-050517-124041) *Annual Review of Political Science* 22: 521-542
 
 ## Slides
 
 ::: {.callout-tip}
 ## Navigation
 
-Click on the frame below and use the arrows to navigate. You can type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) to see useful commands.
+Click on the frame below and use the arrows to navigate. You can type <kbd class="text-info">?</kbd> (or <kbd class="text-info">shift</kbd> + <kbd class="text-info">/</kbd>) to see useful commands.
 :::
 
 ```{r show-slides, echo = FALSE, results = "asis"}
@@ -39,4 +39,10 @@ slide_buttons("/slides/08_slides")
 
 ## Lab
 
-[Hypothesis testing {{< fa laptop-code >}}](labs/08_lab.Rmd)
+Hypothesis testing {{< fa brands r-project >}} (coming soon!)
+
+::: {.callout-warning}
+## Due
+
+Monday, March 4, 5 PM
+:::

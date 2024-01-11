@@ -1,6 +1,6 @@
 ---
 title: "Week 2: Representative Surveys"
-date: "January 18, 2023"
+date: "January 18, 2024"
 format: html
 ---
 
@@ -11,19 +11,15 @@ source(here::here("R", "show_slides.R"))
 
 ## Overview
 
-We start the topic of public opinion with representative surveys. As the name suggests, a representative survey is administered to a sample of respondents that resemble the demographic characteristics of the underlying population.
+Before jumping into public opinion, we start with an overview of the MIDA framework presented in the textbook.
 
-The punchline of this week is that conducting a true representative survey via random sampling is near impossible. Instead, most surveys use some form of quota or stratified sampling to ensure that the sample obtained resembles the  population of interest.
+The MIDA framework approaches research design as a series of steps that can be encoded and, therefore, interrogated. This helps us think about how the results of a study may have changed if we had altered elements of its research design.
 
-The lab assignment for this week will be a guided introduction to R. By the end, we will compare different sampling techniques.
+The lab assignment for this week will be a guided introduction to R.
 
 ## Reading
 
-- [{{< fa book >}}]{style="color: #ac1455;"} [RD sections 1-4](https://book.declaredesign.org/)
-
-- [{{< fa file-lines >}}]{style="color: #ac1455;"} Schwarz, Norbert. 1999. [“Self-reports: How the questions shape the answers.”](https://dornsife.usc.edu/assets/sites/780/docs/99_ap_schwarz_self-reports.pdf) *American Psychologist* 54 (2): 93-105
-
-- [{{< fa file-lines >}}]{style="color: #ac1455;"} Stephenson, Laura B., Allison Harell, Daniel Rubenson, and Peter John Loewen. 2021. [“Measuring Preferences and Behaviors in the 2019 Canadian Election Study.”](https://doi.org/10.1017/S0008423920001006) *Canadian Journal of Political Science/Revue Canadienne de science politique*
+- {{< fa book >}} [RD sections 1-4](https://book.declaredesign.org/introduction/preface.html)
 
 
 ## Slides
@@ -31,7 +27,7 @@ The lab assignment for this week will be a guided introduction to R. By the end,
 ::: {.callout-tip}
 ## Navigation
 
-Click on the frame below and use the arrows to navigate. You can type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) to see useful commands.
+Click on the frame below and use the arrows to navigate. You can type <kbd class="text-info">?</kbd> (or <kbd class="text-info">shift</kbd> + <kbd class="text-info">/</kbd>) to see useful commands.
 :::
 
 ```{r show-slides, echo = FALSE, results = "asis"}
@@ -42,10 +38,10 @@ slide_buttons("/slides/02_slides")
 
 ## Lab
 
-[Intro to R and sampling from populations {{< fa laptop-code >}}](labs/02_lab.Rmd)
+Introduction to R and RStudio {{< fa brands r-project >}} (coming soon!)
 
 ::: {.callout-warning}
 ## Due
 
-Friday, January 20, 5 PM
+Monday, January 22, 5 PM
 :::

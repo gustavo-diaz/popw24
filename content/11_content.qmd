@@ -1,6 +1,6 @@
 ---
 title: "Beyond Experimentation"
-date: "March 22, 2023"
+date: "March 21, 2024"
 format: html
 ---
 
@@ -19,12 +19,12 @@ The lab illustrates these ideas by trying to compare experiments in different co
 
 ## Reading
 
-- [{{< fa book >}}]{style="color: #ac1455;"} [RD section 23](https://book.declaredesign.org/integration.html)
+- {{< fa book >}} [RD section 23](https://book.declaredesign.org/lifecycle/integration.html)
 
-- [{{< fa file-lines >}}]{style="color: #ac1455;"} Deaton, Angus, and Nancy Cartwright. 2018. [“Understanding and misunderstanding randomized controlled trials.”](https://doi.org/10.1016/j.socscimed.2017.12.005) *Social Science & Medicine* 210: 2-21
+- {{< fa file-lines >}} Deaton, Angus, and Nancy Cartwright. 2018. [“Understanding and misunderstanding randomized controlled trials.”](https://doi.org/10.1016/j.socscimed.2017.12.005) *Social Science & Medicine* 210: 2-21
 
 
-- [{{< fa file-lines >}}]{style="color: #ac1455;"} Slough, Tara, Daniel Rubenson, Ro’ee Levy, et al. 2021. [“Adoption of community monitoring improves common pool resource management across contexts.”](https://doi.org/10.1073/pnas.2015367118) *Proceedings of the National Academy of Sciences* 118 (29): e2015367118
+- {{< fa file-lines >}} Slough, Tara, Daniel Rubenson, Ro’ee Levy, et al. 2021. [“Adoption of community monitoring improves common pool resource management across contexts.”](https://doi.org/10.1073/pnas.2015367118) *Proceedings of the National Academy of Sciences* 118 (29): e2015367118
 
 
 
@@ -33,7 +33,7 @@ The lab illustrates these ideas by trying to compare experiments in different co
 ::: {.callout-tip}
 ## Navigation
 
-Click on the frame below and use the arrows to navigate. You can type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) to see useful commands.
+Click on the frame below and use the arrows to navigate. You can type <kbd class="text-info">?</kbd> (or <kbd class="text-info">shift</kbd> + <kbd class="text-info">/</kbd>) to see useful commands.
 :::
 
 ```{r show-slides, echo = FALSE, results = "asis"}
@@ -43,4 +43,11 @@ slide_buttons("/slides/11_slides")
 
 ## Lab
 
-[Limitations of experiments {{< fa laptop-code >}}](labs/11_lab.Rmd)
+Limitations of experiments {{< fa brands r-project >}} (coming soon!)
+
+::: {.callout-warning}
+## Due
+
+Monday, March 25, 5 PM
+:::
+

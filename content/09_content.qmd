@@ -1,6 +1,6 @@
 ---
 title: "Field Experiments I"
-date: "March 8, 2023"
+date: "March 7, 2023"
 format: html
 ---
 
@@ -21,11 +21,11 @@ The lab focuses on the stepped-wedge or staggered adoption design.
 
 ## Reading
 
-- [{{< fa book >}}]{style="color: #ac1455;"} [RD section 18](https://book.declaredesign.org/experimental-causal.html)
+- {{< fa book >}} [RD section 18](https://book.declaredesign.org/library/experimental-causal.html)
 
-- [{{< fa file-lines >}}]{style="color: #ac1455;"} Banerjee, Abhijit, Esther Duflo, and Garima Sharma. 2021. [“Long-Term Effects of the Targeting the Ultra Poor Program.”](https://www.nber.org/system/files/working_papers/w28074/w28074.pdf) *American Economic Review: Insights* 3 (4): 471-486
+- {{< fa file-lines >}} Banerjee, Abhijit, Esther Duflo, and Garima Sharma. 2021. [“Long-Term Effects of the Targeting the Ultra Poor Program.”](https://www.nber.org/system/files/working_papers/w28074/w28074.pdf) *American Economic Review: Insights* 3 (4): 471-486
 
-- [{{< fa file-lines >}}]{style="color: #ac1455;"} Pennycook, Gordon, Ziv Epstein, Mohsen Mosleh, Antonio A. Arechar, Dean Eckles, and David G. Rand. 2021. [“Shifting attention to accuracy can reduce misinformation online.”](https://www.nature.com/articles/s41586-021-03344-2) *Nature* 592: 590-595
+- {{< fa file-lines >}} Pennycook, Gordon, Ziv Epstein, Mohsen Mosleh, Antonio A. Arechar, Dean Eckles, and David G. Rand. 2021. [“Shifting attention to accuracy can reduce misinformation online.”](https://www.nature.com/articles/s41586-021-03344-2) *Nature* 592: 590-595
 
 
 ## Slides
@@ -33,7 +33,7 @@ The lab focuses on the stepped-wedge or staggered adoption design.
 ::: {.callout-tip}
 ## Navigation
 
-Click on the frame below and use the arrows to navigate. You can type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) to see useful commands.
+Click on the frame below and use the arrows to navigate. You can type <kbd class="text-info">?</kbd> (or <kbd class="text-info">shift</kbd> + <kbd class="text-info">/</kbd>) to see useful commands.
 :::
 
 ```{r show-slides, echo = FALSE, results = "asis"}
@@ -43,4 +43,10 @@ slide_buttons("/slides/09_slides")
 
 ## Lab
 
-[Field experimental designs I {{< fa laptop-code >}}](labs/09_lab.Rmd)
+Field experimental designs I {{< fa brands r-project >}} (coming soon!)
+
+::: {.callout-warning}
+## Due
+
+Monday, March 11, 5 PM
+:::

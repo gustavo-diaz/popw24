@@ -1,6 +1,6 @@
 ---
 title: "Field Experiments II"
-date: "March 15, 2023"
+date: "March 14, 2024"
 format: html
 ---
 
@@ -19,11 +19,11 @@ The lab focuses on the trade-offs of adopting these research design variants.
 
 ## Reading
 
-- [{{< fa book >}}]{style="color: #ac1455;"} [RD sections 20-22](https://book.declaredesign.org/research-design-lifecycle.html)
+- {{< fa book >}} [RD sections 20-22](https://book.declaredesign.org/lifecycle/)
 
-- [{{< fa file-lines >}}]{style="color: #ac1455;"} Kalla, Joshua, Frances Rosenbluth, and Dawn Langan Teele. 2018. [“Are You My Mentor? A Field Experiment on Gender, Ethnicity, and Political Self-Starters.”](https://doi.org/10.1086/693984) *Journal of Politics* 80 (1): 337-341
+- {{< fa file-lines >}}] Kalla, Joshua, Frances Rosenbluth, and Dawn Langan Teele. 2018. [“Are You My Mentor? A Field Experiment on Gender, Ethnicity, and Political Self-Starters.”](https://doi.org/10.1086/693984) *Journal of Politics* 80 (1): 337-341
 
-- [{{< fa file-lines >}}]{style="color: #ac1455;"} Diaz, Gustavo, and Erin Rossiter. 2023. [“Balancing Precision and Retention in Experimental Design.”](https://gustavodiaz.org/files/research/precision_retention.pdf) *Working Paper*
+- {{< fa file-lines >}}] Diaz, Gustavo, and Erin Rossiter. 2023. [“Balancing Precision and Retention in Experimental Design.”](https://gustavodiaz.org/files/research/precision_retention.pdf) *Working Paper*
 
 
 ## Slides
@@ -31,7 +31,7 @@ The lab focuses on the trade-offs of adopting these research design variants.
 ::: {.callout-tip}
 ## Navigation
 
-Click on the frame below and use the arrows to navigate. You can type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) to see useful commands.
+Click on the frame below and use the arrows to navigate. You can type <kbd class="text-info">?</kbd> (or <kbd class="text-info">shift</kbd> + <kbd class="text-info">/</kbd>) to see useful commands.
 :::
 
 ```{r show-slides, echo = FALSE, results = "asis"}
@@ -41,4 +41,10 @@ slide_buttons("/slides/10_slides")
 
 ## Lab
 
-[Field experimental designs II {{< fa laptop-code >}}](labs/10_lab.Rmd)
+Field experimental designs II {{< fa brands r-project >}} (coming soon!)
+
+::: {.callout-warning}
+## Due
+
+Monday, March 18, 5 PM
+:::

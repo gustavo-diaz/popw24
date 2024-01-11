@@ -1,9 +1,8 @@
 ---
 title: "Survey Experiments"
-date: "February 8, 2023"
+date: "February 8, 2025"
 format: html
 ---
-
 
 ```{r setup, echo = FALSE, results = "asis"}
 # Slide showing functions
@@ -16,22 +15,20 @@ Some of the techniques we discussed last week to reduce sensitivity bias were **
 
 The lab explores the properties of some commonly used survey experimental designs.
 
-
 ## Reading
 
-- [{{< fa book >}}]{style="color: #ac1455;"} [RD section 10](https://book.declaredesign.org/diagnosing-designs.html) 
- 
-- [{{< fa file-lines >}}]{style="color: #ac1455;"} Tomz, Michael R. and Jessica L. P. Weeks. 2013. [“Public Opinion and the Democratic Peace.”](https://doi.org/10.1017/S0003055413000488) *American Political Science Review* 107 (4): 849-865
+-   {{< fa book >}} [RD section 10](https://book.declaredesign.org/declaration-diagnosis-redesign/diagnosing-designs.html)
 
-- [{{< fa file-lines >}}]{style="color: #ac1455;"} Eggers, Andrew C., Nick Vivyan, and Markus Wagner. 2018. [“Corruption, Accountability, and Gender: Do Female Politicians Face Higher Standards in Public Life?”](https://doi.org/10.1086/694649) *Journal of Politics* 80 (1): 321-326
- 
+-   {{< fa file-lines >}} Tomz, Michael R. and Jessica L. P. Weeks. 2013. [“Public Opinion and the Democratic Peace.”](https://doi.org/10.1017/S0003055413000488) *American Political Science Review* 107 (4): 849-865
+
+-   {{< fa file-lines >}} Eggers, Andrew C., Nick Vivyan, and Markus Wagner. 2018. [“Corruption, Accountability, and Gender: Do Female Politicians Face Higher Standards in Public Life?”](https://doi.org/10.1086/694649) *Journal of Politics* 80 (1): 321-326
 
 ## Slides
 
-::: {.callout-tip}
+::: callout-tip
 ## Navigation
 
-Click on the frame below and use the arrows to navigate. You can type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) to see useful commands.
+Click on the frame below and use the arrows to navigate. You can type <kbd class="text-info">?</kbd> (or <kbd class="text-info">shift</kbd> + <kbd class="text-info">/</kbd>) to see useful commands.
 :::
 
 ```{r show-slides, echo = FALSE, results = "asis"}
@@ -39,7 +36,12 @@ show_slide("/slides/05_slides")
 slide_buttons("/slides/05_slides")
 ```
 
-
 ## Lab
 
-[Survey experimental designs {{< fa laptop-code >}}](labs/05_lab.Rmd)
+Survey experimental designs {{< fa brands r-project >}} (coming soon!)
+
+::: callout-warning
+## Due
+
+Monday, February 12, 5 PM
+:::

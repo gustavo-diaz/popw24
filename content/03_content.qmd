@@ -1,6 +1,6 @@
 ---
-title: "Week 3: Panel Surveys"
-date: "January 25, 2023"
+title: "Week 3: Representative Surveys"
+date: "January 25, 2024"
 format: html
 ---
 
@@ -11,21 +11,22 @@ source(here::here("R", "show_slides.R"))
 
 ## Overview
 
-Sign up for final project group using [this form {{< fa file-pen >}}](https://forms.gle/6MpV3XfQjpvCd2pS6)
+We start the topic of public opinion with representative surveys. The main reason why social scientists conduct surveys is to infer real-world attitudes and behaviors. However, this presents a very difficulty measurement problem. How should questions be asked to produce an accurate measure of the attitude or behavior of interest?
 
-Panel surveys are surveys where the same respondents are asked questions multiple times. Sometimes these repeat the same questions to understand shifts in public opinion and the effect of events in between waves.
+As the name suggests, a representative survey is administered to a sample of respondents that resemble the demographic characteristics of the underlying population.
 
-As with last week, the takeaway is that panel surveys are expensive and risk missing subjects across waves, this is called panel attrition. With fixed budgets, one may wonder if we are better off just conducting a one-shot survey, also called a cross-section with an increased sample size.
+The punchline of this week is that conducting a true representative survey via random sampling is near impossible. Instead, most surveys use some form of quota or stratified sampling to ensure that the sample obtained resembles the  population of interest.
 
-We have no new lab assignment this week. Instead, we will spend some time revisiting the lab from last week. I plan to spend some time comparing one-shot and panel surveys with simulations.
+The lab assignment for this week will be a guided introduction to R. By the end, we will compare different sampling techniques.
 
 ## Reading
 
-- [{{< fa book >}}]{style="color: #ac1455;"} [RD sections 5-7, 15](https://book.declaredesign.org/declaring-designs.html) 
+- {{< fa book >}} [RD sections 5-7, 15](https://book.declaredesign.org/declaration-diagnosis-redesign/declaring-designs.html) 
 
-- [{{< fa file-lines >}}]{style="color: #ac1455;"} Esaiasson, Peter and Mikael Persson. 2014. [“Does Studying Political Science Affect Civic Attitudes?: A Panel Comparison of Students of Politics, Law, and Mass Communication.”](https://doi.org/10.1080/15512169.2014.948118) *Journal of Political Science Education* 10 (4): 375-385
+- {{< fa file-lines >}} Schwarz, Norbert. 1999. [“Self-reports: How the questions shape the answers.”](https://dornsife.usc.edu/assets/sites/780/docs/99_ap_schwarz_self-reports.pdf) *American Psychologist* 54 (2): 93-105
 
-- [{{< fa file-lines >}}]{style="color: #ac1455;"} Claes, Ellen, and Marc Hooghe. 2017. [“The Effect of Political Science Education on Political Trust and Interest: Results from a 5-year Panel Study.”](https://doi.org/10.1080/15512169.2016.1171153) *Journal of Political Science Education* 13 (1): 33-45
+- {{< fa file-lines >}} Stephenson, Laura B., Allison Harell, Daniel Rubenson, and Peter John Loewen. 2021. [“Measuring Preferences and Behaviors in the 2019 Canadian Election Study.”](https://doi.org/10.1017/S0008423920001006) *Canadian Journal of Political Science/Revue Canadienne de science politique*
+
 
 
 ## Slides
@@ -33,7 +34,7 @@ We have no new lab assignment this week. Instead, we will spend some time revisi
 ::: {.callout-tip}
 ## Navigation
 
-Click on the frame below and use the arrows to navigate. You can type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) to see useful commands.
+Click on the frame below and use the arrows to navigate. You can type <kbd class="text-info">?</kbd> (or <kbd class="text-info">shift</kbd> + <kbd class="text-info">/</kbd>) to see useful commands.
 :::
 
 ```{r show-slides, echo = FALSE, results = "asis"}
@@ -44,4 +45,10 @@ slide_buttons("/slides/03_slides")
 
 ## Lab
 
-No new lab! We will revisit the lab from last week.
+Sampling and descriptive inference {{< fa brands r-project >}} (coming soon!)
+
+::: {.callout-warning}
+## Due
+
+Monday, January 29, 5 PM
+:::
