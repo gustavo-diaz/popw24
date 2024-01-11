@@ -3,13 +3,12 @@ project:
   output-dir: docs
   render: 
     - "*.qmd"
-    - "!labs/"
-    - "!resources/"
+    - "!content/labs/"
   resources:
     - "slides/"
-    - "labs/"
+    - "content/labs/*.Rmd"
+    - "content/labs/*.pdf"
     - "resources/"
-    - "CNAME"
   
 
   
