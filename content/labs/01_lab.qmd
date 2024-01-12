@@ -1,0 +1,115 @@
+---
+title: "Lab 1: Getting Started"
+subtitle: "**Due:** Monday, January 15, 11:59 PM"
+author: 
+    - "**Name:** [Your name here]"
+    - "**Mac ID:** [The first half of your Mac email address]"
+format: 
+     pdf:
+       documentclass: article
+fontsize: 12pt
+urlcolor: blue
+highlight-style: nord
+geometry:
+      - left=1in
+      - right=1in
+      - top=1in
+      - bottom=1in
+header-includes:
+    - \usepackage{setspace}
+    - \doublespacing
+    - \usepackage{float}
+    - \floatplacement{figure}{t}
+    - \floatplacement{table}{t}
+    - \usepackage{flafter}
+    - \usepackage[T1]{fontenc}
+    - \usepackage[utf8]{inputenc}
+    - \usepackage{ragged2e}
+    - \usepackage{booktabs}
+    - \usepackage{amsmath}
+    - \usepackage{url}
+---
+
+
+# Overview
+
+```{r setup, include=FALSE}
+# This code chunk sets up the global options
+# It won't be visible when you knit to PDF
+# By the way, lines beginning with #
+# will not be processed by R
+# Use this to comment your code
+
+# Global options for the knitting behavior of all subsequent code chunks
+knitr::opts_chunk$set(echo = TRUE)
+# echo = TRUE prints the actual code chunk in the PDF
+# We want this for lab assignments
+```
+
+
+The first lab will help you set up R and RStudio and create a working directory for this class on your computer or the cloud.
+
+# Part 1: Set up R and RStudio
+
+Complete the following tasks:
+
+1. See [popw24.gustavodiaz.org/resources](https://popw24.gustavodiaz.org/resources.html) for instructions on how to install R and RStudio across different platforms. Alternatively, visit [posit.cloud](https://posit.cloud/) and sign up for a new account or log in if you already have one. A free account should be enough for the purposes of our class.
+
+2. Launch RStudio and open the .Rmd version of this lab.
+
+3. To create PDF reports for assignments in this class, you need to have a version of \LaTeX installed. \LaTeX is a typesetting software, and we won't use it directly in this class, but R will call it under the hood to generate reports. We will use [TinyTex](https://yihui.org/tinytex/), an R-friendly \LaTeX distribution. Running the code below will install TinyTex. You only need to do this once after a fresh installation of R and RStudio. You may skip this step in Posit Cloud.
+
+```{r, eval = FALSE}
+# Install the tinytex R package, only need to do this once
+install.packages('tinytex')
+
+# Use the package to install TinyTex within R
+tinytex::install_tinytex()
+```
+
+4. At the top of the .Rmd file, replace [Your name here] with your first and last name. For example, I would write "Gustavo Diaz" without the quotation marks,
+
+5. Replace [The first half of your Mac email address] at the top with your Mac ID. For example, I would write "diazg2"
+
+# Part 2: Create a working directory
+
+Complete the following tasks:
+
+1. Make a folder for this class somewhere on your own computer or in Posit Cloud, preferably not on your desktop. For example, mine is \path{C:\Users\gdiaz\Projects\popw23_labs} because this is the folder I use to create the weekly lab assignments.
+
+2. In RStudio, go to `File > New Project` in the toolbar at the top. This should pop up a new window with options.
+
+3. Choose the "Existing Directory" option. Browse and select the folder that you just created. Then select "Create Project." RStudio will reload and open the newly created project.
+
+4. Inside this new project folder, create two more folders called `labs` and `response_papers`
+
+5. Save this .Rmd file in the newly created `labs` folder
+
+6. To confirm that it worked, run the following code to print your working directory, it will also show up in the PDF version:
+
+```{r}
+getwd()
+```
+
+
+# Part 3: Course website
+
+Before compiling a PDF report, familiarize yourself with the course website at [popw24.gustavodiaz.org](https://popw24.gustavodiaz.org) and answer the following questions:
+
+1. **What is the deadline to decide whether you will complete the optional final project?**
+
+> Write your answer here
+
+2. **How many points from your final grade would you lose if you do not deliver a weekly lab assignment for the third time?**
+
+> Write your answer here
+
+3. **How many times did I ~~strike~~ the plural of formula?**
+
+> Write your answer here
+
+# Part 4: Create a PDF report and submit
+
+To make a PDF report, press the `Knit` button at the top of the text editor in RStudio. This may take a while the first time you do it, and you may be prompted to install additional \LaTeX dependencies. When done, the PDF version will pop-up in a new window and the PDF file will be saved in the same folder as the .Rmd version.
+
+Once you are done, you can find a link to upload your file in the `Assessments > Assignments` tab of the course page in Avenue. This is how you will submit all the assignments for this course.

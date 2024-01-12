@@ -35,7 +35,7 @@ slide_buttons("/slides/01_slides")
 
 ## Lab
 
-Getting started [{{< fa file-pdf >}}](labs/01_lab.pdf) [{{< fa brands r-project >}}](https://github.com/gustavo-diaz/popw24/blob/main/docs/content/labs/01_lab.Rmd)
+Getting started [{{< fa file-pdf >}}](labs/01_lab.pdf) [{{< fa brands r-project >}}](labs/01_lab.qmd)
 
 ::: {.callout-warning}
 ## Due
