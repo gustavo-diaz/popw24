@@ -4,11 +4,9 @@ project:
   render: 
     - "*.qmd"
     - "!content/labs/"
+    - "!resources/"
   resources:
     - "slides/"
-    - "content/labs/*.Rmd"
-    - "content/labs/*.pdf"
-    - "resources/"
   
 
   

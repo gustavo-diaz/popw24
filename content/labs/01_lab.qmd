@@ -35,12 +35,12 @@ header-includes:
 
 ```{r setup, include=FALSE}
 # This code chunk sets up the global options
-# It won't be visible when you knit to PDF
+# It won't be visible when you render to PDF
 # By the way, lines beginning with #
 # will not be processed by R
 # Use this to comment your code
 
-# Global options for the knitting behavior of all subsequent code chunks
+# Global options for the renderingbehavior of all subsequent code chunks
 knitr::opts_chunk$set(echo = TRUE)
 # echo = TRUE prints the actual code chunk in the PDF
 # We want this for lab assignments
@@ -55,7 +55,7 @@ Complete the following tasks:
 
 1. See [popw24.gustavodiaz.org/resources](https://popw24.gustavodiaz.org/resources.html) for instructions on how to install R and RStudio across different platforms. Alternatively, visit [posit.cloud](https://posit.cloud/) and sign up for a new account or log in if you already have one. A free account should be enough for the purposes of our class.
 
-2. Launch RStudio and open the .Rmd version of this lab.
+2. Launch RStudio and open the .qmd version of this lab.
 
 3. To create PDF reports for assignments in this class, you need to have a version of \LaTeX installed. \LaTeX is a typesetting software, and we won't use it directly in this class, but R will call it under the hood to generate reports. We will use [TinyTex](https://yihui.org/tinytex/), an R-friendly \LaTeX distribution. Running the code below will install TinyTex. You only need to do this once after a fresh installation of R and RStudio. You may skip this step in Posit Cloud.
 
@@ -67,7 +67,7 @@ install.packages('tinytex')
 tinytex::install_tinytex()
 ```
 
-4. At the top of the .Rmd file, replace [Your name here] with your first and last name. For example, I would write "Gustavo Diaz" without the quotation marks,
+4. At the top of the .qmd file, replace [Your name here] with your first and last name. For example, I would write "Gustavo Diaz" without the quotation marks,
 
 5. Replace [The first half of your Mac email address] at the top with your Mac ID. For example, I would write "diazg2"
 
@@ -83,7 +83,7 @@ Complete the following tasks:
 
 4. Inside this new project folder, create two more folders called `labs` and `response_papers`
 
-5. Save this .Rmd file in the newly created `labs` folder
+5. Save this .qmd file in the newly created `labs` folder
 
 6. To confirm that it worked, run the following code to print your working directory, it will also show up in the PDF version:
 
@@ -110,6 +110,6 @@ Before compiling a PDF report, familiarize yourself with the course website at [
 
 # Part 4: Create a PDF report and submit
 
-To make a PDF report, press the `Knit` button at the top of the text editor in RStudio. This may take a while the first time you do it, and you may be prompted to install additional \LaTeX dependencies. When done, the PDF version will pop-up in a new window and the PDF file will be saved in the same folder as the .Rmd version.
+To make a PDF report, press the `Render` button at the top of the text editor in RStudio. This may take a while the first time you do it, and you may be prompted to install additional \LaTeX dependencies. When done, the PDF version will pop-up in a new window and the PDF file will be saved in the same folder as the .qmd version.
 
 Once you are done, you can find a link to upload your file in the `Assessments > Assignments` tab of the course page in Avenue. This is how you will submit all the assignments for this course.
