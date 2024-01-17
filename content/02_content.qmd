@@ -38,7 +38,7 @@ slide_buttons("/slides/02_slides")
 
 ## Lab
 
-Introduction to R and RStudio {{< fa brands r-project >}} (coming soon!)
+[Introduction to R and RStudio {{< fa brands r-project >}}](https://github.com/gustavo-diaz/popw24/blob/main/content/labs/02_lab.qmd)
 
 ::: {.callout-warning}
 ## Due
