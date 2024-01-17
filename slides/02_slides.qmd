@@ -1,0 +1,286 @@
+---
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    slide-number: false
+---
+
+```{r setup, message=FALSE, warning=FALSE, include=FALSE}
+library(tidyverse)
+library(kableExtra)
+```
+
+
+::: {style="text-align: center"}
+## The MIDA framework {.center background-color="#ac1455"}
+
+&nbsp;
+
+**POLSCI 4SS3**  
+Winter 2023
+:::
+
+## Announcements {background-color="#8BD3E6"}
+
+- I received accommodation letters. Schedule a meeting if you need anything beyond extra time for completing assignments
+
+- Labs now due at 11:59 PM instead of 5 PM (haven't updated syllabus yet)
+
+- Submit lab 1! It's easy and I won't penalize you if you are late this time
+
+
+## Last week {background-color="#FDBF57"}
+
+- Overview of course topic, goals, evaluation, expectations
+
+- We installed R and RStudio and explored them a bit
+
+- Cloud option always available if all else fails
+
+- More details in the [course website {{< fa arrow-up-right-from-square >}}](https://popw23.gustavodiaz.org/)
+
+## Today {background-color="#FDBF57"}
+
+- Talk about what research design means in the context of this course
+
+- Overview of the MIDA research design workflow
+
+
+- **Takeaway:** Research design as a set of steps that can be *encoded* and *interrogated*
+
+- **{{< fa laptop-code >}} Lab:** Intro to R
+
+::: {style="text-align: center"}
+# Research Design {background-color="#FDBF57"}
+:::
+
+
+## What is a research design?
+
+::: incremental
+
+- **{{< fa book >}} RD:** A procedure for generating answers to questions
+
+- **More generally:** Thinking about how research is *(was, will be)* conducted
+
+- **Emphasis:** We can **program** and **interrogate** elements of a research design
+
+:::
+
+## {{< fa book >}} Elements of research design
+
+::: incremental
+
+1. **Model *(M)* **
+
+2. **Inquiry *(I)* **
+
+3. **Data strategy *(D)* **
+
+4. **Answer strategy *(A)* **
+
+:::
+
+## Model
+
+::: incremental
+
+- **{{< fa book >}}:** A **set** of **speculations** about **what causes what** and **how**
+
+- **Set:** We consider many models because we are uncertain of how the world works
+
+- **Speculation:** All models are wrong, some models are useful
+
+- **What causes what:** Informs the *event generating process* (e.g. variables, distributions, correlations)
+
+- **How:** An explanation of why things are connected or correlated
+
+:::
+
+::: {style="text-align: center"}
+## Examples of models? {.center}
+
+
+**Hint:** Models are also called theories (of change), arguments, claims, beliefs, epistemologies, ideologies, hunches, conjectures
+
+:::
+
+## Inquiry
+
+::: incremental
+
+- **{{< fa book >}}:** A research question stated in terms of the model
+
+- In this course, we will talk about **quantities of interest** or **estimands**
+
+- **Estimands**, **estimators**, and **estimates** are different things with annoyingly similar names!
+
+- Some questions will lend themselves to multiple inquiries. We will tend to focus on those with one or a handful
+
+
+:::
+
+## Examples of inquiries
+
+. . .
+
+1. What is the proportion of unemployed people in the country?
+    
+2. What is the effect of immigration on economic development?
+    
+3. Do people support funding private clinics to mitigate surgery backlogs?
+    
+4. Will the stock market crash this year?
+
+5. Individual causal effect $\tau_i = Y_{i}(1)-Y_{i}(0)$
+
+
+## A note on notation {background-color="#8BD3E6"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Greek
+
+::: incremental
+
+- Letters like $\mu$ denote **estimands**
+
+- A hat $\hat{\mu}$ denotes **estimators**
+
+:::
+:::
+
+::: {.column width="50%"}
+### Latin
+
+::: incremental
+
+- Letters like $X$ denote **actual variables** in our data
+
+- A bar $\bar{X}$  denotes an **estimate** calculated from our data
+
+:::
+
+
+:::
+
+::::
+
+. . .
+
+::: {style="text-align: center"}
+
+$X \rightarrow \bar{X} \rightarrow \hat{\mu} \xrightarrow{\text{hopefully!}} \mu$
+
+
+&nbsp;
+
+
+$\text{Data} \rightarrow \text{Estimate} \rightarrow \text{Estimator} \xrightarrow{\text{hopefully!}} \text{Estimand}$
+::: 
+
+
+## Data strategy
+
+::: incremental
+
+- **{{< fa book >}}:** Set of **procedures** used to **gather information** from the world
+
+- Three features:
+
+    1. How *units* are selected
+    
+    2. How *conditions* are assigned
+    
+    3. How *outcomes* are measured
+
+:::
+
+::: aside
+Not all research designs need feature #2
+:::
+
+## Elements of data strategies
+
+::: incremental
+
+- **Sampling:** Random, stratified, snowball
+
+- **Assignment:** Two-arm, multi-arm, factorial
+
+- **Measurement:** Number of measures, time periods, data-adaptive
+
+:::
+
+## Answer strategy
+
+::: incremental
+
+- **{{< fa book >}}:** How we summarize the data produced by the data strategy
+
+- Data *is* **too complicated** to speak for itself
+
+- Needs summary and explanation
+
+- Most **research methods** qualify as **answer strategies**
+
+:::
+
+## Elements of of answer strategies
+
+::: incremental
+- **Domain:** How is it measured? `(55%, 0.25, TRUE/FALSE)`
+
+- **Units:** 
+:::
+
+## Parallels
+
+MIDA research designs have an **theoretical** and an **empirical** part:
+
+. . .
+
+
+```{r dd, include = FALSE}
+dd = tribble(
+  ~Theory, ~Empirics,
+  "Model", "Data strategy",
+  "Inquiry", "Answer strategy"
+)
+```
+
+```{r showdd, echo = FALSE, results = "asis"}
+dd %>% kbl()
+```
+
+
+
+::: {style="text-align: center"}
+## Next Week {.center background-color="#8BD3E6"}
+### Representative Surveys
+
+**Focus on:** What makes a *good* survey?
+:::
+
+::: {style="text-align: center"}
+## Break time! {.center background-color="#D2D755"}
+
+&nbsp;
+
+![](figs/panda_dance.gif){fig-align="center" width="10%" height="10%"} 
+:::
+
+::: {style="text-align: center"}
+## {{< fa laptop-code >}} Lab {.center background-color="#007096"}
+:::
+
+## Tip before you start {{< fa lightbulb >}}
+
+- Last week, we created a project folder/directory for the class
+
+- Save all lab `.qmd` files in the same directory
+
+- {{< fa brands r-project >}} will automatically recognize all files within the project directory
+
+- Continue using the same project for all lab assignments
