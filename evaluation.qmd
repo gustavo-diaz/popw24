@@ -22,7 +22,7 @@ By enrolling in this course, you accept the general terms of the grading agreeme
 Your final grade will depend on the following components.
 
 1. Attendance and participation
-2. Weekly lab assignments, due on Mondays at 5 PM
+2. Weekly lab assignments, due on Mondays at 11:59 PM
 3. Response papers, due on Wednesdays at 8:30 PM
 4. Optional final project: Pre-analysis plan, due April 25 at 11:59 PM
 

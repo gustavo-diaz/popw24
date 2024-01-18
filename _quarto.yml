@@ -33,6 +33,9 @@ website:
       - icon: cloud-fill
         href: https://posit.cloud/
         text: "Posit Cloud"
+      - icon: list-task
+        href: https://forms.gle/TysTXexbrvv8ex9D8
+        text: "Attendance sheet"
         
     style: "docked"
     collapse-level: 1
