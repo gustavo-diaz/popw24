@@ -43,25 +43,25 @@ header-includes:
 knitr::opts_chunk$set(echo = TRUE)
 # echo = TRUE prints the actual code chunk in the PDF
 # We want this for lab assignments
+
+# Load packages we need
+library(tidyverse)
+library(DeclareDesign)
 ```
 
-# Part 2: Sampling from populations
-
-## Complete random sampling
+# French speakers outside of QC
 
 In our discussion, I highlighted how the online portion of the Canadian Election Study uses quotas to make sure they have enough coverage of English and French speakers. In Quebec, they sample 80% French and 20% English. Elsewhere, it's 10% French and 90% English.
 
-> **TASK 3**
->
-> **Why do you think it is important do this?**
+::: {.callout-note}
+## **Task 1**
 
-------------------------------------------------------------------------
+Why do you think it is important to do this?
 
-[Write your answer here]
+**Hint:** *There are no wrong answers, but spend some time discussing it with someone to see if yours checks out.*
 
-------------------------------------------------------------------------
+:::
 
-There is no wrong answers, but spend some time discussing it with someone to see if it checks out.
 
 Whatever the reason, stratified sampling with quotas is very expensive, so we better come up with a good reason to do it! We want to do this to ensure surveys are representative of our sampling frame. Presumably the frame is adults from the whole country, and the 80/20 and 10/90 breakdowns are good approximations of the census data.
 
@@ -75,7 +75,7 @@ How would our sample look like if we were to draw a sample of 1,000 individuals 
 
 We can use some `DeclareDesign` code to do so. One trick is that when a survey uses stratified sampling, we can think about different strata as completely independent surveys.
 
-Let's start with places outside Canada, where our model of the world suggests about 90% English and 10% French speakers.
+Let's start with places outside Quebec, where our model of the world suggests about 90% English and 10% French speakers.
 
 ```{r}
 model = declare_model(N = 30000 - 6000,
@@ -91,19 +91,19 @@ We can isolate that from the function:
 sample(c(0, 1), size = 100, replace = TRUE, prob = c(0.9, 0.1))
 ```
 
-> **TASK 4**
->
-> **Explain what the different arguments of the `sample` function above are doing.**
 
-------------------------------------------------------------------------
+::: {.callout-note}
+## **Task 2**
 
-[Write your answer here]
+Explain what the different arguments of the `sample` function above are doing.
 
-------------------------------------------------------------------------
+:::
 
-We are introducing some variability by stating that any given person has a certain probability of being a french speaker. We can think of this as baking in uncertainty around our model. We know that such deterministic numbers are not accurate, even if they were the exact census figure, those are already outdated.
+> Write your answer here
 
-Because of this uncertainty, every time we sample from our sampling frame we get a different distribution of people. This is great for our current purposes. We will later how to prevent this behavior soon.
+We are introducing some variability by stating that any given person has a certain *probability* of being a french speaker. We can think of this as baking in uncertainty around our model. We know that such deterministic numbers are not accurate, even if they were the exact census figure, those are already outdated.
+
+Because of this uncertainty, every time we sample from our sampling frame we get a different distribution of people. This is great for our current purposes. We will learn how to prevent this behavior soon.
 
 Let's skip the **inquiry** and **answer strategy** steps for now. Our **DATA STRATEGY** suggests that we sample individuals completely at random.
 
@@ -124,6 +124,7 @@ We can then interrogate our research design. For now, let draw one realization o
 ```{r, results = "hide"}
 # Notice that I am hiding the results to avoid printing 
 # the whole 1k observations in the pdf
+# But you should explore this in RStudio
 draw_data(canada_survey)
 ```
 
@@ -137,23 +138,22 @@ canada_survey %>%
 
 This works because the mean of a binary variable is the same as the proportion of ones over the total.
 
-Again, you will notice that the result changes every time you run the code.
+Again, you will notice that the result changes every time you run the code. Give it a try!
 
-> **TASK 5**
->
-> **What is the number of french speakers in *your* sample?**
->
-> ***Hint:*** **To get a consistent answer, include the `set.seed(x)` function in the line right before your calculation. Replace `x` with your student ID number. Doing this will fix the random number generator algorithm in R.**
+::: {.callout-note}
+## **Task 3**
+
+What is the number of french speakers in *your* sample?
+
+***Hint:*** *To get a consistent answer that you can write about, include the `set.seed(x)` function in the line right before your calculation. Replace `x` with your student ID number. Doing this will fix the random number generator algorithm in R.*
+
+:::
 
 ```{r}
 # Write your code here
 ```
 
-------------------------------------------------------------------------
-
-[Write your answer in words here]
-
-------------------------------------------------------------------------
+> Write your answer in words here
 
 ## How often do we get the it right?
 
@@ -164,6 +164,8 @@ We can simulate our research design multiple times and record the result every t
 ```{r}
 inquiry = declare_inquiry(true_prop = mean(french))
 
+# the wording for declare_estimator looks weird, but it will become clear
+# later in the semester
 sample_mean = declare_estimator(french ~ 1, inquiry = "true_prop")
 ```
 
@@ -175,10 +177,14 @@ canada_survey_full = model + inquiry + sampling + sample_mean
 
 The following code draws independent samples of 1,000 respondents 1,000 times. For each simulation, it will compute the sample mean and store the output as a data frame.
 
-```{r}
-# Insert set.seed here so your results are consistent.
-# This code will take a couple minutes to complete
+```{r, results = "hide"}
+# This code will take a couple minutes to complete.
+# Insert set.seed with your student number
+# in the line below so your results are consistent.
+
 sims = simulate_design(canada_survey_full, sims = 1000)
+
+sims
 ```
 
 There is a lot of information in `sims`, but right now we only care about the `estimate` column.
@@ -204,13 +210,19 @@ sims %>% summarize(rmse = sqrt(mean((estimate-estimand)^2)))
 
 This number is the **Root Mean Squared Error (RMSE).** It tells us that, in average, our estimates of the proportion are off by a certain number of percentage points. The specific value will change based on your seed, but when I did it, I got a number that rounds up to $0.01$. Which is about a $\pm 1\%$ margin of error.
 
-## English speakers in QC
+# English speakers in QC
 
-> **TASK 6**
->
-> **Repeat the simulation exercise for the smaller sample of English speakers in Quebec. Start with a sample size of 1,000 respondents. Is this a good number? Would you go higher or lower? Use either a figure or the RMSE as a criterion to choose. Report one new design with a different sample size and explain why it is better.**
->
-> ***Hint 1:*** **If you cannot come up with a reason to justify your design, consider that CES may be convinced either because the margin of error or the sample size is very small.**
->
-> ***Hint 2:*** **The chapters from the RD textbook we read this week show a way to try many sample sizes on a research design at once without having to rewrite the whole design.**
+::: {.callout-note}
+## **Task 4**
+Repeat the simulation exercise for the smaller sample of English speakers in Quebec. Start with a sample size of 1,000 respondents. Is this a good number? Would you go higher or lower? Use either a figure or the RMSE as a criterion to choose. Report one new design with a different sample size and explain why it is better.**
 
+ **Hint 1:** *If you cannot come up with a reason to justify your design, consider that CES may be convinced either because the margin of error or the sample size is very small.*
+
+ **Hint 2:** *The chapters from the RD textbook we read this week show a way to try many sample sizes on a research design at once without having to rewrite the whole design.*
+:::
+
+```{r}
+# Write your code here. Feel free to separate in many code chunks
+```
+
+> Write your answer in words here. Feel free to intersperse writing and code.

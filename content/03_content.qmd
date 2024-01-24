@@ -45,7 +45,7 @@ slide_buttons("/slides/03_slides")
 
 ## Lab
 
-Sampling and descriptive inference {{< fa brands r-project >}} (coming soon!)
+[Sampling and descriptive inference {{< fa brands r-project >}}](https://github.com/gustavo-diaz/popw24/blob/main/content/labs/03_lab.qmd)
 
 ::: {.callout-warning}
 ## Due
