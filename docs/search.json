@@ -382,14 +382,14 @@
     "href": "content/03_content.html",
     "title": "Week 3: Representative Surveys",
     "section": "",
-    "text": "We start the topic of public opinion with representative surveys. The main reason why social scientists conduct surveys is to infer real-world attitudes and behaviors. However, this presents a very difficulty measurement problem. How should questions be asked to produce an accurate measure of the attitude or behavior of interest?\nAs the name suggests, a representative survey is administered to a sample of respondents that resemble the demographic characteristics of the underlying population.\nThe punchline of this week is that conducting a true representative survey via random sampling is near impossible. Instead, most surveys use some form of quota or stratified sampling to ensure that the sample obtained resembles the population of interest.\nThe lab assignment for this week will be a guided introduction to R. By the end, we will compare different sampling techniques."
+    "text": "We start the topic of public opinion with representative surveys. The main reason why social scientists conduct surveys is to infer real-world attitudes and behaviors. However, this presents a very difficulty measurement problem. How should questions be asked to produce an accurate measure of the attitude or behavior of interest?\nAs the name suggests, a representative survey is administered to a sample of respondents that resemble the demographic characteristics of the underlying population.\nThe punchline of this week is that conducting a true representative survey via random sampling is near impossible. Instead, most surveys use some form of quota or stratified sampling to ensure that the sample obtained resembles the population of interest.\nThe lab assignment for this week compares different sampling techniques."
   },
   {
     "objectID": "content/03_content.html#overview",
     "href": "content/03_content.html#overview",
     "title": "Week 3: Representative Surveys",
     "section": "",
-    "text": "We start the topic of public opinion with representative surveys. The main reason why social scientists conduct surveys is to infer real-world attitudes and behaviors. However, this presents a very difficulty measurement problem. How should questions be asked to produce an accurate measure of the attitude or behavior of interest?\nAs the name suggests, a representative survey is administered to a sample of respondents that resemble the demographic characteristics of the underlying population.\nThe punchline of this week is that conducting a true representative survey via random sampling is near impossible. Instead, most surveys use some form of quota or stratified sampling to ensure that the sample obtained resembles the population of interest.\nThe lab assignment for this week will be a guided introduction to R. By the end, we will compare different sampling techniques."
+    "text": "We start the topic of public opinion with representative surveys. The main reason why social scientists conduct surveys is to infer real-world attitudes and behaviors. However, this presents a very difficulty measurement problem. How should questions be asked to produce an accurate measure of the attitude or behavior of interest?\nAs the name suggests, a representative survey is administered to a sample of respondents that resemble the demographic characteristics of the underlying population.\nThe punchline of this week is that conducting a true representative survey via random sampling is near impossible. Instead, most surveys use some form of quota or stratified sampling to ensure that the sample obtained resembles the population of interest.\nThe lab assignment for this week compares different sampling techniques."
   },
   {
     "objectID": "content/03_content.html#reading",
@@ -803,5 +803,327 @@
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": "Tip before you start ",
     "text": "Tip before you start \n\nLast week, we created a project folder/directory for the class\nSave all lab .qmd files in the same directory\n will automatically recognize all files within the project directory\nContinue using the same project for all lab assignments"
+  },
+  {
+    "objectID": "slides/03_slides.html#panel-surveys",
+    "href": "slides/03_slides.html#panel-surveys",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Panel Surveys",
+    "text": "Panel Surveys\n \nPOLSCI 4SS3\nWinter 2023"
+  },
+  {
+    "objectID": "slides/03_slides.html#announcements",
+    "href": "slides/03_slides.html#announcements",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Announcements",
+    "text": "Announcements\n\nI asked for classroom change but haven’t heard any news yet (as of January 24)"
+  },
+  {
+    "objectID": "slides/03_slides.html#last-week",
+    "href": "slides/03_slides.html#last-week",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Last week",
+    "text": "Last week\n\nOverview of course topic, goals, evaluation, expectations\nWe installed R and RStudio and explored them a bit\nCloud option always available if all else fails\nBrief overview of MIDA framework\nMore details in the course website"
+  },
+  {
+    "objectID": "slides/03_slides.html#today",
+    "href": "slides/03_slides.html#today",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Today",
+    "text": "Today\n\nStart the topic of public opinion\nRepresentative surveys as the standard design\nTakeaway: Complete random sampling is the gold standard but too hard to apply in realistic settings\nDiscussion: Getting surveys right\n Lab: Sampling and descriptive inference"
+  },
+  {
+    "objectID": "slides/03_slides.html#elements-of-a-model-fa-book",
+    "href": "slides/03_slides.html#elements-of-a-model-fa-book",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Elements of a model ",
+    "text": "Elements of a model \n\n\nSignature\nFunctional relations\nProbability distribution over exogenous variables"
+  },
+  {
+    "objectID": "slides/03_slides.html#part-1-signature",
+    "href": "slides/03_slides.html#part-1-signature",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Part 1: Signature",
+    "text": "Part 1: Signature\n\n\n: Describes variables and their ranges\nTwo kinds of variables\nEndogenous: Generated from within the model\nExogenous: Generated from without the model"
+  },
+  {
+    "objectID": "slides/03_slides.html#types-of-exogenous-variables",
+    "href": "slides/03_slides.html#types-of-exogenous-variables",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Types of exogenous variables",
+    "text": "Types of exogenous variables\n\n\nAnything explicitly (or assumed as) randomized\n\nMostly experimental treatment assignment\nDenoted by \\(Z\\)\n\nAnything unobserved by the model\n\nOtherwise we would be in trouble!\nDenoted by \\(U\\)"
+  },
+  {
+    "objectID": "slides/03_slides.html#types-of-endogenous-variables",
+    "href": "slides/03_slides.html#types-of-endogenous-variables",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Types of endogenous variables",
+    "text": "Types of endogenous variables\n\nAnything else\n\n\n\nOutcomes: The things we ultimately want to understand (\\(Y\\))\nModerators: Variables that modify effects (\\(X\\))\nMediators: How or why something has an effect (\\(X\\))\nConfounders: Introduce non-causal dependence (\\(X\\))"
+  },
+  {
+    "objectID": "slides/03_slides.html#part-2-functional-relations",
+    "href": "slides/03_slides.html#part-2-functional-relations",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Part 2: Functional relations",
+    "text": "Part 2: Functional relations\n\n\n: Set of functions that produce endogenous variables\nTwo ways to express functional relations\n\n\nStructural causal models (today)\nPotential outcomes framework (next week)"
+  },
+  {
+    "objectID": "slides/03_slides.html#structural-causal-models",
+    "href": "slides/03_slides.html#structural-causal-models",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Structural causal models",
+    "text": "Structural causal models\n\nUse Directed Acyclic Graphs (DAGs)\n\n\n\nDirected: Connected by arrows\nAcyclic: Not cyclical, usually end in outcomes\nGraphs: Visual representation as nodes and edges\nThey represent nonparametric causal models"
+  },
+  {
+    "objectID": "slides/03_slides.html#example",
+    "href": "slides/03_slides.html#example",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Example",
+    "text": "Example\n\nDAG for \\(Y = f_y(Z,U)\\)"
+  },
+  {
+    "objectID": "slides/03_slides.html#part-3-probability-distribution-over-exogenous-variables",
+    "href": "slides/03_slides.html#part-3-probability-distribution-over-exogenous-variables",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Part 3: Probability distribution over exogenous variables",
+    "text": "Part 3: Probability distribution over exogenous variables\n\nAn explanation of how exogenous variables are generated\n\n\nExamples\n. . .\n\n\\(Z \\sim \\text{Bern}(p)\\) with \\(p = 0.1\\)\n\n. . .\n\n\\(U \\sim N(\\mu, \\sigma)\\) with \\(\\mu = 0\\) and \\(\\sigma = 1\\)"
+  },
+  {
+    "objectID": "slides/03_slides.html#what-are-panel-surveys",
+    "href": "slides/03_slides.html#what-are-panel-surveys",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "What are panel surveys?",
+    "text": "What are panel surveys?\n\n\nSurveys where the same participants are asked questions at multiple points in time\nUsually measure outcomes at every time (but not necessary)\nMore common among convenience samples (e.g. students, twins)\nThe name comes from their data structure"
+  },
+  {
+    "objectID": "slides/03_slides.html#panel-data",
+    "href": "slides/03_slides.html#panel-data",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Panel data",
+    "text": "Panel data\n\n\nBalanced panel\n\n\nID\nyear\nincome\nage\nsex\n\n\n\n\n1\n2016\n1300\n27\nM\n\n\n1\n2017\n1600\n28\nM\n\n\n1\n2018\n2000\n29\nM\n\n\n2\n2016\n2000\n38\nF\n\n\n2\n2017\n2300\n39\nF\n\n\n2\n2018\n2400\n40\nF"
+  },
+  {
+    "objectID": "slides/03_slides.html#panel-data-1",
+    "href": "slides/03_slides.html#panel-data-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Panel data",
+    "text": "Panel data\n\n\nUnbalanced panel\n\n\nID\nyear\nincome\nage\nsex\n\n\n\n\n1\n2016\n1600\n23\nM\n\n\n1\n2017\n1500\n24\nM\n\n\n2\n2016\n1900\n41\nF\n\n\n2\n2017\n2000\n42\nF\n\n\n2\n2018\n2100\n43\nF\n\n\n3\n2017\n3300\n34\nM"
+  },
+  {
+    "objectID": "slides/03_slides.html#what-are-panel-surveys-for",
+    "href": "slides/03_slides.html#what-are-panel-surveys-for",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "What are panel surveys for?",
+    "text": "What are panel surveys for?\n\n\nTo measure attitudes in a population over time\n\n\n\n\nTo understand the effect of events occurring between waves"
+  },
+  {
+    "objectID": "slides/03_slides.html#challenge",
+    "href": "slides/03_slides.html#challenge",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Challenge",
+    "text": "Challenge\n\n\nPanel attrition: Participants may drop out from follow up waves\nIt may offset the benefit of conducting a panel survey\nIt may depend on factors relevant to the study"
+  },
+  {
+    "objectID": "slides/03_slides.html#example-1",
+    "href": "slides/03_slides.html#example-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Example 1",
+    "text": "Example 1"
+  },
+  {
+    "objectID": "slides/03_slides.html#example-2",
+    "href": "slides/03_slides.html#example-2",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Example 2",
+    "text": "Example 2"
+  },
+  {
+    "objectID": "slides/03_slides.html#next-week",
+    "href": "slides/03_slides.html#next-week",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Next Week",
+    "text": "Next Week\nSensitive Questions\nFocus on: What to do when people lie in surveys?"
+  },
+  {
+    "objectID": "slides/03_slides.html#break-time",
+    "href": "slides/03_slides.html#break-time",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Break time!",
+    "text": "Break time!"
+  },
+  {
+    "objectID": "slides/03_slides.html#fa-laptop-code-lab",
+    "href": "slides/03_slides.html#fa-laptop-code-lab",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": " Lab",
+    "text": "Lab"
+  },
+  {
+    "objectID": "slides/03_slides.html#representative-surveys",
+    "href": "slides/03_slides.html#representative-surveys",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Representative Surveys",
+    "text": "Representative Surveys\n \nPOLSCI 4SS3\nWinter 2024"
+  },
+  {
+    "objectID": "slides/03_slides.html#what-is-a-research-design",
+    "href": "slides/03_slides.html#what-is-a-research-design",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "What is a research design?",
+    "text": "What is a research design?\n\n\n RD: A procedure for generating answers to questions\nMore generally: Thinking about how research is (was, will be) conducted\nEmphasis: We can program and interrogate elements of a research design"
+  },
+  {
+    "objectID": "slides/03_slides.html#elements-of-research-design",
+    "href": "slides/03_slides.html#elements-of-research-design",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Elements of research design",
+    "text": "Elements of research design\n\n\nModel (M) \nInquiry (I) \nData strategy (D) \nAnswer strategy (A)"
+  },
+  {
+    "objectID": "slides/03_slides.html#model",
+    "href": "slides/03_slides.html#model",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Model",
+    "text": "Model\n\n\n: A set of speculations about what causes what and how\nSet: We consider many models because we are uncertain of how the world works\nSpeculation: All models are wrong, some models are useful\nWhat causes what: Informs the event generating process (e.g. distributions, correlations)\nHow: An explanation of why things are connected or correlated"
+  },
+  {
+    "objectID": "slides/03_slides.html#examples-of-models",
+    "href": "slides/03_slides.html#examples-of-models",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Examples of models?",
+    "text": "Examples of models?\n\nHint: Models are also called theories (of change), arguments, claims, beliefs, epistemologies, ideologies, hunches, conjecture"
+  },
+  {
+    "objectID": "slides/03_slides.html#inquiry",
+    "href": "slides/03_slides.html#inquiry",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Inquiry",
+    "text": "Inquiry\n\n\n: A research question stated in terms of the model\nIn this course, we will talk about quantities of interest or estimands1\nSome questions will lend themselves to multiple inquiries. We will tend to focus on those with one or a handful\n\n\nEstimands, estimators, and estimates are different things with annoyingly similar names. We will return to this in a few weeks."
+  },
+  {
+    "objectID": "slides/03_slides.html#examples-of-inquiries",
+    "href": "slides/03_slides.html#examples-of-inquiries",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Examples of inquiries",
+    "text": "Examples of inquiries\n\nWhat is the proportion of unemployed people in the country?\nWhat is the effect of immigration on economic development?\nDo people support funding private clinics to mitigate surgery backlogs?\nWill the stock market crash this year?\nIndividual causal effect \\(\\tau_i = Y_{i}(1)-Y_{i}(0)\\)"
+  },
+  {
+    "objectID": "slides/03_slides.html#data-strategy",
+    "href": "slides/03_slides.html#data-strategy",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Data strategy",
+    "text": "Data strategy\n\n\n: Set of procedures used to gather information from the world\nThree features:\n\nHow units are selected\nHow conditions are assigned1\nHow outcomes are measured\n\n\n\nThis will make more sense as we start thinking about cause and effect."
+  },
+  {
+    "objectID": "slides/03_slides.html#answer-strategy",
+    "href": "slides/03_slides.html#answer-strategy",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Answer strategy",
+    "text": "Answer strategy\n\n\n: How we summarize the data produced by the data strategy\nData is too complicated to speak for itself\nNeeds summary and explanation\nMost research methods qualify as answer strategies (Examples?)"
+  },
+  {
+    "objectID": "slides/03_slides.html#parallels",
+    "href": "slides/03_slides.html#parallels",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Parallels",
+    "text": "Parallels\n\n\n\n\nTheory\nEmpirics\n\n\n\n\nModel\nData strategy\n\n\nInquiry\nAnswer strategy"
+  },
+  {
+    "objectID": "slides/03_slides.html#public-opinion",
+    "href": "slides/03_slides.html#public-opinion",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Public opinion",
+    "text": "Public opinion\n\n\nThe study of self-reported attitudes and behaviors\nPrimarily among general public\nGoal: Mapping self-reports to actual attitudes and behaviors"
+  },
+  {
+    "objectID": "slides/03_slides.html#two-challenges",
+    "href": "slides/03_slides.html#two-challenges",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Two challenges",
+    "text": "Two challenges\n\n\nAsking the right questions\nAsking the right people"
+  },
+  {
+    "objectID": "slides/03_slides.html#asking-the-right-questions",
+    "href": "slides/03_slides.html#asking-the-right-questions",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Asking the right questions",
+    "text": "Asking the right questions\n\nSchwarz (1999)"
+  },
+  {
+    "objectID": "slides/03_slides.html#asking-the-right-people",
+    "href": "slides/03_slides.html#asking-the-right-people",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Asking the right people",
+    "text": "Asking the right people"
+  },
+  {
+    "objectID": "slides/03_slides.html#what-is-this",
+    "href": "slides/03_slides.html#what-is-this",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "What is this?",
+    "text": "What is this?\n\n\nStephenson et al (2021, p. 120)"
+  },
+  {
+    "objectID": "slides/03_slides.html#some-key-sampling-decisions",
+    "href": "slides/03_slides.html#some-key-sampling-decisions",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Some key sampling decisions",
+    "text": "Some key sampling decisions\n\nMode (in-person, lab, phone, mail, internet)\nSampling frame\nSample size\nSampling procedure\nOversampling"
+  },
+  {
+    "objectID": "slides/03_slides.html#tip-before-you-start-fa-lightbulb",
+    "href": "slides/03_slides.html#tip-before-you-start-fa-lightbulb",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Tip before you start ",
+    "text": "Tip before you start \n\nMake a project for this course!\nFrom , go to: File &gt; New Project\nSelect New or Existing Directory (Whichever works for you)\nSave the lab .Rmd file in the same directory\n will automatically recognize all files within the project directory\nContinue using the same project for all lab assignments"
+  },
+  {
+    "objectID": "slides/03_slides.html#public-opinion-1",
+    "href": "slides/03_slides.html#public-opinion-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Public opinion",
+    "text": "Public opinion\n\n\nThe study of self-reported attitudes and behaviors\nPrimarily among general public\nGoal: Mapping self-reports to actual attitudes and behaviors"
+  },
+  {
+    "objectID": "slides/03_slides.html#sampling",
+    "href": "slides/03_slides.html#sampling",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Sampling",
+    "text": "Sampling\n\n\n: How units are selected for a study\nWhich units?\nHow will you reach them?\nSampling choices are consequential to how we craft answer strategies"
+  },
+  {
+    "objectID": "slides/03_slides.html#why-so-many-choices",
+    "href": "slides/03_slides.html#why-so-many-choices",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Why so many choices?",
+    "text": "Why so many choices?\nHERE BABBLE ABOUT WHAT PART OF A RESEARCH DESIGN SAMPLING BELONGS TO. ALSO IMPORTANCE OF REFLECTING ON HOW RANDOM SAMPLING MAY NOT GET CLOSE TO THE ACTUAL POPULATION BY RANDOM CHANCE. THEY SEE THIS IN THE LAB"
+  },
+  {
+    "objectID": "slides/03_slides.html#review",
+    "href": "slides/03_slides.html#review",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Review",
+    "text": "Review\n\n\nWhat are the elements of a research design?\nWhat is a model?\nWhat is an inquiry?\nWhat is a data strategy?\nWhat is an answer strategy?\nWhy are we doing this?"
+  },
+  {
+    "objectID": "slides/03_slides.html#elements-to-consider",
+    "href": "slides/03_slides.html#elements-to-consider",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Elements to consider",
+    "text": "Elements to consider\n\n\nLiteral vs. pragmatic meaning\nOpen vs. closed answer format\nFrequency scales (e.g. more that 1 hour)\nReference periods (last week, last year)\nRating scales (0-10, -5-5)\nDemand effects\nPriming effects"
+  },
+  {
+    "objectID": "slides/03_slides.html#random-sampling",
+    "href": "slides/03_slides.html#random-sampling",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Random sampling",
+    "text": "Random sampling\n\n\nSimple: Coin flip\nComplete: Exactly \\(n\\) of \\(N\\) sampled with same inclusion probability\nStratified: Sort in groups or strata, then sample\nCluster random: Sample whole groups of units\nStratified cluster: Take a guess!\nMulti-stage: Sample clusters, then sample units"
+  },
+  {
+    "objectID": "slides/03_slides.html#summary",
+    "href": "slides/03_slides.html#summary",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Summary",
+    "text": "Summary\n\nWe conduct surveys because we want to understand public opinion\nChallenge: Map self-reports to attitudes and behaviors\n\n\nAsk the right questions (meaning, format, scales, context)\nAsk the right people (mode, sampling)\n\n\n Why so many choices?"
   }
 ]

@@ -17,13 +17,13 @@ As the name suggests, a representative survey is administered to a sample of res
 
 The punchline of this week is that conducting a true representative survey via random sampling is near impossible. Instead, most surveys use some form of quota or stratified sampling to ensure that the sample obtained resembles the  population of interest.
 
-The lab assignment for this week will be a guided introduction to R. By the end, we will compare different sampling techniques.
+The lab assignment for this week compares different sampling techniques.
 
 ## Reading
 
 - {{< fa book >}} [RD sections 5-7, 15](https://book.declaredesign.org/declaration-diagnosis-redesign/declaring-designs.html) 
 
-- {{< fa file-lines >}} Schwarz, Norbert. 1999. [“Self-reports: How the questions shape the answers.”](https://dornsife.usc.edu/assets/sites/780/docs/99_ap_schwarz_self-reports.pdf) *American Psychologist* 54 (2): 93-105
+- {{< fa file-lines >}} Schwarz, Norbert. 1999. [“Self-reports: How the questions shape the answers.”](https://www.schulich.uwo.ca/familymedicine/research/docs/resources/Self-Reports.pdf) *American Psychologist* 54 (2): 93-105
 
 - {{< fa file-lines >}} Stephenson, Laura B., Allison Harell, Daniel Rubenson, and Peter John Loewen. 2021. [“Measuring Preferences and Behaviors in the 2019 Canadian Election Study.”](https://doi.org/10.1017/S0008423920001006) *Canadian Journal of Political Science/Revue Canadienne de science politique*
 
