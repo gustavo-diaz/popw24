@@ -515,7 +515,7 @@
     "href": "content/04_content.html#lab",
     "title": "Week 4: Sensitive Questions",
     "section": "Lab",
-    "text": "Lab\nReducing sensitivity bias  (coming soon!)\n\n\n\n\n\n\nDue\n\n\n\nMonday, February 5, 5 PM"
+    "text": "Lab\nReducing sensitivity bias \n\n\n\n\n\n\nDue\n\n\n\nMonday, February 5, 5 PM"
   },
   {
     "objectID": "content/06_content.html",
@@ -1132,5 +1132,229 @@
     "title": "Public opinion",
     "section": "",
     "text": "POLSCI 4SS3\nWinter 2024"
+  },
+  {
+    "objectID": "slides/04_slides.html#sensitive-questions",
+    "href": "slides/04_slides.html#sensitive-questions",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Sensitive Questions",
+    "text": "Sensitive Questions\n \nPOLSCI 4SS3\nWinter 2024"
+  },
+  {
+    "objectID": "slides/04_slides.html#last-week",
+    "href": "slides/04_slides.html#last-week",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Last week",
+    "text": "Last week\n\n\nRepresentative surveys as the gold standard of public opinion research\nChallenging to decide:\n\nWhat to ask\nWho to ask"
+  },
+  {
+    "objectID": "slides/04_slides.html#today",
+    "href": "slides/04_slides.html#today",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Today",
+    "text": "Today\n\nA little more about data strategies\n… and how they translate into answer strategies\nResearch designs for sensitive questions\nLab: Practice writing research designs on your own"
+  },
+  {
+    "objectID": "slides/04_slides.html#elements-of-a-data-strategy",
+    "href": "slides/04_slides.html#elements-of-a-data-strategy",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Elements of a data strategy",
+    "text": "Elements of a data strategy\n\n\nSampling\nTreatment assignment\nMeasurement"
+  },
+  {
+    "objectID": "slides/04_slides.html#elements-of-a-data-strategy-1",
+    "href": "slides/04_slides.html#elements-of-a-data-strategy-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Elements of a data strategy",
+    "text": "Elements of a data strategy\n\nSampling (last week)\nTreatment assignment (next week)\nMeasurement (TODAY)"
+  },
+  {
+    "objectID": "slides/04_slides.html#measurement-as-multiple-independent-draws",
+    "href": "slides/04_slides.html#measurement-as-multiple-independent-draws",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Measurement as multiple independent draws",
+    "text": "Measurement as multiple independent draws"
+  },
+  {
+    "objectID": "slides/04_slides.html#elements-of-an-answer-strategy",
+    "href": "slides/04_slides.html#elements-of-an-answer-strategy",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Elements of an answer strategy",
+    "text": "Elements of an answer strategy\n\n\nAnswer characterization (domain, units, outcomes, conditions)\nUncertainty (Bayesian, frequentist)\nProcedure (e.g. OLS, difference-in-means)"
+  },
+  {
+    "objectID": "slides/04_slides.html#why-do-people-lie-in-surveys",
+    "href": "slides/04_slides.html#why-do-people-lie-in-surveys",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Why do people lie in surveys?",
+    "text": "Why do people lie in surveys?\n\n\nInattention\nSatisficing\nLimited options\nDemand effects\nSensitivity bias"
+  },
+  {
+    "objectID": "slides/04_slides.html#why-do-people-lie-in-surveys-1",
+    "href": "slides/04_slides.html#why-do-people-lie-in-surveys-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Why do people lie in surveys?",
+    "text": "Why do people lie in surveys?\n\nInattention\nSatisficing\nLimited options\nDemand effects\nSensitivity bias"
+  },
+  {
+    "objectID": "slides/04_slides.html#how-to-prevent-lying",
+    "href": "slides/04_slides.html#how-to-prevent-lying",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "How to prevent lying?",
+    "text": "How to prevent lying?\n\n\nAdd noise to the question\nTwo approaches:\n\n\nDistract from the sensitive attitude/behavior\nGuarantee anonymity\n\n\nDifferent designs vary on how they combine the two"
+  },
+  {
+    "objectID": "slides/04_slides.html#randomized-response",
+    "href": "slides/04_slides.html#randomized-response",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Randomized response",
+    "text": "Randomized response\nFor this question, I want you to answer yes or no."
+  },
+  {
+    "objectID": "slides/04_slides.html#randomized-response-1",
+    "href": "slides/04_slides.html#randomized-response-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Randomized response",
+    "text": "Randomized response\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw."
+  },
+  {
+    "objectID": "slides/04_slides.html#randomized-response-2",
+    "href": "slides/04_slides.html#randomized-response-2",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Randomized response",
+    "text": "Randomized response\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no."
+  },
+  {
+    "objectID": "slides/04_slides.html#randomized-response-3",
+    "href": "slides/04_slides.html#randomized-response-3",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Randomized response",
+    "text": "Randomized response\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes."
+  },
+  {
+    "objectID": "slides/04_slides.html#randomized-response-4",
+    "href": "slides/04_slides.html#randomized-response-4",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Randomized response",
+    "text": "Randomized response\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes. But if another number shows, tell me your own opinion about the question.\n\n \n[TURN AWAY FROM RESPONDENT]\n\n\n \nNow you throw the dice so that I cannot see what comes out."
+  },
+  {
+    "objectID": "slides/04_slides.html#randomized-response-5",
+    "href": "slides/04_slides.html#randomized-response-5",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Randomized response",
+    "text": "Randomized response\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes. But if another number shows, tell me your own opinion about the question.\n \n[TURN AWAY FROM RESPONDENT]\n \nHave you thrown the dice?"
+  },
+  {
+    "objectID": "slides/04_slides.html#randomized-response-6",
+    "href": "slides/04_slides.html#randomized-response-6",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Randomized response",
+    "text": "Randomized response\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes. But if another number shows, tell me your own opinion about the question.\n \n[TURN AWAY FROM RESPONDENT]\n \nHave you picked it up?"
+  },
+  {
+    "objectID": "slides/04_slides.html#randomized-response-7",
+    "href": "slides/04_slides.html#randomized-response-7",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Randomized response",
+    "text": "Randomized response\nFor this question, I want you to answer yes or no. But I want you to consider the number of your dice throw. If  shows on the dice, tell me no. If  shows, tell me yes. But if another number shows, tell me your own opinion about the question.\n \nNow, during the height of the conflict in 2007 and 2008 (in Afghanistan), did you know any militants, like a family member, a friend, or someone you talked to on a regular basis?\n\nPlease, before you answer, take note of the number you rolled on the dice."
+  },
+  {
+    "objectID": "slides/04_slides.html#answer-strategy",
+    "href": "slides/04_slides.html#answer-strategy",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Answer strategy",
+    "text": "Answer strategy\n\n\nWe know that about \\(1/6 \\approx 0.17\\) respondents said yes because they rolled a \nSo if \\(30\\%\\) in total said yes\nWe have \\(\\widehat{Y} = 0.3 - 0.17 = 0.13\\) as our population estimate\nBut we do not know who they are in our survey!"
+  },
+  {
+    "objectID": "slides/04_slides.html#assumptions",
+    "href": "slides/04_slides.html#assumptions",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Assumptions",
+    "text": "Assumptions\n\n\n\n\n\n\n\n1. Honesty given protection\n\n\nPeople respond honestly when guaranteed anonymity.\n\n\n\n\n\n\n\n\n\n\n\n2. One-sided lying\n\n\nThose who do not hold the sensitive trait never falsely claim to bear it.\n\n\n\n\n\n\nThese cannot be verified with data!"
+  },
+  {
+    "objectID": "slides/04_slides.html#list-experiment",
+    "href": "slides/04_slides.html#list-experiment",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "List experiment",
+    "text": "List experiment\nNow I am going to read you three things that make people angry or upset."
+  },
+  {
+    "objectID": "slides/04_slides.html#list-experiment-1",
+    "href": "slides/04_slides.html#list-experiment-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "List experiment",
+    "text": "List experiment\nNow I am going to read you three things that make people angry or upset. After I read all three, just tell me HOW MANY of them upset you."
+  },
+  {
+    "objectID": "slides/04_slides.html#list-experiment-2",
+    "href": "slides/04_slides.html#list-experiment-2",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "List experiment",
+    "text": "List experiment\nNow I am going to read you three things that make people angry or upset. After I read all three, just tell me HOW MANY of them upset you. I don’t want to know which ones, just HOW MANY.\n\nControl group\n\n\nThe federal government increasing the tax on gasoline\nProfessional athletes getting million-dollar contracts\nLarge corporations polluting the environment"
+  },
+  {
+    "objectID": "slides/04_slides.html#list-experiment-3",
+    "href": "slides/04_slides.html#list-experiment-3",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "List experiment",
+    "text": "List experiment\nNow I am going to read you three things that make people angry or upset. After I read all three, just tell me HOW MANY of them upset you. I don’t want to know which ones, just HOW MANY.\nTreatment group\n\nThe federal government increasing the tax on gasoline\nProfessional athletes getting million-dollar contracts\nLarge corporations polluting the environment\nA black family moving next door"
+  },
+  {
+    "objectID": "slides/04_slides.html#answer-strategy-1",
+    "href": "slides/04_slides.html#answer-strategy-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Answer strategy",
+    "text": "Answer strategy\n\n\nRespondents are randomly assigned to conditions\nDifferences in responses can only be attributed to the presence/absence of the sensitive item\nSo \\(\\widehat{Y} = \\text{Mean(treatment)} - \\text{Mean(control)}\\) our prevalence rate estimator\nBut we do not know who they are in our survey!"
+  },
+  {
+    "objectID": "slides/04_slides.html#assumptions-1",
+    "href": "slides/04_slides.html#assumptions-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Assumptions",
+    "text": "Assumptions\n\n\n\n\n\n\n\n1. No liars\n\n\nThose who do not hold the sensitive item never falsely claim to bear it.\n\n\n\n\n\n\n\n\n\n\n\n2. No design effects\n\n\nIncluding the sensitive item does not change how participants respond to the baseline items\n\n\n\n\n\n\nThese can only be evaluated indirectly"
+  },
+  {
+    "objectID": "slides/04_slides.html#other-research-designs",
+    "href": "slides/04_slides.html#other-research-designs",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Other research designs",
+    "text": "Other research designs\n\n\nBuilding trust with respondents\nEndorsement experiments\nConjoint experiments\nNetwork scale-up method\nVariants of the randomized response and list experiment"
+  },
+  {
+    "objectID": "slides/04_slides.html#vignette",
+    "href": "slides/04_slides.html#vignette",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Vignette",
+    "text": "Vignette\nBelow you will read three things that sometimes people oppose or are against. After you read all three, just tell us HOW MANY of them you OPPOSE. We don’t want to know which ones, just HOW MANY."
+  },
+  {
+    "objectID": "slides/04_slides.html#vignette-1",
+    "href": "slides/04_slides.html#vignette-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Vignette",
+    "text": "Vignette\n\nThe federal government increasing assistance to the poor\nProfessional athletes making millions of dollars per year\nLarge corporations polluting the environment\n\n\n\n\nTreatment 1\n4. Granting citizenship to a legal immigrant who is Muslim\n\nTreatment 2\n4. Granting citizenship to a legal immigrant who is Christian"
+  },
+  {
+    "objectID": "slides/04_slides.html#next-week",
+    "href": "slides/04_slides.html#next-week",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Next Week",
+    "text": "Next Week\nSurvey Experiments\nFocus on: What are they good for?"
+  },
+  {
+    "objectID": "slides/04_slides.html#break-time",
+    "href": "slides/04_slides.html#break-time",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Break time!",
+    "text": "Break time!"
+  },
+  {
+    "objectID": "slides/04_slides.html#fa-laptop-code-lab",
+    "href": "slides/04_slides.html#fa-laptop-code-lab",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": " Lab",
+    "text": "Lab"
   }
 ]
