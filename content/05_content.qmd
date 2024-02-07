@@ -1,6 +1,6 @@
 ---
 title: "Survey Experiments"
-date: "February 8, 2025"
+date: "February 8, 2024"
 format: html
 ---
 
@@ -38,10 +38,10 @@ slide_buttons("/slides/05_slides")
 
 ## Lab
 
-Survey experimental designs {{< fa brands r-project >}} (coming soon!)
+[Survey experimental designs {{< fa brands r-project >}}](https://github.com/gustavo-diaz/popw24/blob/main/content/labs/05_lab.qmd)
 
 ::: callout-warning
 ## Due
 
-Monday, February 12, 5 PM
+Monday, February 12, 11:59 PM
 :::
