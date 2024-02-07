@@ -1356,5 +1356,243 @@
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": " Lab",
     "text": "Lab"
+  },
+  {
+    "objectID": "slides/05_slides.html#survey-experiments",
+    "href": "slides/05_slides.html#survey-experiments",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Survey Experiments",
+    "text": "Survey Experiments\n \nPOLSCI 4SS3\nWinter 2024"
+  },
+  {
+    "objectID": "slides/05_slides.html#announcements",
+    "href": "slides/05_slides.html#announcements",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Announcements",
+    "text": "Announcements\n\nSchedule group meetings before break!\nNeed help with R? Check the Data Analysis Support Hub at Mac\nYou can book virtual research consultations with an expert"
+  },
+  {
+    "objectID": "slides/05_slides.html#last-week",
+    "href": "slides/05_slides.html#last-week",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Last week",
+    "text": "Last week\n\n\nWe discussed and explored techniques to reduce sensitivity bias\nSome techniques are observational (e.g. randomized response)\nSome techniques are experimental (e.g. list experiment)\nToday: Discuss surveys using experiments more generally"
+  },
+  {
+    "objectID": "slides/05_slides.html#types-of-survey-research-design",
+    "href": "slides/05_slides.html#types-of-survey-research-design",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Types of survey research design",
+    "text": "Types of survey research design\n\n\n\n\n\n\n\n\n\n\n\nData strategy\n\n\n\nInquiry\nObservational\nExperimental\n\n\n\n\nDescriptive\nSample survey\nList experiment\n\n\nCausal\nPanel survey\nSurvey experiment"
+  },
+  {
+    "objectID": "slides/05_slides.html#types-of-survey-research-design-1",
+    "href": "slides/05_slides.html#types-of-survey-research-design-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Types of survey research design",
+    "text": "Types of survey research design\n\n\n\n\n\n\n\n\n\n\n\nData strategy\n\n\n\nInquiry\nObservational\nExperimental\n\n\n\n\nDescriptive\nSample survey\nList experiment\n\n\nCausal\nPanel survey\nSurvey experiment"
+  },
+  {
+    "objectID": "slides/05_slides.html#types-of-survey-research-design-2",
+    "href": "slides/05_slides.html#types-of-survey-research-design-2",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Types of survey research design",
+    "text": "Types of survey research design\n\n\n\n\n\n\n\n\n\n\n\nData strategy\n\n\n\nInquiry\nObservational\nExperimental\n\n\n\n\nDescriptive\nSample survey\nList experiment\n\n\nCausal\nPanel survey\nSurvey experiment"
+  },
+  {
+    "objectID": "slides/05_slides.html#types-of-survey-research-design-3",
+    "href": "slides/05_slides.html#types-of-survey-research-design-3",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Types of survey research design",
+    "text": "Types of survey research design\n\n\n\n\n\n\n\n\n\n\n\nData strategy\n\n\n\nInquiry\nObservational\nExperimental\n\n\n\n\nDescriptive\nSample survey\nList experiment\n\n\nCausal\nPanel survey\nSurvey experiment"
+  },
+  {
+    "objectID": "slides/05_slides.html#types-of-survey-research-design-4",
+    "href": "slides/05_slides.html#types-of-survey-research-design-4",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Types of survey research design",
+    "text": "Types of survey research design\n\n\n\n\n\n\n\n\n\n\n\nData strategy\n\n\n\nInquiry\nObservational\nExperimental\n\n\n\n\nDescriptive\nSample survey\nList experiment\n\n\nCausal\nPanel survey\nSurvey experiment\n\n\n\n\n\n\n\n \nSurvey experiments are experimental data strategies that answer a causal inquiry\n\n\n\nTechnically, list experiments are survey experiments too."
+  },
+  {
+    "objectID": "slides/05_slides.html#survey-experiments-2",
+    "href": "slides/05_slides.html#survey-experiments-2",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Survey experiments",
+    "text": "Survey experiments\n\n\nAssign respondents to conditions or treatments\nUsually by random assignment\nEach condition is a different version of a question or vignette\nGoal: Understand the effect of different conditions on the outcome question if interest\nHow does this work?"
+  },
+  {
+    "objectID": "slides/05_slides.html#taking-a-step-back",
+    "href": "slides/05_slides.html#taking-a-step-back",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Taking a step back",
+    "text": "Taking a step back\n\nTwo ways to express functional relations in a model\n\n\n\nStructural causal models\nPotential outcomes framework"
+  },
+  {
+    "objectID": "slides/05_slides.html#notation",
+    "href": "slides/05_slides.html#notation",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Notation",
+    "text": "Notation\n\n\n\\(i\\): unit of analysis (e.g. individuals, schools, countries)\n\\(Z_i = \\{0,1\\}\\) indicates a condition (1: Treatment, 0: Control)\n\\(Y_i(Z_i)\\) is the individual potential outcome\n\\(Y_i(0)\\): Potential outcome under control\n\\(Y_i(1)\\): Potential outcome under treatment"
+  },
+  {
+    "objectID": "slides/05_slides.html#toy-example",
+    "href": "slides/05_slides.html#toy-example",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Toy example",
+    "text": "Toy example\n\n\n\n\nID\nFemale\n\\(Y_i(1)\\)\n\\(Y_i(0)\\)\n\n\n\n\n1\n0\n0\n0\n\n\n2\n0\n1\n0\n\n\n3\n1\n1\n0\n\n\n4\n1\n1\n1\n\n\n\n\n\n\n\n\n\\(\\tau_i = Y_i(1) - Y_i(0)\\) is the individual causal effect"
+  },
+  {
+    "objectID": "slides/05_slides.html#toy-example-1",
+    "href": "slides/05_slides.html#toy-example-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Toy example",
+    "text": "Toy example\n\n\n\n\nID\nFemale\n\\(Y_i(1)\\)\n\\(Y_i(0)\\)\n\\(\\tau_i\\)\n\n\n\n\n1\n0\n0\n0\n0\n\n\n2\n0\n1\n0\n1\n\n\n3\n1\n1\n0\n1\n\n\n4\n1\n1\n1\n0\n\n\n\n\n\n\n\n\\(\\tau_i = Y_i(1) - Y_i(0)\\) is the individual causal effect\n\n\n\n\\(\\tau = (1/n) \\sum_{i=1}^n \\tau_i = E[\\tau_i]\\) is the inquiry or estimand\n\n\n\n\nWe call \\(\\tau\\) the Average Treatment Effect (ATE)"
+  },
+  {
+    "objectID": "slides/05_slides.html#a-note-on-notation",
+    "href": "slides/05_slides.html#a-note-on-notation",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "A note on notation",
+    "text": "A note on notation\n\n\nGreek\n\nLetters like \\(\\mu\\) denote estimands\nA hat \\(\\hat{\\mu}\\) denotes estimators\n\n\nLatin\n\nLetters like \\(X\\) denote actual variables in our data\nA bar \\(\\bar{X}\\) denotes an estimate calculated from our data"
+  },
+  {
+    "objectID": "slides/05_slides.html#challenge",
+    "href": "slides/05_slides.html#challenge",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Challenge",
+    "text": "Challenge\n\n\nWe want to know the ATE \\(\\tau\\)\nThis requires us to know \\(\\tau_i = Y_i(1) - Y_i(0)\\)\nBut when we assign treatment conditions we only observe one of the potential outcomes \\(Y_i(1)\\) or \\(Y_i(0)\\)\nMeaning that \\(\\tau_i\\) is impossible to calculate!\nThis is the fundamental problem of causal inference"
+  },
+  {
+    "objectID": "slides/05_slides.html#continuing-the-example",
+    "href": "slides/05_slides.html#continuing-the-example",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Continuing the example",
+    "text": "Continuing the example\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnobserved\n\n\n\nID\nFemale\n\\(Y_i(1)\\)\n\\(Y_i(0)\\)\n\\(\\tau_i\\)\n\n\n\n\n1\n0\n0\n0\n0\n\n\n2\n0\n1\n0\n1\n\n\n3\n1\n1\n0\n1\n\n\n4\n1\n1\n1\n0\n\n\n\n\n\n\n\n\nWe can randomly assign conditions \\(Z_i\\)"
+  },
+  {
+    "objectID": "slides/05_slides.html#continuing-the-example-1",
+    "href": "slides/05_slides.html#continuing-the-example-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Continuing the example",
+    "text": "Continuing the example\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnobserved\n\n\nObserved\n\n\n\nID\nFemale\n\\(Y_i(1)\\)\n\\(Y_i(0)\\)\n\\(\\tau_i\\)\n\\(Z_i\\)\n\\(Y_i\\)\n\n\n\n\n1\n0\n0\n0\n0\n1\n0\n\n\n2\n0\n1\n0\n1\n0\n0\n\n\n3\n1\n1\n0\n1\n1\n1\n\n\n4\n1\n1\n1\n0\n0\n1\n\n\n\n\n\n\n\n\nWe observe outcome \\(Y_i\\) depending on assigned condition \\(Z_i\\)\nWe can use this to approximate the ATE with an estimator"
+  },
+  {
+    "objectID": "slides/05_slides.html#estimator-for-the-ate",
+    "href": "slides/05_slides.html#estimator-for-the-ate",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Estimator for the ATE",
+    "text": "Estimator for the ATE\n\nAdditive property of expectations:\n\n\\[\n\\tau = E[\\tau_i] = E[Y_i(1) - Y_i(0)] \\\\\n= \\underbrace{E[Y_i(1)] - E[Y_i(0)]}_{\\text{Difference in means between potential outcomes}}\n\\]\n\n\nWe cannot calculate this, but we can calculate\n\n\\[\n\\hat{\\tau} = \\underbrace{E[Y_i(1) | Z_i = 1] - E[Y_i(0) | Z_i = 0]}_{\\text{Difference in means between conditions}}\n\\]"
+  },
+  {
+    "objectID": "slides/05_slides.html#randomization",
+    "href": "slides/05_slides.html#randomization",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Randomization",
+    "text": "Randomization\n\n\nIf we can claim that units are selected into conditions \\(Z_i\\) independently from potential outcomes\nThen we can claim that \\(\\hat{\\tau}\\) is a valid approximation of \\(\\tau\\)\nIn which case we say that \\(\\hat{\\tau}\\) is an unbiased estimator of the ATE\nRandom assignment of units into conditions guarantees this in expectation"
+  },
+  {
+    "objectID": "slides/05_slides.html#assumptions",
+    "href": "slides/05_slides.html#assumptions",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Assumptions",
+    "text": "Assumptions\n\n\n\n\n\n\n\n1. Ignorability\n\n\nAssignment to conditions does not depend on potential outcomes. This is guaranteed if randomization works properly.\n\n\n\n\n\n\n\n\n\n\n\n2. Non-interference\n\n\nIndividual potential outcomes do not depend on the treatment assignment of others. If they do, then we need a more complicated model.\n\n\n\n\n\n\nWe cannot evaluate these assumptions with data but we can convince our audience with careful research design"
+  },
+  {
+    "objectID": "slides/05_slides.html#tomz-and-weeks-2013-public-opinion-and-the-democratic-peace",
+    "href": "slides/05_slides.html#tomz-and-weeks-2013-public-opinion-and-the-democratic-peace",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Tomz and Weeks (2013): “Public Opinion and the Democratic Peace”",
+    "text": "Tomz and Weeks (2013): “Public Opinion and the Democratic Peace”\n\n\nSurveys in the UK (\\(n = 762\\)) and US (\\(n = 1273\\))\nApril-May 2010\nOutcome: Support for military strike\n2x2x2 survey experiment"
+  },
+  {
+    "objectID": "slides/05_slides.html#vignette-design",
+    "href": "slides/05_slides.html#vignette-design",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Vignette design",
+    "text": "Vignette design\n\n\n\nUK\n\nPolitical regime: Democracy/not a democracy\nMilitary alliances: Ally/not an ally\nMilitary power: As strong/half as strong\n\n\nUS\n\nPolitical regime: Democracy/not a democracy\nMilitary alliances: Ally/not an ally\nTrade: High level/not high level"
+  },
+  {
+    "objectID": "slides/05_slides.html#results-for-democracy",
+    "href": "slides/05_slides.html#results-for-democracy",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Results for democracy",
+    "text": "Results for democracy"
+  },
+  {
+    "objectID": "slides/05_slides.html#results-for-other-factors",
+    "href": "slides/05_slides.html#results-for-other-factors",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Results for other factors",
+    "text": "Results for other factors"
+  },
+  {
+    "objectID": "slides/05_slides.html#eggers-et-al-2017-corruption-accountability-and-gender",
+    "href": "slides/05_slides.html#eggers-et-al-2017-corruption-accountability-and-gender",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Eggers et al (2017): “Corruption, Accountability, and Gender”",
+    "text": "Eggers et al (2017): “Corruption, Accountability, and Gender”"
+  },
+  {
+    "objectID": "slides/05_slides.html#profile-variants",
+    "href": "slides/05_slides.html#profile-variants",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Profile variants",
+    "text": "Profile variants\n\n\n\n\nFactor\nMP\nChallenger\n\n\n\n\nParty\nLabour, Conservative\nLabour, Conservative, Liberal Democrat\n\n\nAge\n45, 52, 64\n40, 52, 64\n\n\nGender\nMale, Female\nMale, Female\n\n\nPrevious job\nGeneral practitioner, journalist, political advisor, teacher, business manager\nGeneral practitioner, journalist, political advisor, teacher, business manager"
+  },
+  {
+    "objectID": "slides/05_slides.html#results",
+    "href": "slides/05_slides.html#results",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Results",
+    "text": "Results"
+  },
+  {
+    "objectID": "slides/05_slides.html#next-week",
+    "href": "slides/05_slides.html#next-week",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Next Week",
+    "text": "Next Week\nConvenience Samples\nFocus on: Should findings generalize?"
+  },
+  {
+    "objectID": "slides/05_slides.html#break-time",
+    "href": "slides/05_slides.html#break-time",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Break time!",
+    "text": "Break time!"
+  },
+  {
+    "objectID": "slides/05_slides.html#fa-laptop-code-lab",
+    "href": "slides/05_slides.html#fa-laptop-code-lab",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": " Lab",
+    "text": "Lab"
+  },
+  {
+    "objectID": "slides/05_slides.html#return-to-parallels",
+    "href": "slides/05_slides.html#return-to-parallels",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Return to parallels",
+    "text": "Return to parallels\n\n\n\n\nTheory\nEmpirics\n\n\n\n\nModel\nData strategy\n\n\nInquiry\nAnswer strategy"
+  },
+  {
+    "objectID": "slides/05_slides.html#return-to-parallels-1",
+    "href": "slides/05_slides.html#return-to-parallels-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Return to parallels",
+    "text": "Return to parallels\n\n\n\n\nTheory\nEmpirics\n\n\n\n\nModel\nData strategy\n\n\nInquiry\nAnswer strategy"
+  },
+  {
+    "objectID": "slides/05_slides.html#taking-a-step-back-1",
+    "href": "slides/05_slides.html#taking-a-step-back-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Taking a step back",
+    "text": "Taking a step back\n\nTwo ways to express functional relations in a model\n\n\nStructural causal models\nPotential outcomes framework"
+  },
+  {
+    "objectID": "slides/05_slides.html#notation-chart",
+    "href": "slides/05_slides.html#notation-chart",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Notation chart",
+    "text": "Notation chart\n\n\nGreek\n\nLetters like \\(\\mu\\) denote estimands\nA hat \\(\\hat{\\mu}\\) denotes estimators\n\n\nLatin\n\nLetters like \\(X\\) denote actual variables in our data\nA bar \\(\\bar{X}\\) denotes an estimate calculated from our data\n\n\n\n\n\\(X \\rightarrow \\bar{X} \\rightarrow \\hat{\\mu} \\xrightarrow{\\text{hopefully!}} \\mu\\)\n \n\\(\\text{Data} \\rightarrow \\text{Estimate} \\rightarrow \\text{Estimator} \\xrightarrow{\\text{hopefully!}} \\text{Estimand}\\)"
   }
 ]
