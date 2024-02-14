@@ -550,7 +550,7 @@
     "href": "content/06_content.html#lab",
     "title": "Convenience Samples",
     "section": "Lab",
-    "text": "Lab\nExternal validity  (coming soon!)\n\n\n\n\n\n\nDue\n\n\n\nMonday, February 19, 5 PM"
+    "text": "Lab\nExternal validity \n\n\n\n\n\n\nDue\n\n\n\nMonday, February 19, 5 PM"
   },
   {
     "objectID": "content/09_content.html",
@@ -1599,6 +1599,153 @@
     "objectID": "slides/04_slides.html",
     "href": "slides/04_slides.html",
     "title": "Data Strategies",
+    "section": "",
+    "text": "POLSCI 4SS3\nWinter 2024"
+  },
+  {
+    "objectID": "slides/06_slides.html#convenience-samples",
+    "href": "slides/06_slides.html#convenience-samples",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Convenience Samples",
+    "text": "Convenience Samples\n \nPOLSCI 4SS3\nWinter 2024"
+  },
+  {
+    "objectID": "slides/06_slides.html#course-so-far",
+    "href": "slides/06_slides.html#course-so-far",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Course so far",
+    "text": "Course so far\n\nRepresentative surveys as the gold standard\nOther research design help us learn more but tend to use non-representative samples\nToday: Talk about convenience samples"
+  },
+  {
+    "objectID": "slides/06_slides.html#we-are-seeing-less-of-this",
+    "href": "slides/06_slides.html#we-are-seeing-less-of-this",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "We are seeing less of this",
+    "text": "We are seeing less of this"
+  },
+  {
+    "objectID": "slides/06_slides.html#and-more-of-this",
+    "href": "slides/06_slides.html#and-more-of-this",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "And more of this",
+    "text": "And more of this\n\nhttps://www.mturk.com/"
+  },
+  {
+    "objectID": "slides/06_slides.html#and-more-of-this-1",
+    "href": "slides/06_slides.html#and-more-of-this-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "And more of this",
+    "text": "And more of this"
+  },
+  {
+    "objectID": "slides/06_slides.html#do-we-want-surveys-to-be-representative",
+    "href": "slides/06_slides.html#do-we-want-surveys-to-be-representative",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Do we want surveys to be representative?",
+    "text": "Do we want surveys to be representative?\n\n\nPros?\nCons?\nWe always want them!\nBut when do we need them?\nRather, when can we get away with not having them?"
+  },
+  {
+    "objectID": "slides/06_slides.html#internal-an-external-validity",
+    "href": "slides/06_slides.html#internal-an-external-validity",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Internal an external validity",
+    "text": "Internal an external validity\n\n\nValidity: Approximate truth or usefulness of an inference\nInference: How we interpret the results of a study\nInternal validity: Whether inferences from a single study cannot be explained by other factors\nExternal validity: Whether inferences from a single study apply to a broader population or other target populations\nConvenience samples make it easier to achieve internal validity at the expense of external validity"
+  },
+  {
+    "objectID": "slides/06_slides.html#types-of-internal-validity",
+    "href": "slides/06_slides.html#types-of-internal-validity",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Types of internal validity",
+    "text": "Types of internal validity\n\nX-validity (endogenous variables)\nT-validity (treatments, conditions)\nY-validity (outcome variables)\nC-validity (context)\n\n\n\nSee Egami and Hartman (2023) for more"
+  },
+  {
+    "objectID": "slides/06_slides.html#x-validity",
+    "href": "slides/06_slides.html#x-validity",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "X-validity",
+    "text": "X-validity\n\n\nIs the sample comparable to the target population?\nIf not, can we claim that the differences can be ignored?\nTo do that, we have to convince ourselves that:\n\n\n\n\nEffects are the same across units\n\n\n\nOR\n\n\n\nWe observe all the variables that may explain discrepancies in effects"
+  },
+  {
+    "objectID": "slides/06_slides.html#t-validity",
+    "href": "slides/06_slides.html#t-validity",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "T-validity",
+    "text": "T-validity\n\n\nDo treatments (conditions) reflect what participants would encounter in the real world?\nExample: Is thinking about hypothetical countries a good reflection to how people would think about real countries?\nCan we claim that there are no different versions of the same treatment?\nTo do that, we need to convince ourselves that everyone would interpret vignettes in the same way\nEither because it is realistic enough or abstract yet believable"
+  },
+  {
+    "objectID": "slides/06_slides.html#y-validity",
+    "href": "slides/06_slides.html#y-validity",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Y-validity",
+    "text": "Y-validity\n\n\nDo the outcomes we measure in surveys reflect the outcomes we want to learn about in the real world?\nExample: Are self-reported vote intentions a good replacement for actual voting behavior?\nCan we claim that there are no different versions of the same outcome?\nNeed to convince ourselves that measured outcomes are sufficiently valid and reliable"
+  },
+  {
+    "objectID": "slides/06_slides.html#c-validity",
+    "href": "slides/06_slides.html#c-validity",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "C-validity",
+    "text": "C-validity\n\n\nDo results generalize from other contexts?\nExample: If it worked with students in Sweden, will it work with students in Canada?\nCan we claim that the same units would react in the same way if the study was conducted elsewhere?\nNeed to convince ourselves that context is irrelevant for similar people in different places"
+  },
+  {
+    "objectID": "slides/06_slides.html#munger-et-al-2021-accessibility-and-generalizability",
+    "href": "slides/06_slides.html#munger-et-al-2021-accessibility-and-generalizability",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Munger et al (2021): Accessibility and generalizability",
+    "text": "Munger et al (2021): Accessibility and generalizability\n\n\nReplicate 3 convenience sample survey experiments with representative sample\n\n\nSocial commentary and news source credibility\nFacebook shares and news consumption\nIssue framing and support for gun control\n\n\nArgument: Effects vary considerably by age and digital literacy"
+  },
+  {
+    "objectID": "slides/06_slides.html#findings",
+    "href": "slides/06_slides.html#findings",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Findings",
+    "text": "Findings\n\n\nReplication 1: Participants low on digital literacy did not respond differently to vignettes\nReplication 2: Older people clicked on whatever headline came first\nReplication 3: No differences because issue had nothing to do with digital literacy\nWhat kind of validity is this about?"
+  },
+  {
+    "objectID": "slides/06_slides.html#coppock-et-al-2018-generalizability-of-heterogeneous-treatment-effect-estimates-across-samples",
+    "href": "slides/06_slides.html#coppock-et-al-2018-generalizability-of-heterogeneous-treatment-effect-estimates-across-samples",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Coppock et al (2018): Generalizability of heterogeneous treatment effect estimates across samples",
+    "text": "Coppock et al (2018): Generalizability of heterogeneous treatment effect estimates across samples\n\n\nReplicate 27 studies from nationally-representative samples with convenience samples\nCompare how effects vary across 16 demographic characteristics"
+  },
+  {
+    "objectID": "slides/06_slides.html#explanation",
+    "href": "slides/06_slides.html#explanation",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Explanation",
+    "text": "Explanation\n\n\nDifferent samples yield similar results when:\n\n\nTreatment effects are mostly homogeneous\nEffect heterogeneity is orthogonal to sample selection\n\n\nWhat type of validity is this about?"
+  },
+  {
+    "objectID": "slides/06_slides.html#after-recess",
+    "href": "slides/06_slides.html#after-recess",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "After Recess",
+    "text": "After Recess\nEvidence-Informed Policy\nFocus on: New topic!"
+  },
+  {
+    "objectID": "slides/06_slides.html#break-time",
+    "href": "slides/06_slides.html#break-time",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Break time!",
+    "text": "Break time!"
+  },
+  {
+    "objectID": "slides/06_slides.html#fa-laptop-code-lab",
+    "href": "slides/06_slides.html#fa-laptop-code-lab",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": " Lab",
+    "text": "Lab"
+  },
+  {
+    "objectID": "slides/06_slides.html#or-this",
+    "href": "slides/06_slides.html#or-this",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Or this",
+    "text": "Or this\n\nhttps://mcdsl.mcmaster.ca/laboratory"
+  },
+  {
+    "objectID": "slides/06_slides.html",
+    "href": "slides/06_slides.html",
+    "title": "Discussion",
     "section": "",
     "text": "POLSCI 4SS3\nWinter 2024"
   }
