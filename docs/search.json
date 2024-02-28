@@ -1748,5 +1748,131 @@
     "title": "Discussion",
     "section": "",
     "text": "POLSCI 4SS3\nWinter 2024"
+  },
+  {
+    "objectID": "slides/08_slides.html#evidence-informed-policy",
+    "href": "slides/08_slides.html#evidence-informed-policy",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Evidence-Informed Policy",
+    "text": "Evidence-Informed Policy\n \nPOLSCI 4SS3\nWinter 2024"
+  },
+  {
+    "objectID": "slides/08_slides.html#policy",
+    "href": "slides/08_slides.html#policy",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Policy",
+    "text": "Policy\n\n\nPolicy is an umbrella term to describe government programs or operations at different levels\nExamples:\n\nHow long should form 57B be?\nShould we get help from private clinics to clear surgey backlogs?\nShould the education budget increase?\nWhen should the next federal election be held?"
+  },
+  {
+    "objectID": "slides/08_slides.html#evidence-informed",
+    "href": "slides/08_slides.html#evidence-informed",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Evidence-Informed",
+    "text": "Evidence-Informed\n\n\nOf course we want to base policy on evidence!\nBut there is no objective evidence when it comes to human behavior\nWe say evidence-informed because the best we can do is try to prove ourselves wrong, but we cannot base policy on evidence the same way medicine does"
+  },
+  {
+    "objectID": "slides/08_slides.html#two-approaches",
+    "href": "slides/08_slides.html#two-approaches",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Two approaches",
+    "text": "Two approaches\n\n\nEvidence as insight\n\n\n\n\nEvidence as evaluation"
+  },
+  {
+    "objectID": "slides/08_slides.html#example",
+    "href": "slides/08_slides.html#example",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Example",
+    "text": "Example"
+  },
+  {
+    "objectID": "slides/08_slides.html#the-lady-tasting-tea",
+    "href": "slides/08_slides.html#the-lady-tasting-tea",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "The lady tasting tea",
+    "text": "The lady tasting tea\n\nA lady declares that by tasting a cup of tea made with milk she can discriminate whether the milk or the tea infusion was first added to the cup\n\n\n \n\nHow do you evaluate this claim?"
+  },
+  {
+    "objectID": "slides/08_slides.html#an-experiment",
+    "href": "slides/08_slides.html#an-experiment",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "An experiment",
+    "text": "An experiment\n\n\nSuppose we have eight milk tea cups\n4 milk first, 4 tea first\nWe arrange them in random order\nLady knows there are 4 of each, but not which ones"
+  },
+  {
+    "objectID": "slides/08_slides.html#results",
+    "href": "slides/08_slides.html#results",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Results",
+    "text": "Results\n\n\n\n\n\n\n\n\n\n\n\nTrue Order\n\n\n\nLady's Guesses\nTea First\nMilk First\n\n\n\n\nTea First\n3\n1\n\n\nMilk First\n1\n3\n\n\n\n\n\n\n\n\nShe gets it right \\(6/8\\) times\nWhat can we conclude?"
+  },
+  {
+    "objectID": "slides/08_slides.html#problem",
+    "href": "slides/08_slides.html#problem",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Problem",
+    "text": "Problem\n\n\nHow does “being able to discriminate” look like?\nSame for policy, we don’t know how the world where the policy works look like\nBut we do know how a person without the ability to discriminate milk/tea order looks like\nThis lets us make probability statements about this hypothetical world of no effect"
+  },
+  {
+    "objectID": "slides/08_slides.html#a-person-with-no-ability",
+    "href": "slides/08_slides.html#a-person-with-no-ability",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "A person with no ability",
+    "text": "A person with no ability\n\n\n\n\nCount\nPossible combinations\nTotal\n\n\n\n\n0\nxxxx\n\\(1 \\times 1 = 1\\)\n\n\n1\nxxxo, xxox, xoxx, oxxx\n\\(4 \\times 4 = 16\\)\n\n\n2\nxxoo, xoxo, xoox, oxox, ooxx, oxxo\n\\(6 \\times 6 = 36\\)\n\n\n3\nxooo, oxoo, ooxo, ooox\n\\(4 \\times 4 = 16\\)\n\n\n4\noooo\n\\(1 \\times 1 = 1\\)\n\n\n\n\n\n\n\n\n\nThis is symmetrical!\n\n\n\nWays of getting a number of tea-first cups right"
+  },
+  {
+    "objectID": "slides/08_slides.html#a-person-with-no-ability-1",
+    "href": "slides/08_slides.html#a-person-with-no-ability-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "A person with no ability",
+    "text": "A person with no ability\n\n\n\n\nCount\nPossible combinations\nTotal\n\n\n\n\n0\nxxxx\n\\(1 \\times 1 = 1\\)\n\n\n1\nxxxo, xxox, xoxx, oxxx\n\\(4 \\times 4 = 16\\)\n\n\n2\nxxoo, xoxo, xoox, oxox, ooxx, oxxo\n\\(6 \\times 6 = 36\\)\n\n\n3\nxooo, oxoo, ooxo, ooox\n\\(4 \\times 4 = 16\\)\n\n\n4\noooo\n\\(1 \\times 1 = 1\\)\n\n\n\n\n\n\n\n\nWays of getting a number of milk-first cups right"
+  },
+  {
+    "objectID": "slides/08_slides.html#p-values",
+    "href": "slides/08_slides.html#p-values",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "p-values",
+    "text": "p-values\n\n\nIf the lady is not able to discriminate milk-tea order, the chance of observing 6/8 correct guesses or better is 24%\nWe can translate this to general statements about policies or experiments\nIf the null hypothesis of no effect is true…\n… the p-value is the probability of observing a result equal or more extreme than what is originally observed\nSmaller p-values give more evidence against the null, which helps us make a case for the policy having an effect"
+  },
+  {
+    "objectID": "slides/08_slides.html#diagnosing-hypothesis-tests",
+    "href": "slides/08_slides.html#diagnosing-hypothesis-tests",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Diagnosing hypothesis tests",
+    "text": "Diagnosing hypothesis tests\n\n\nA convention in the social sciences is to claim that something with \\(p &lt; 0.05\\) is statistically significant1\nCommitting to a significance level implies accepting that sometimes we will get \\(p &lt; 0.05\\) by chance\nThis is a false positive result\nA good answer strategy as a controlled false positive rate (more in the lab!)\n\n\nThere is no good reason for this other than path dependency"
+  },
+  {
+    "objectID": "slides/08_slides.html#next-two-weeks",
+    "href": "slides/08_slides.html#next-two-weeks",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Next Two Weeks",
+    "text": "Next Two Weeks\nField Experiments\nFocus on: Research design alternatives"
+  },
+  {
+    "objectID": "slides/08_slides.html#break-time",
+    "href": "slides/08_slides.html#break-time",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Break time!",
+    "text": "Break time!"
+  },
+  {
+    "objectID": "slides/08_slides.html#fa-laptop-code-lab",
+    "href": "slides/08_slides.html#fa-laptop-code-lab",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": " Lab",
+    "text": "Lab"
+  },
+  {
+    "objectID": "slides/08_slides.html#a-person-with-no-ability-2",
+    "href": "slides/08_slides.html#a-person-with-no-ability-2",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "A person with no ability",
+    "text": "A person with no ability\n\n\n\n\nCount\nPossible combinations\nTotal\n\n\n\n\n0\nxxxx\n\\(1 \\times 1 = 1\\)\n\n\n1\nxxxo, xxox, xoxx, oxxx\n\\(4 \\times 4 = 16\\)\n\n\n2\nxxoo, xoxo, xoox, oxox, ooxx, oxxo\n\\(6 \\times 6 = 36\\)\n\n\n3\nxooo, oxoo, ooxo, ooox\n\\(4 \\times 4 = 16\\)\n\n\n4\noooo\n\\(1 \\times 1 = 1\\)\n\n\n\n\n\n\n\n\nA person just guessing gets \\(6/8\\) cups right with probability \\(\\frac{16}{70} \\approx 0.23\\)\n\n\n\n\nWays of getting a number of tea-first and milk-first cups right"
+  },
+  {
+    "objectID": "slides/08_slides.html#a-person-with-no-ability-3",
+    "href": "slides/08_slides.html#a-person-with-no-ability-3",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "A person with no ability",
+    "text": "A person with no ability\n\n\n\n\nCount\nPossible combinations\nTotal\n\n\n\n\n0\nxxxx\n\\(1 \\times 1 = 1\\)\n\n\n1\nxxxo, xxox, xoxx, oxxx\n\\(4 \\times 4 = 16\\)\n\n\n2\nxxoo, xoxo, xoox, oxox, ooxx, oxxo\n\\(6 \\times 6 = 36\\)\n\n\n3\nxooo, oxoo, ooxo, ooox\n\\(4 \\times 4 = 16\\)\n\n\n4\noooo\n\\(1 \\times 1 = 1\\)\n\n\n\n\n\n\n\nAnd at least \\(6/8\\) cups with \\(\\frac{16 + 1}{70} \\approx 0.24\\)\n\n\n\nWays of getting a number of tea-first and milk-first cups right"
   }
 ]
