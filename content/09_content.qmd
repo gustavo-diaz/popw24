@@ -43,7 +43,7 @@ slide_buttons("/slides/09_slides")
 
 ## Lab
 
-[Field experimental designs I {{< fa brands r-project >}}](https://github.com/gustavo-diaz/popw24/blob/main/content/labs/08_lab.qmd)
+[Field experimental designs I {{< fa brands r-project >}}](https://github.com/gustavo-diaz/popw24/blob/main/content/labs/09_lab.qmd)
 
 ::: {.callout-warning}
 ## Due
