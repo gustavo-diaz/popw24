@@ -46,5 +46,5 @@ slide_buttons("/slides/10_slides")
 ::: {.callout-warning}
 ## Due
 
-Monday, March 18, 5 PM
+Monday, March 18, 11:59 PM
 :::
