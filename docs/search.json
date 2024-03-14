@@ -305,7 +305,7 @@
     "href": "content/10_content.html#lab",
     "title": "Field Experiments II",
     "section": "Lab",
-    "text": "Lab\nField experimental designs II  (coming soon!)\n\n\n\n\n\n\nDue\n\n\n\nMonday, March 18, 5 PM"
+    "text": "Lab\nField experimental designs II \n\n\n\n\n\n\nDue\n\n\n\nMonday, March 18, 5 PM"
   },
   {
     "objectID": "content/08_content.html",
@@ -2021,5 +2021,166 @@
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": " Lab",
     "text": "Lab"
+  },
+  {
+    "objectID": "slides/10_slides.html#field-experiments-ii",
+    "href": "slides/10_slides.html#field-experiments-ii",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Field Experiments II",
+    "text": "Field Experiments II\n \nPOLSCI 4SS3\nWinter 2024"
+  },
+  {
+    "objectID": "slides/10_slides.html#last-time",
+    "href": "slides/10_slides.html#last-time",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Last time",
+    "text": "Last time\n\nWe learned about implementing field experients\nLots of details!\nSometimes cannot randomly assign (stepped-wedge design)\nToday: Thinking about how to do better"
+  },
+  {
+    "objectID": "slides/10_slides.html#why-do-better",
+    "href": "slides/10_slides.html#why-do-better",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Why do better?",
+    "text": "Why do better?\n\n\nConducting research is expensive\nField experiments are very expensive\nEven if you had the resources, we have a mandate to do better"
+  },
+  {
+    "objectID": "slides/10_slides.html#research-ethics",
+    "href": "slides/10_slides.html#research-ethics",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Research ethics",
+    "text": "Research ethics\n\n\nBelmont report: Benefits should outweigh costs\n: Researchers have duties beyond getting review board approval\nAt a minimum, participating in a study takes time\nMandate: Find the most efficient, ethical study before collecting data\nSometimes that means doing more with a smaller sample"
+  },
+  {
+    "objectID": "slides/10_slides.html#two-ways-to-improve-precision",
+    "href": "slides/10_slides.html#two-ways-to-improve-precision",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Two ways to improve precision",
+    "text": "Two ways to improve precision\n\\[\nSE(\\widehat{ATE}) =\\\\ \\sqrt{\\frac{\\text{Var}(Y_i(0)) + \\text{Var}(Y_i(1)) + 2\\text{Cov}(Y_i(0), Y_i(1))}{N-1}}\n\\]"
+  },
+  {
+    "objectID": "slides/10_slides.html#two-ways-to-improve-precision-1",
+    "href": "slides/10_slides.html#two-ways-to-improve-precision-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Two ways to improve precision",
+    "text": "Two ways to improve precision\n\\[\nSE(\\widehat{ATE}) =\\\\ \\sqrt{\\frac{\\text{Var}(Y_i(0)) + \\text{Var}(Y_i(1)) + 2\\text{Cov}(Y_i(0), Y_i(1))}{\\color{#ac1455}{N-1}}}\n\\]\n\nIncrease sample size  Make denominator larger"
+  },
+  {
+    "objectID": "slides/10_slides.html#pre-post-design",
+    "href": "slides/10_slides.html#pre-post-design",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Pre-post design",
+    "text": "Pre-post design\n\n\nOutcomes are measured at least twice\nOnce before treatment, once after treatment\n\n\n\n\n\n\n\nCondition\n\\(t=1\\)\nTreatment\n\\(t=2\\)\n\n\n\n\n\\(Z_i=1\\)\n\\(Y_{i, t=1}\\)\nX\n\\(Y_{i, t=2}(1)\\)\n\n\n\\(Z_i=0\\)\n\\(Y_{i, t=1}\\)\n\n\\(Y_{i, t=2}(0)\\)\n\n\n\n\n\n\n\n\n\nAKA repeated measures design"
+  },
+  {
+    "objectID": "slides/10_slides.html#how-does-this-work",
+    "href": "slides/10_slides.html#how-does-this-work",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "How does this work?",
+    "text": "How does this work?\n\n\nStandard ATE estimator:\n\n\\[\nE[Y_i(1) | Z_i = 1] - E[Y_i(0) | Z_i = 0]\n\\]\n\n\n\nPre-post ATE estimator:\n\n\\[\nE[(Y_{i,t=2}(1) - Y_{i,t=1}) | Z_i = 1] - E[(Y_{i,t=2}(0) - Y_{i,t=1}) | Z_i = 0]\n\\]"
+  },
+  {
+    "objectID": "slides/10_slides.html#how-does-this-work-1",
+    "href": "slides/10_slides.html#how-does-this-work-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "How does this work?",
+    "text": "How does this work?\n\nStandard ATE estimator:\n\n\\[\nE[Y_i(1) | Z_i = 1] - E[Y_i(0) | Z_i = 0]\n\\]\n\nPre-post ATE estimator:\n\n\\[\nE[(Y_{i,t=2}(1) \\color{#ac1455} {- Y_{i,t=1}}) | Z_i = 1] - E[(Y_{i,t=2}(0) \\color{#ac1455} {- Y_{i,t=1}}) | Z_i = 0]\n\\]\n\n\nWe improve precision by subtracting the variation in the outcome that is unrelated to the treatment"
+  },
+  {
+    "objectID": "slides/10_slides.html#block-randomization",
+    "href": "slides/10_slides.html#block-randomization",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Block randomization",
+    "text": "Block randomization\n\n\nChange how randomization happens\nGroup units in blocks or strata\nEstimate average treatment effect within each\nAggregate with a weighted average"
+  },
+  {
+    "objectID": "slides/10_slides.html#how-does-it-work",
+    "href": "slides/10_slides.html#how-does-it-work",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "How does it work?",
+    "text": "How does it work?\n\n\nWithin-block ATE estimator:\n\n\\[\n\\widehat{ATE}_b = E[Y_{ib}(1) | Z_{ib} = 1] - E[Y_{ib}(0) | Z_{ib} = 0]\n\\]"
+  },
+  {
+    "objectID": "slides/10_slides.html#illustration",
+    "href": "slides/10_slides.html#illustration",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Illustration",
+    "text": "Illustration\n\n\n\n\n\n\nID\nBlock\n\\(Y_i(0)\\)\n\\(Y_i(1)\\)\n\n\n\n\n1\n1\n1\n4\n\n\n2\n1\n2\n5\n\n\n3\n1\n1\n4\n\n\n4\n1\n2\n5\n\n\n5\n2\n3\n8\n\n\n6\n2\n4\n9\n\n\n7\n2\n3\n8\n\n\n8\n2\n4\n9\n\n\n\n\n\n\n\n\n\nPotential outcomes correlate with blocks\nTrue \\(ATE = 4\\)\nDo 500 experiments\nCompare complete and block-randomized experiment"
+  },
+  {
+    "objectID": "slides/10_slides.html#simulation",
+    "href": "slides/10_slides.html#simulation",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Simulation",
+    "text": "Simulation\n\n\n\nBlock randomization yields a narrower distribution of estimates"
+  },
+  {
+    "objectID": "slides/10_slides.html#reasons-to-block-randomize",
+    "href": "slides/10_slides.html#reasons-to-block-randomize",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Reasons to block randomize",
+    "text": "Reasons to block randomize\n\nTo increase precision in ATE estimates\nTo account for possible heterogeneous treatment effects\n\n\n\nMost useful when blocking variables correlate with potential outcomes\nAnd it rarely hurts when they do not correlate! (more in the lab!)"
+  },
+  {
+    "objectID": "slides/10_slides.html#kalla-et-al-2018-are-you-my-mentor",
+    "href": "slides/10_slides.html#kalla-et-al-2018-are-you-my-mentor",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Kalla et al (2018): Are You My Mentor?",
+    "text": "Kalla et al (2018): Are You My Mentor?\n\n\nCorrespondence experiment with \\(N = 8189\\) legislators in the US\nSend email about fake student seeking advice to become politician\nCue gender with student’s name\n\n\n\n\nAlso called audit experiments since they were originally designed to audit how responsive elected officials are"
+  },
+  {
+    "objectID": "slides/10_slides.html#sample-email",
+    "href": "slides/10_slides.html#sample-email",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Sample email",
+    "text": "Sample email"
+  },
+  {
+    "objectID": "slides/10_slides.html#data-strategy",
+    "href": "slides/10_slides.html#data-strategy",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Data strategy",
+    "text": "Data strategy\n\nBlock-randomize by legislator’s gender (why?)\nOutcomes: Reply content and length"
+  },
+  {
+    "objectID": "slides/10_slides.html#findings",
+    "href": "slides/10_slides.html#findings",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Findings",
+    "text": "Findings\n\n\n\n\nOutcome\nMale Sender\nFemale Sender\np-value\n\n\n\n\nReceived reply\n0.25\n0.27\n0.15\n\n\nMeaningful response\n0.11\n0.13\n0.47\n\n\nPraised\n0.05\n0.06\n0.17\n\n\nOffer to help\n0.03\n0.05\n0.09\n\n\nWarned against running\n0.01\n0.02\n0.14\n\n\nSubstantive advice\n0.07\n0.08\n0.33\n\n\nWord count (logged)\n1.00\n1.10\n0.06\n\n\nCharacter count\n145.00\n170.00\n0.04\n\n\n\n\n\n\n\n\nWhy not much difference by gender?\n\n\n\n\nAdapted from Table 1"
+  },
+  {
+    "objectID": "slides/10_slides.html#break-time",
+    "href": "slides/10_slides.html#break-time",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Break time!",
+    "text": "Break time!"
+  },
+  {
+    "objectID": "slides/10_slides.html#fa-laptop-code-lab",
+    "href": "slides/10_slides.html#fa-laptop-code-lab",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": " Lab",
+    "text": "Lab"
+  },
+  {
+    "objectID": "slides/10_slides.html#two-ways-to-improve-precision-2",
+    "href": "slides/10_slides.html#two-ways-to-improve-precision-2",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Two ways to improve precision",
+    "text": "Two ways to improve precision\n\\[\nSE(\\widehat{ATE}) =\\\\ \\sqrt{\\frac{\\color{#ac1455} {\\text{Var}(Y_i(0)) + \\text{Var}(Y_i(1)) + 2\\text{Cov}(Y_i(0), Y_i(1))}}{N-1}}\n\\]\n\nAlternative research design  Make numerator smaller"
+  },
+  {
+    "objectID": "slides/10_slides.html#reasons-to-use-pre-post-design",
+    "href": "slides/10_slides.html#reasons-to-use-pre-post-design",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Reasons to use pre-post design",
+    "text": "Reasons to use pre-post design\n\nTo increase precision in ATE estimates\n\n\n\nMost useful when pre-treatment outcomes correlate highly with post-treatment outcomes\n\n\n\n\nProblematic when:\n\n\n\n\nPre-treatment outcomes correlate with potential outcomes\nMeasuring pre-treatment outcomes leads to attrition"
+  },
+  {
+    "objectID": "slides/10_slides.html#how-does-it-work-1",
+    "href": "slides/10_slides.html#how-does-it-work-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "How does it work?",
+    "text": "How does it work?\n\nWithin-block ATE estimator:\n\n\\[\n\\widehat{ATE}_\\color{#ac1455}b = E[Y_{i\\color{#ac1455}b}(1) | Z_{i\\color{#ac1455}b} = 1] - E[Y_{i\\color{#ac1455}b}(0) | Z_{i\\color{#ac1455}b} = 0]\n\\]\n\n\nOverall ATE estimator:\n\n\\[\n\\widehat{ATE}_{\\text{Block}} = \\sum_{b=1}^B \\frac{n_b}{N} \\widehat{ATE}_b\n\\]"
   }
 ]

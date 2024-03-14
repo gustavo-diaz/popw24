@@ -41,7 +41,7 @@ slide_buttons("/slides/10_slides")
 
 ## Lab
 
-Field experimental designs II {{< fa brands r-project >}} (coming soon!)
+[Field experimental designs II {{< fa brands r-project >}}](https://github.com/gustavo-diaz/popw24/blob/main/content/labs/10_lab.qmd)
 
 ::: {.callout-warning}
 ## Due
