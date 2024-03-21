@@ -50,7 +50,7 @@ schedule =
     8, "February 29", "[Evidence-informed policy](content/08_content.qmd)", "Hypothesis testing",
     9, "March 7", "[Field experiments I](content/09_content.qmd)", "Field experimental designs I",
     10, "March 14", "[Field experiments II](content/10_content.qmd)", "Field experimental designs II",
-    11, "March 21", "[Beyond experimentation](content/11_content.qmd)", "Limitations of experiments",
+    11, "March 21", "[Beyond experimentation](content/11_content.qmd)", "Writing your own design",
     12, "March 28", "[Quasi-experiments](content/12_content.qmd)", "Quasi-experimental designs",
     13, "April 4", "NO CLASS -- INSTRUCTOR TRAVEL", NA,
     NA, "**April 25**", "**Optional final project due**", NA

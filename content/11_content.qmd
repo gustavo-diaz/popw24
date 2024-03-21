@@ -14,7 +14,7 @@ source(here::here("R", "show_slides.R"))
 
 We use experiments to understand whether a policy would work. We usually care about whether said policy works **outside** of the experimental setting. Experiments alone do not answer that question. Which opens a conversation on the scope and limitations of using experiments to inform policy-making.
 
-The lab illustrates these ideas by trying to compare experiments in different contexts.
+The lab illustrates these ideas by giving you the chance to write your own design based on an application of your choosing.
 
 
 ## Reading
@@ -43,7 +43,7 @@ slide_buttons("/slides/11_slides")
 
 ## Lab
 
-Limitations of experiments {{< fa brands r-project >}} (coming soon!)
+[Writing your own design {{< fa brands r-project >}}](https://github.com/gustavo-diaz/popw24/blob/main/content/labs/11_lab.qmd)
 
 ::: {.callout-warning}
 ## Due

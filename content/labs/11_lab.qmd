@@ -1,0 +1,113 @@
+---
+title: "Lab 10: Writing your own design"
+subtitle: "**Due:** Monday, March 25, 11:59 PM"
+author: 
+    - "**Name:** Your name here"
+    - "**Mac ID:** The first half of your Mac email address"
+format: 
+     pdf:
+       documentclass: article
+fontsize: 12pt
+urlcolor: blue
+highlight-style: nord
+number-sections: true
+geometry:
+      - left=1in
+      - right=1in
+      - top=1in
+      - bottom=1in
+header-includes:
+    - \usepackage{setspace}
+    - \doublespacing
+    - \usepackage{float}
+    - \floatplacement{figure}{t}
+    - \floatplacement{table}{t}
+    - \usepackage{flafter}
+    - \usepackage{ragged2e}
+    - \usepackage{booktabs}
+    - \usepackage{amsmath}
+    - \usepackage{url}
+---
+
+
+```{r setup, include=FALSE}
+# Global options for the knitting behavior of all subsequent code chunks
+# Adding an option to store previous results to save computing time
+knitr::opts_chunk$set(echo = TRUE, error = TRUE, cache = TRUE)
+
+# Packages
+library(tidyverse)
+library(DeclareDesign)
+
+# Package global options
+theme_set(theme_bw(base_size = 20)) # bigger figure font and white background
+
+# Add extra packages here if needed
+```
+
+# Instructions
+
+So far, we have been mostly modifying existing research designs. This time, you will code your own design based on a study that you would like to conduct. This lab will be a good practice for the optional final.
+
+Look at the [research design library](https://book.declaredesign.org/library/) in chapters 14-18 of the RD textbook. If you are feeling adventurous, you may also look at [this library](https://declaredesign.org/r/designlibrary/) with more complicated designs.
+
+Pick one research design and come up with a story for a survey or experiment that represents this research design.
+
+*Remember to use `set.seed()` with your student number whenever you simulate or diagnose a design! Also remember to show your code and output at every step.*
+
+## Study
+
+Write here one or two paragraphs about what your study is about. If you can't think of anything to write about, maybe start with one of the assigned readings for the course and think about what you would do differently. Another option is to go back to previous labs, since some of them mimic applications that we have already discussed.
+
+## Model
+
+Write here about your model of the world, which variables are endogenous, which variables are exogenous? If you need to specify potential outcomes, why did you specify them the way you did?
+
+```{r}
+# Work on model here
+```
+
+## Inquiry
+
+What is the abstract quantity or quantities of interest? Why is it meaningful? (*Hint:* Don't include too many inquiries!)
+
+```{r}
+# Work on inquiry here
+```
+
+## Data strategy
+
+How are you collecting data from the world? Are you sampling from a population? Are you assigning conditions? What randomization procedure, if any, are you using?
+
+```{r}
+# work on data strategy here
+```
+
+
+## Answer strategy
+
+What statistical procedure are you using to summarize the data you collect? Remember that each inquiry has at least one corresponding estimator. If an inquiry has more than one estimator, it may be interesting to compare how different estimators perform.
+
+```{r}
+# work on answer strategy here
+```
+
+
+# Questions
+
+### 1. Diagnose your design. How does it perform in terms of bias, RMSE, and power. Are you satisfied with its current performance? Why do you think so? {-}
+
+Work your answer here.
+
+### 2. If you feel satisfied. Can you change anything about this design to make it more efficient? Remember that studies are expensive and impose a burden on human subjects, so we should reduce the scale if we can. Change one thing about the design and diagnose it again. How did performance change in terms of bias, RMSE, and power? {-}
+
+Work on your answer here.
+
+### If you were not satisfied. Can you change anything to improve performance? Change one thing about the design and diagnose it again. How did performance change in terms of bias, RMSE, and power? Is the improvement in performance worth the additional cost or burden on human subjects? {-}
+
+Work on your answer here.
+
+### In what other contexts would this design yield similar results? List at least three support factors. How common are they? What would you need to change to apply your current design to a different setting? (no need to show code for this one) {-}
+
+Write your answer here.
+

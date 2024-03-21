@@ -256,7 +256,7 @@
     "href": "content/12_content.html#reading",
     "title": "Week 12: Quasi-experiments",
     "section": "Reading",
-    "text": "Reading\n\n RD section 16\n Hoekstra, Mark. 2009. “The Effect of Attending the Flagship State University on Earnings: A Discontinuity-Based Approach.” The Review of Economics and Statistics 91 (4): 717-724\n\n- Leninger, Arndt, Marie-Lou Sohnius, Thorsten Faas, Sigrid Roßteutscher, and Armin Schäfer. 2022. “Temporary Disenfranchisement: Negative Side Effects of Lowering the Voting Age.” American Political Science Review"
+    "text": "Reading\n\n RD section 16\n Hoekstra, Mark. 2009. “The Effect of Attending the Flagship State University on Earnings: A Discontinuity-Based Approach.” The Review of Economics and Statistics 91 (4): 717-724\n Leninger, Arndt, Marie-Lou Sohnius, Thorsten Faas, Sigrid Roßteutscher, and Armin Schäfer. 2022. “Temporary Disenfranchisement: Negative Side Effects of Lowering the Voting Age.” American Political Science Review"
   },
   {
     "objectID": "content/12_content.html#slides",
@@ -592,14 +592,14 @@
     "href": "content/11_content.html",
     "title": "Beyond Experimentation",
     "section": "",
-    "text": "We use experiments to understand whether a policy would work. We usually care about whether said policy works outside of the experimental setting. Experiments alone do not answer that question. Which opens a conversation on the scope and limitations of using experiments to inform policy-making.\nThe lab illustrates these ideas by trying to compare experiments in different contexts."
+    "text": "We use experiments to understand whether a policy would work. We usually care about whether said policy works outside of the experimental setting. Experiments alone do not answer that question. Which opens a conversation on the scope and limitations of using experiments to inform policy-making.\nThe lab illustrates these ideas by giving you the chance to write your own design based on an application of your choosing."
   },
   {
     "objectID": "content/11_content.html#overview",
     "href": "content/11_content.html#overview",
     "title": "Beyond Experimentation",
     "section": "",
-    "text": "We use experiments to understand whether a policy would work. We usually care about whether said policy works outside of the experimental setting. Experiments alone do not answer that question. Which opens a conversation on the scope and limitations of using experiments to inform policy-making.\nThe lab illustrates these ideas by trying to compare experiments in different contexts."
+    "text": "We use experiments to understand whether a policy would work. We usually care about whether said policy works outside of the experimental setting. Experiments alone do not answer that question. Which opens a conversation on the scope and limitations of using experiments to inform policy-making.\nThe lab illustrates these ideas by giving you the chance to write your own design based on an application of your choosing."
   },
   {
     "objectID": "content/11_content.html#reading",
@@ -620,7 +620,7 @@
     "href": "content/11_content.html#lab",
     "title": "Beyond Experimentation",
     "section": "Lab",
-    "text": "Lab\nLimitations of experiments  (coming soon!)\n\n\n\n\n\n\nDue\n\n\n\nMonday, March 25, 5 PM"
+    "text": "Lab\nWriting your own design \n\n\n\n\n\n\nDue\n\n\n\nMonday, March 25, 5 PM"
   },
   {
     "objectID": "content/index.html",
@@ -648,7 +648,7 @@
     "href": "index.html#schedule",
     "title": "Public Opinion and Policy",
     "section": "Schedule",
-    "text": "Schedule\n\n\n\n\n Week\n Date\n Content\n Lab\n\n\n\n\n1\nJanuary 11\nIntroduction\nGetting started\n\n\n2\nJanuary 18\nThe MIDA framework\nIntro to R and RStudio\n\n\n3\nJanuary 25\nRepresentative surveys\nSampling and descriptive inference\n\n\n4\nFebruary 1\nSensitive questions\nReducing sensitivity bias\n\n\n5\nFebruary 8\nSurvey experiments\nSurvey experimental designs\n\n\n6\nFebruary 15\nConvenience samples\nExternal validity\n\n\n7\nFebruary 22\nMid-term recess\n\n\n\n8\nFebruary 29\nEvidence-informed policy\nHypothesis testing\n\n\n9\nMarch 7\nField experiments I\nField experimental designs I\n\n\n10\nMarch 14\nField experiments II\nField experimental designs II\n\n\n11\nMarch 21\nBeyond experimentation\nLimitations of experiments\n\n\n12\nMarch 28\nQuasi-experiments\nQuasi-experimental designs\n\n\n13\nApril 4\nNO CLASS – INSTRUCTOR TRAVEL\n\n\n\n\nApril 25\nOptional final project due"
+    "text": "Schedule\n\n\n\n\n Week\n Date\n Content\n Lab\n\n\n\n\n1\nJanuary 11\nIntroduction\nGetting started\n\n\n2\nJanuary 18\nThe MIDA framework\nIntro to R and RStudio\n\n\n3\nJanuary 25\nRepresentative surveys\nSampling and descriptive inference\n\n\n4\nFebruary 1\nSensitive questions\nReducing sensitivity bias\n\n\n5\nFebruary 8\nSurvey experiments\nSurvey experimental designs\n\n\n6\nFebruary 15\nConvenience samples\nExternal validity\n\n\n7\nFebruary 22\nMid-term recess\n\n\n\n8\nFebruary 29\nEvidence-informed policy\nHypothesis testing\n\n\n9\nMarch 7\nField experiments I\nField experimental designs I\n\n\n10\nMarch 14\nField experiments II\nField experimental designs II\n\n\n11\nMarch 21\nBeyond experimentation\nWriting your own design\n\n\n12\nMarch 28\nQuasi-experiments\nQuasi-experimental designs\n\n\n13\nApril 4\nNO CLASS – INSTRUCTOR TRAVEL\n\n\n\n\nApril 25\nOptional final project due"
   },
   {
     "objectID": "schedule.html",
@@ -1899,288 +1899,505 @@
   {
     "objectID": "slides/09_slides.html#field-experiments-i",
     "href": "slides/09_slides.html#field-experiments-i",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
-    "section": "Field Experiments I",
-    "text": "Field Experiments I\n \nPOLSCI 4SS3\nWinter 2024"
+    "title": "Examples",
+    "section": "",
+    "text": "POLSCI 4SS3\nWinter 2024"
   },
   {
     "objectID": "slides/09_slides.html#last-time",
     "href": "slides/09_slides.html#last-time",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Examples",
     "section": "Last time",
     "text": "Last time\n\nHypothesis testing as a standard to evaluate if experiments suggest that policies works\nWe don’t know how things look when the policy work, but we can contrast with the hypothetical world in which it doesn’t work\nWe can only do this if we know how the experiment was conducted!\nLab: Statistical power as a diagnosand to determine if an experiment is well equipped to detect “true” effects\nToday: Start applying these concepts to field experiments"
   },
   {
     "objectID": "slides/09_slides.html#field-experiments",
     "href": "slides/09_slides.html#field-experiments",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Examples",
     "section": "Field Experiments",
     "text": "Field Experiments\n\n\nField: Interventions in real world settings (vs. surveys, laboratory)\nExperiment: Randomization determines assignment of units to conditions\nAKA randomized controlled trials in policy or A/B testing in industry\nCore idea: Randomization allows us to produce credible evidence on whether something works\nIn practice: A lot of implementation details and research design choices to navigate"
   },
   {
     "objectID": "slides/09_slides.html#banerjee-et-al-2021-tup-program",
     "href": "slides/09_slides.html#banerjee-et-al-2021-tup-program",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Examples",
     "section": "Banerjee et al (2021): TUP program",
     "text": "Banerjee et al (2021): TUP program\n\n\nPoverty trap: Most programs to help the poor improve living conditions in the short term, but revert afterwards\nSolution: Multidimensional “big push” to overcome poverty traps\nEvaluate long-term effect on poorest villages in West Bengal, India"
   },
   {
     "objectID": "slides/09_slides.html#household-eligibility-criteria",
     "href": "slides/09_slides.html#household-eligibility-criteria",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Examples",
     "section": "Household eligibility criteria",
-    "text": "Household eligibility criteria\n\n\nAble bodied female member (why?)\nNo credit access\n\n\n\nAND at least three out of\n\n\n\nBelow 0.2 acres of land (about 2 basketball courts)\nNo productive assets\nNo able-bodied male member\nKids who work instead of going to school\nNo formal source of income"
+    "text": "Household eligibility criteria\n. . .\n\nAble bodied female member (why?)\nNo credit access\n\n. . .\nAND at least three out of\n. . .\n\nBelow 0.2 acres of land (about 2 basketball courts)\nNo productive assets\nNo able-bodied male member\nKids who work instead of going to school\nNo formal source of income"
   },
   {
     "objectID": "slides/09_slides.html#data-strategy",
     "href": "slides/09_slides.html#data-strategy",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Examples",
     "section": "Data strategy",
-    "text": "Data strategy\n\nSample: 978 eligible households\n514 assigned to treatment\n266 accepted treatment\n\n\n \n\nWhat was the treatment?"
+    "text": "Data strategy\n\nSample: 978 eligible households\n514 assigned to treatment\n266 accepted treatment\n\n. . .\n \n\nWhat was the treatment?"
   },
   {
     "objectID": "slides/09_slides.html#program",
     "href": "slides/09_slides.html#program",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Examples",
     "section": "Program",
-    "text": "Program\n\nChoose a productive asset (82% chose livestock)\nWeekly consumption support for 30–40 weeks\nAccess to savings\nWeekly visits from program staff over a span of 18 months\n\n\n \n\nWhy would someone reject this?"
+    "text": "Program\n\nChoose a productive asset (82% chose livestock)\nWeekly consumption support for 30–40 weeks\nAccess to savings\nWeekly visits from program staff over a span of 18 months\n\n. . .\n \n\nWhy would someone reject this?"
   },
   {
     "objectID": "slides/09_slides.html#answer-strategy",
     "href": "slides/09_slides.html#answer-strategy",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Examples",
     "section": "Answer strategy",
     "text": "Answer strategy\n\n\nTrack economic and health outcomes after 18 months, 3, 7, and 10 years\nOf all household members\nFocus on average treatment effect among the treated (more in the lab)"
   },
   {
     "objectID": "slides/09_slides.html#findings",
     "href": "slides/09_slides.html#findings",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Examples",
     "section": "Findings",
     "text": "Findings"
   },
   {
     "objectID": "slides/09_slides.html#why-does-this-work",
     "href": "slides/09_slides.html#why-does-this-work",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Examples",
     "section": "Why does this work?",
-    "text": "Why does this work?\n\n\n\n\n\n\n\n\n\n\n\n\n\nATE on income from...\n\n\n\nTime\nLivestock\nMicro-enterprise\nSelf-employment\nRemittances\n\n\n\n\n18 months\n10.26\n7.93\n18.67\n0.00\n\n\n3 years\n7.68\n25.12\n31.06\n3.70\n\n\n7 years\n27.26\n67.59\n108.36\n8.87\n\n\n10 years\n16.71\n36.82\n93.87\n19.06\n\n\n\n\n\n\n\n\nTakeaway: Big push works because it helps people diversify their income sources over time\n\n\n\n\nFull results on Table 3 of the reading"
+    "text": "Why does this work?\n\n\n\n\n\n\n\n\n\n\n\n\n\nATE on income from...\n\n\n\nTime\nLivestock\nMicro-enterprise\nSelf-employment\nRemittances\n\n\n\n\n18 months\n10.26\n7.93\n18.67\n0.00\n\n\n3 years\n7.68\n25.12\n31.06\n3.70\n\n\n7 years\n27.26\n67.59\n108.36\n8.87\n\n\n10 years\n16.71\n36.82\n93.87\n19.06\n\n\n\n\n\n\n. . .\n\nTakeaway: Big push works because it helps people diversify their income sources over time\n\n\n\nFull results on Table 3 of the reading"
   },
   {
     "objectID": "slides/09_slides.html#pennycook-et-al-2021-shifting-attention-to-accuracy-can-reduce-misinformation-online",
     "href": "slides/09_slides.html#pennycook-et-al-2021-shifting-attention-to-accuracy-can-reduce-misinformation-online",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Examples",
     "section": "Pennycook et al (2021): Shifting attention to accuracy can reduce misinformation online",
     "text": "Pennycook et al (2021): Shifting attention to accuracy can reduce misinformation online\n\n\nWhy do people share fake news in social media?\n\n\n\nThree explanations:\n\n\nConfusion about accuracy\n\n\n\n\nPartisanship \\(&gt;\\) accuracy\n\n\n\n\nInattention to accuracy"
   },
   {
     "objectID": "slides/09_slides.html#study-7-application-to-twitter",
     "href": "slides/09_slides.html#study-7-application-to-twitter",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Examples",
     "section": "Study 7: Application to Twitter",
     "text": "Study 7: Application to Twitter\n\n\nStudies 1-7 were all survey experiments\nStudy 7 deploys intervention on Twitter to see if priming accuracy works\nN = 5,739 users who previously shared news from untrustworthy sources\nTreatment: Send a DM asking to evaluate accuracy of news article"
   },
   {
     "objectID": "slides/09_slides.html#challenge-to-data-strategy",
     "href": "slides/09_slides.html#challenge-to-data-strategy",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Examples",
     "section": "Challenge to data strategy",
     "text": "Challenge to data strategy\n\n\n\n\nCan only send DM to someone who follows you\nNeed to create bot accounts and hope for follow-backs\nIdentify those who retweet fake news\nLimit 20 DMs per account per day\n3 waves with many 24-hour blocks in each"
   },
   {
     "objectID": "slides/09_slides.html#stepped-wedge-design",
     "href": "slides/09_slides.html#stepped-wedge-design",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Examples",
     "section": "Stepped-wedge design",
     "text": "Stepped-wedge design\n\n\n\n\n\n\n\nAKA staggered adoption design"
   },
   {
     "objectID": "slides/09_slides.html#findings-1",
     "href": "slides/09_slides.html#findings-1",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Examples",
     "section": "Findings",
     "text": "Findings\n\n\n\n\n\n\n\nThe size of each dot represents the proportion of pre-treatment posts from that outlet"
   },
   {
     "objectID": "slides/09_slides.html#next-week",
     "href": "slides/09_slides.html#next-week",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Examples",
     "section": "Next Week",
-    "text": "Next Week\nMore field experiments\nFocus on: Sections 1-3 of Diaz and Rossitter (2023) only"
+    "text": "Next Week\n\nMore field experiments\nFocus on: Sections 1-3 of Diaz and Rossitter (2023) only"
   },
   {
     "objectID": "slides/09_slides.html#break-time",
     "href": "slides/09_slides.html#break-time",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Examples",
     "section": "Break time!",
     "text": "Break time!"
   },
   {
     "objectID": "slides/09_slides.html#fa-laptop-code-lab",
     "href": "slides/09_slides.html#fa-laptop-code-lab",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Examples",
     "section": " Lab",
     "text": "Lab"
   },
   {
     "objectID": "slides/10_slides.html#field-experiments-ii",
     "href": "slides/10_slides.html#field-experiments-ii",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
-    "section": "Field Experiments II",
-    "text": "Field Experiments II\n \nPOLSCI 4SS3\nWinter 2024"
+    "title": "Improving Precision",
+    "section": "",
+    "text": "POLSCI 4SS3\nWinter 2024"
   },
   {
     "objectID": "slides/10_slides.html#last-time",
     "href": "slides/10_slides.html#last-time",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "Last time",
     "text": "Last time\n\nWe learned about implementing field experients\nLots of details!\nSometimes cannot randomly assign (stepped-wedge design)\nToday: Thinking about how to do better"
   },
   {
     "objectID": "slides/10_slides.html#why-do-better",
     "href": "slides/10_slides.html#why-do-better",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "Why do better?",
     "text": "Why do better?\n\n\nConducting research is expensive\nField experiments are very expensive\nEven if you had the resources, we have a mandate to do better"
   },
   {
     "objectID": "slides/10_slides.html#research-ethics",
     "href": "slides/10_slides.html#research-ethics",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "Research ethics",
     "text": "Research ethics\n\n\nBelmont report: Benefits should outweigh costs\n: Researchers have duties beyond getting review board approval\nAt a minimum, participating in a study takes time\nMandate: Find the most efficient, ethical study before collecting data\nSometimes that means doing more with a smaller sample"
   },
   {
     "objectID": "slides/10_slides.html#two-ways-to-improve-precision",
     "href": "slides/10_slides.html#two-ways-to-improve-precision",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "Two ways to improve precision",
     "text": "Two ways to improve precision\n\\[\nSE(\\widehat{ATE}) =\\\\ \\sqrt{\\frac{\\text{Var}(Y_i(0)) + \\text{Var}(Y_i(1)) + 2\\text{Cov}(Y_i(0), Y_i(1))}{N-1}}\n\\]"
   },
   {
     "objectID": "slides/10_slides.html#two-ways-to-improve-precision-1",
     "href": "slides/10_slides.html#two-ways-to-improve-precision-1",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "Two ways to improve precision",
     "text": "Two ways to improve precision\n\\[\nSE(\\widehat{ATE}) =\\\\ \\sqrt{\\frac{\\text{Var}(Y_i(0)) + \\text{Var}(Y_i(1)) + 2\\text{Cov}(Y_i(0), Y_i(1))}{\\color{#ac1455}{N-1}}}\n\\]\n\nIncrease sample size  Make denominator larger"
   },
   {
     "objectID": "slides/10_slides.html#pre-post-design",
     "href": "slides/10_slides.html#pre-post-design",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "Pre-post design",
-    "text": "Pre-post design\n\n\nOutcomes are measured at least twice\nOnce before treatment, once after treatment\n\n\n\n\n\n\n\nCondition\n\\(t=1\\)\nTreatment\n\\(t=2\\)\n\n\n\n\n\\(Z_i=1\\)\n\\(Y_{i, t=1}\\)\nX\n\\(Y_{i, t=2}(1)\\)\n\n\n\\(Z_i=0\\)\n\\(Y_{i, t=1}\\)\n\n\\(Y_{i, t=2}(0)\\)\n\n\n\n\n\n\n\n\n\nAKA repeated measures design"
+    "text": "Pre-post design\n. . .\n\nOutcomes are measured at least twice\nOnce before treatment, once after treatment\n\n. . .\n\n\n\n\nCondition\n\\(t=1\\)\nTreatment\n\\(t=2\\)\n\n\n\n\n\\(Z_i=1\\)\n\\(Y_{i, t=1}\\)\nX\n\\(Y_{i, t=2}(1)\\)\n\n\n\\(Z_i=0\\)\n\\(Y_{i, t=1}\\)\n\n\\(Y_{i, t=2}(0)\\)\n\n\n\n\n\n\n\n\nAKA repeated measures design"
   },
   {
     "objectID": "slides/10_slides.html#how-does-this-work",
     "href": "slides/10_slides.html#how-does-this-work",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "How does this work?",
-    "text": "How does this work?\n\n\nStandard ATE estimator:\n\n\\[\nE[Y_i(1) | Z_i = 1] - E[Y_i(0) | Z_i = 0]\n\\]\n\n\n\nPre-post ATE estimator:\n\n\\[\nE[(Y_{i,t=2}(1) - Y_{i,t=1}) | Z_i = 1] - E[(Y_{i,t=2}(0) - Y_{i,t=1}) | Z_i = 0]\n\\]"
+    "text": "How does this work?\n. . .\n\nStandard ATE estimator:\n\n\\[\nE[Y_i(1) | Z_i = 1] - E[Y_i(0) | Z_i = 0]\n\\]\n. . .\n\nPre-post ATE estimator:\n\n\\[\nE[(Y_{i,t=2}(1) - Y_{i,t=1}) | Z_i = 1] - E[(Y_{i,t=2}(0) - Y_{i,t=1}) | Z_i = 0]\n\\]"
   },
   {
     "objectID": "slides/10_slides.html#how-does-this-work-1",
     "href": "slides/10_slides.html#how-does-this-work-1",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "How does this work?",
-    "text": "How does this work?\n\nStandard ATE estimator:\n\n\\[\nE[Y_i(1) | Z_i = 1] - E[Y_i(0) | Z_i = 0]\n\\]\n\nPre-post ATE estimator:\n\n\\[\nE[(Y_{i,t=2}(1) \\color{#ac1455} {- Y_{i,t=1}}) | Z_i = 1] - E[(Y_{i,t=2}(0) \\color{#ac1455} {- Y_{i,t=1}}) | Z_i = 0]\n\\]\n\n\nWe improve precision by subtracting the variation in the outcome that is unrelated to the treatment"
+    "text": "How does this work?\n\nStandard ATE estimator:\n\n\\[\nE[Y_i(1) | Z_i = 1] - E[Y_i(0) | Z_i = 0]\n\\]\n\nPre-post ATE estimator:\n\n\\[\nE[(Y_{i,t=2}(1) \\color{#ac1455} {- Y_{i,t=1}}) | Z_i = 1] - E[(Y_{i,t=2}(0) \\color{#ac1455} {- Y_{i,t=1}}) | Z_i = 0]\n\\]\n. . .\n\nWe improve precision by subtracting the variation in the outcome that is unrelated to the treatment"
   },
   {
     "objectID": "slides/10_slides.html#block-randomization",
     "href": "slides/10_slides.html#block-randomization",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "Block randomization",
     "text": "Block randomization\n\n\nChange how randomization happens\nGroup units in blocks or strata\nEstimate average treatment effect within each\nAggregate with a weighted average"
   },
   {
     "objectID": "slides/10_slides.html#how-does-it-work",
     "href": "slides/10_slides.html#how-does-it-work",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "How does it work?",
-    "text": "How does it work?\n\n\nWithin-block ATE estimator:\n\n\\[\n\\widehat{ATE}_b = E[Y_{ib}(1) | Z_{ib} = 1] - E[Y_{ib}(0) | Z_{ib} = 0]\n\\]"
+    "text": "How does it work?\n. . .\n\nWithin-block ATE estimator:\n\n\\[\n\\widehat{ATE}_b = E[Y_{ib}(1) | Z_{ib} = 1] - E[Y_{ib}(0) | Z_{ib} = 0]\n\\]"
   },
   {
     "objectID": "slides/10_slides.html#illustration",
     "href": "slides/10_slides.html#illustration",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "Illustration",
     "text": "Illustration\n\n\n\n\n\n\nID\nBlock\n\\(Y_i(0)\\)\n\\(Y_i(1)\\)\n\n\n\n\n1\n1\n1\n4\n\n\n2\n1\n2\n5\n\n\n3\n1\n1\n4\n\n\n4\n1\n2\n5\n\n\n5\n2\n3\n8\n\n\n6\n2\n4\n9\n\n\n7\n2\n3\n8\n\n\n8\n2\n4\n9\n\n\n\n\n\n\n\n\n\nPotential outcomes correlate with blocks\nTrue \\(ATE = 4\\)\nDo 500 experiments\nCompare complete and block-randomized experiment"
   },
   {
     "objectID": "slides/10_slides.html#simulation",
     "href": "slides/10_slides.html#simulation",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "Simulation",
     "text": "Simulation\n\n\n\nBlock randomization yields a narrower distribution of estimates"
   },
   {
     "objectID": "slides/10_slides.html#reasons-to-block-randomize",
     "href": "slides/10_slides.html#reasons-to-block-randomize",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "Reasons to block randomize",
-    "text": "Reasons to block randomize\n\nTo increase precision in ATE estimates\nTo account for possible heterogeneous treatment effects\n\n\n\nMost useful when blocking variables correlate with potential outcomes\nAnd it rarely hurts when they do not correlate! (more in the lab!)"
+    "text": "Reasons to block randomize\n\nTo increase precision in ATE estimates\nTo account for possible heterogeneous treatment effects\n\n. . .\n\nMost useful when blocking variables correlate with potential outcomes\nAnd it rarely hurts when they do not correlate! (more in the lab!)"
   },
   {
     "objectID": "slides/10_slides.html#kalla-et-al-2018-are-you-my-mentor",
     "href": "slides/10_slides.html#kalla-et-al-2018-are-you-my-mentor",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "Kalla et al (2018): Are You My Mentor?",
     "text": "Kalla et al (2018): Are You My Mentor?\n\n\nCorrespondence experiment with \\(N = 8189\\) legislators in the US\nSend email about fake student seeking advice to become politician\nCue gender with student’s name\n\n\n\n\nAlso called audit experiments since they were originally designed to audit how responsive elected officials are"
   },
   {
     "objectID": "slides/10_slides.html#sample-email",
     "href": "slides/10_slides.html#sample-email",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "Sample email",
     "text": "Sample email"
   },
   {
     "objectID": "slides/10_slides.html#data-strategy",
     "href": "slides/10_slides.html#data-strategy",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "Data strategy",
     "text": "Data strategy\n\nBlock-randomize by legislator’s gender (why?)\nOutcomes: Reply content and length"
   },
   {
     "objectID": "slides/10_slides.html#findings",
     "href": "slides/10_slides.html#findings",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "Findings",
-    "text": "Findings\n\n\n\n\nOutcome\nMale Sender\nFemale Sender\np-value\n\n\n\n\nReceived reply\n0.25\n0.27\n0.15\n\n\nMeaningful response\n0.11\n0.13\n0.47\n\n\nPraised\n0.05\n0.06\n0.17\n\n\nOffer to help\n0.03\n0.05\n0.09\n\n\nWarned against running\n0.01\n0.02\n0.14\n\n\nSubstantive advice\n0.07\n0.08\n0.33\n\n\nWord count (logged)\n1.00\n1.10\n0.06\n\n\nCharacter count\n145.00\n170.00\n0.04\n\n\n\n\n\n\n\n\nWhy not much difference by gender?\n\n\n\n\nAdapted from Table 1"
+    "text": "Findings\n\n\n\n\nOutcome\nMale Sender\nFemale Sender\np-value\n\n\n\n\nReceived reply\n0.25\n0.27\n0.15\n\n\nMeaningful response\n0.11\n0.13\n0.47\n\n\nPraised\n0.05\n0.06\n0.17\n\n\nOffer to help\n0.03\n0.05\n0.09\n\n\nWarned against running\n0.01\n0.02\n0.14\n\n\nSubstantive advice\n0.07\n0.08\n0.33\n\n\nWord count (logged)\n1.00\n1.10\n0.06\n\n\nCharacter count\n145.00\n170.00\n0.04\n\n\n\n\n\n\n. . .\n\nWhy not much difference by gender?\n\n\n\nAdapted from Table 1"
   },
   {
     "objectID": "slides/10_slides.html#break-time",
     "href": "slides/10_slides.html#break-time",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "Break time!",
     "text": "Break time!"
   },
   {
     "objectID": "slides/10_slides.html#fa-laptop-code-lab",
     "href": "slides/10_slides.html#fa-laptop-code-lab",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": " Lab",
     "text": "Lab"
   },
   {
     "objectID": "slides/10_slides.html#two-ways-to-improve-precision-2",
     "href": "slides/10_slides.html#two-ways-to-improve-precision-2",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "Two ways to improve precision",
     "text": "Two ways to improve precision\n\\[\nSE(\\widehat{ATE}) =\\\\ \\sqrt{\\frac{\\color{#ac1455} {\\text{Var}(Y_i(0)) + \\text{Var}(Y_i(1)) + 2\\text{Cov}(Y_i(0), Y_i(1))}}{N-1}}\n\\]\n\nAlternative research design  Make numerator smaller"
   },
   {
     "objectID": "slides/10_slides.html#reasons-to-use-pre-post-design",
     "href": "slides/10_slides.html#reasons-to-use-pre-post-design",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "Reasons to use pre-post design",
-    "text": "Reasons to use pre-post design\n\nTo increase precision in ATE estimates\n\n\n\nMost useful when pre-treatment outcomes correlate highly with post-treatment outcomes\n\n\n\n\nProblematic when:\n\n\n\n\nPre-treatment outcomes correlate with potential outcomes\nMeasuring pre-treatment outcomes leads to attrition"
+    "text": "Reasons to use pre-post design\n\nTo increase precision in ATE estimates\n\n. . .\n\nMost useful when pre-treatment outcomes correlate highly with post-treatment outcomes\n\n. . .\n\nProblematic when:\n\n. . .\n\nPre-treatment outcomes correlate with potential outcomes\nMeasuring pre-treatment outcomes leads to attrition"
   },
   {
     "objectID": "slides/10_slides.html#how-does-it-work-1",
     "href": "slides/10_slides.html#how-does-it-work-1",
-    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "title": "Improving Precision",
     "section": "How does it work?",
-    "text": "How does it work?\n\nWithin-block ATE estimator:\n\n\\[\n\\widehat{ATE}_\\color{#ac1455}b = E[Y_{i\\color{#ac1455}b}(1) | Z_{i\\color{#ac1455}b} = 1] - E[Y_{i\\color{#ac1455}b}(0) | Z_{i\\color{#ac1455}b} = 0]\n\\]\n\n\nOverall ATE estimator:\n\n\\[\n\\widehat{ATE}_{\\text{Block}} = \\sum_{b=1}^B \\frac{n_b}{N} \\widehat{ATE}_b\n\\]"
+    "text": "How does it work?\n\nWithin-block ATE estimator:\n\n\\[\n\\widehat{ATE}_\\color{#ac1455}b = E[Y_{i\\color{#ac1455}b}(1) | Z_{i\\color{#ac1455}b} = 1] - E[Y_{i\\color{#ac1455}b}(0) | Z_{i\\color{#ac1455}b} = 0]\n\\]\n. . .\n\nOverall ATE estimator:\n\n\\[\n\\widehat{ATE}_{\\text{Block}} = \\sum_{b=1}^B \\frac{n_b}{N} \\widehat{ATE}_b\n\\]"
+  },
+  {
+    "objectID": "slides/11_slides.html#beyond-experimentation",
+    "href": "slides/11_slides.html#beyond-experimentation",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Beyond Experimentation",
+    "text": "Beyond Experimentation\n \nPOLSCI 4SS3\nWinter 2024"
+  },
+  {
+    "objectID": "slides/11_slides.html#last-two-weeks",
+    "href": "slides/11_slides.html#last-two-weeks",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Last two weeks",
+    "text": "Last two weeks\n\nField experiments as the gold standard to evaluate policy\nMany choices in research design and implementation\nToday: How do we learn from experiments?"
+  },
+  {
+    "objectID": "slides/11_slides.html#learning-from-experiments",
+    "href": "slides/11_slides.html#learning-from-experiments",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Learning from experiments",
+    "text": "Learning from experiments\n\nHow do you prove that a policy intervention works?\n\n\n\nWe want to make statements about causation\n\nTUP program improves income\n\n\n\n\n\nTo back up those statements, we need to rule out confounding factors\n\nThose who join the TUP program are more likely to seek economic opportunities"
+  },
+  {
+    "objectID": "slides/11_slides.html#ruling-out-confounders",
+    "href": "slides/11_slides.html#ruling-out-confounders",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Ruling out confounders",
+    "text": "Ruling out confounders\n\nOne way to rule out potential confounders is to conduct an experiment or analyze existing data that looks like an experiment (coming soon!)\n\n\n\nChallenge: This is only true in expectation"
+  },
+  {
+    "objectID": "slides/11_slides.html#a-small-experiment",
+    "href": "slides/11_slides.html#a-small-experiment",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "A small experiment",
+    "text": "A small experiment\n\n\n\n\nID\nFemale\nY(0)\nY(1)\n\n\n\n\n1\n0\n0\n0\n\n\n2\n0\n0\n1\n\n\n3\n1\n0\n1\n\n\n4\n1\n1\n1\n\n\n\n\n\n\n\n\n\\(Y(*)\\) are the potential outcomes under control (0) and treatment (1), respectively\n\\(Y(*) = 1\\) means person’s life improves, \\(Y(*) = 0\\) means life stays the same"
+  },
+  {
+    "objectID": "slides/11_slides.html#a-small-experiment-1",
+    "href": "slides/11_slides.html#a-small-experiment-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "A small experiment",
+    "text": "A small experiment\n\n\n\n\nID\nFemale\nY(0)\nY(1)\n\n\n\n\n1\n0\n0\n0\n\n\n2\n0\n0\n1\n\n\n3\n1\n0\n1\n\n\n4\n1\n1\n1\n\n\n\n\n\n\n\nWe have:\n\nOne person for which the policy would do nothing\nTwo people for which the policy improves life\nOne person who improves their life either way"
+  },
+  {
+    "objectID": "slides/11_slides.html#assign-policy-treatment-at-random",
+    "href": "slides/11_slides.html#assign-policy-treatment-at-random",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Assign policy treatment at random",
+    "text": "Assign policy treatment at random\n\n\n\n\nID\nFemale\nY(0)\nY(1)\nZ\n\n\n\n\n1\n0\n0\n0\n0\n\n\n2\n0\n0\n1\n0\n\n\n3\n1\n0\n1\n1\n\n\n4\n1\n1\n1\n1\n\n\n\n\n\n\n\n\nWe happened to randomly assign the policy to the two women\nWe only observe the potential outcomes that corresponds to the treatment status"
+  },
+  {
+    "objectID": "slides/11_slides.html#revealing-outcomes",
+    "href": "slides/11_slides.html#revealing-outcomes",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Revealing outcomes",
+    "text": "Revealing outcomes\n\n\n\n\nID\nFemale\nY(0)\nY(1)\nZ\nY obs\n\n\n\n\n1\n0\n0\n0\n0\n0\n\n\n2\n0\n0\n1\n0\n0\n\n\n3\n1\n0\n1\n1\n1\n\n\n4\n1\n1\n1\n1\n1\n\n\n\n\n\n\n\n\nThe true treatment effect is\n\n\\[ATE = E[Y(1)] - E[Y(0)] = 3/4 - 1/4 = 1/2\\]\n\nWhich we cannot observe in the real world"
+  },
+  {
+    "objectID": "slides/11_slides.html#revealing-outcomes-1",
+    "href": "slides/11_slides.html#revealing-outcomes-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Revealing outcomes",
+    "text": "Revealing outcomes\n\n\n\n\nID\nFemale\nY(0)\nY(1)\nZ\nY obs\n\n\n\n\n1\n0\n0\n0\n0\n0\n\n\n2\n0\n0\n1\n0\n0\n\n\n3\n1\n0\n1\n1\n1\n\n\n4\n1\n1\n1\n1\n1\n\n\n\n\n\n\n\nWe can approximate the ATE with \\(\\widehat{ATE} = 2/2 - 0/2 = 1\\)\nWe are off the mark! What happens if we redo the experiment?"
+  },
+  {
+    "objectID": "slides/11_slides.html#redoing-the-experiment",
+    "href": "slides/11_slides.html#redoing-the-experiment",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Redoing the experiment",
+    "text": "Redoing the experiment\n\n\n\n\nID\nFemale\nY(0)\nY(1)\nZ\nY obs\n\n\n\n\n1\n0\n0\n0\n1\n0\n\n\n2\n0\n0\n1\n0\n0\n\n\n3\n1\n0\n1\n1\n1\n\n\n4\n1\n1\n1\n0\n1\n\n\n\n\n\n\n\n\nWe still have \\(ATE = 1/2\\)\nBut now \\(\\widehat{ATE} = 1/2 - 1/2 = 0\\)\nOff the mark in the opposite direction"
+  },
+  {
+    "objectID": "slides/11_slides.html#why-does-this-happen",
+    "href": "slides/11_slides.html#why-does-this-happen",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Why does this happen?",
+    "text": "Why does this happen?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExperiment 1\n\n\nExperiment 2\n\n\n\nID\nFemale\nY(0)\nY(1)\nZ\nY obs\nZ\nY obs\n\n\n\n\n1\n0\n0\n0\n0\n0\n1\n0\n\n\n2\n0\n0\n1\n0\n0\n0\n0\n\n\n3\n1\n0\n1\n1\n1\n1\n1\n\n\n4\n1\n1\n1\n1\n1\n0\n1\n\n\n\n\n\n\n\n\nPerhaps men and women react to the policy differently\nWe want to rule out results depending on whether we assign treatments to men or women"
+  },
+  {
+    "objectID": "slides/11_slides.html#why-does-this-happen-1",
+    "href": "slides/11_slides.html#why-does-this-happen-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Why does this happen?",
+    "text": "Why does this happen?\n\nExperiment 1: 2/2 women in treatment and 0/2 in control (imbalanced)\nExperiment 2: 1/2 woman in treatment and 1/2 in control (balanced)\n\n\n\nDoes that mean that experiment 2 is free from random confounding?"
+  },
+  {
+    "objectID": "slides/11_slides.html#redo-1000-experiments",
+    "href": "slides/11_slides.html#redo-1000-experiments",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Redo 1,000 experiments",
+    "text": "Redo 1,000 experiments\n\n\n\n\n\n\n\n\n\nHalf of the time we are spot on, half of the time we are wrong in either direction"
+  },
+  {
+    "objectID": "slides/11_slides.html#what-does-this-mean",
+    "href": "slides/11_slides.html#what-does-this-mean",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "What does this mean?",
+    "text": "What does this mean?\n\n\nExperiments only rule out the role of potential confounders IN EXPECTATION\nWe can sustain this claim in two ways\n\n\n\n\nWith a sufficiently large sample (But how large is large enough?)\nBy repeating the same experiment multiple times (Nobody does this)"
+  },
+  {
+    "objectID": "slides/11_slides.html#in-practice",
+    "href": "slides/11_slides.html#in-practice",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "In practice",
+    "text": "In practice\n\n\nWe only know bias, RMSE, and power in our simulations\nNeed a lot of domain expertise to attribute ATE to policy\nThis involves explaining why it works\nFirst step toward knowing whether it would work somewhere else"
+  },
+  {
+    "objectID": "slides/11_slides.html#generalization-and-extrapolation",
+    "href": "slides/11_slides.html#generalization-and-extrapolation",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Generalization and extrapolation",
+    "text": "Generalization and extrapolation\n\nCritique: Experiments invest in internal validity at the expense of external validity\n\n\n\nInternal validity: We can (probabilistically) attribute effect to policy intervention\nExternal validity: Whether effect extrapolates or generalizes\n\n\n\n\nExtrapolation: Whether it works elsewhere\nGeneralization: Whether it works everywhere"
+  },
+  {
+    "objectID": "slides/11_slides.html#support-factors",
+    "href": "slides/11_slides.html#support-factors",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Support factors",
+    "text": "Support factors\n\n\nExample: A house burns down because the television was left on\nNot all houses with TVs left on burn down, but sometimes they do, perhaps because the wiring was poor\nA support factor is one part of the causal pie\nCausal pie: A set of causes that are jointly but not separately sufficient for a contribution to an effect (INUS causation)\nAnalogy: TUP only works if we have good schools"
+  },
+  {
+    "objectID": "slides/11_slides.html#scales-and-drills",
+    "href": "slides/11_slides.html#scales-and-drills",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Scales and drills",
+    "text": "Scales and drills\n\n\nScaling up: Whether we can apply intervention to broader area\n\nSmall scale interventions can become unfeasible or cost-prohibitive in a larger scale\nSome policies only work at a small scale!"
+  },
+  {
+    "objectID": "slides/11_slides.html#scales-and-drills-1",
+    "href": "slides/11_slides.html#scales-and-drills-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Scales and drills",
+    "text": "Scales and drills\n\nDrilling down: Can we apply the results of an intervention to individual units?\n\nJust because it works on average, it does not mean that everyone will benefit from it\nMay waste money on people for whom the policy does not work\nThis can be unethical"
+  },
+  {
+    "objectID": "slides/11_slides.html#coordinated-trials",
+    "href": "slides/11_slides.html#coordinated-trials",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Coordinated trials",
+    "text": "Coordinated trials\n\n\nMulti-site interventions that evaluate (more or less) the same policy\n\n\n\n\nGoals:\n\nEstablish whether a policy is generally advisable (pooling results)\nUnderstand why things work in some places but not others (support factors)"
+  },
+  {
+    "objectID": "slides/11_slides.html#slough-et-al-2021-community-monitoring-of-common-pool-resources",
+    "href": "slides/11_slides.html#slough-et-al-2021-community-monitoring-of-common-pool-resources",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Slough et al (2021): Community monitoring of common pool resources",
+    "text": "Slough et al (2021): Community monitoring of common pool resources\n\n\n\n\n\n\n\n\n\n\n\n\nExcludable\n\n\n\n\nYes\nNo\n\n\n\n\nRivalrous\n\n\nYes\nPrivate Goods\nCommon Pool Resources\n\n\nNo\nClub goods\nPublic Goods\n\n\n\n\n\n\n\n\n\nTypes of goods"
+  },
+  {
+    "objectID": "slides/11_slides.html#different-contexts",
+    "href": "slides/11_slides.html#different-contexts",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "6 different contexts",
+    "text": "6 different contexts\n\n\n\n\nCountry\nResource\nCommunity\nThreat\n\n\n\n\nBrazil\nGroundwater\nRural villages\nDrought, overuse\n\n\nChina\nSurface water\nUrban neighborhoods\nPollution\n\n\nCosta Rica\nGroundwater\nRural villages\nDrought, overuse\n\n\nLiberia\nForest\nVillages\nOvercutting\n\n\nPeru\nForest\nIndigenous communities\nExtraction\n\n\nUganda\nForest\nVillages\nOvercutting"
+  },
+  {
+    "objectID": "slides/11_slides.html#interventions",
+    "href": "slides/11_slides.html#interventions",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Interventions",
+    "text": "Interventions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDissemination\n\n\n\nCountry\nWokshops\nTraining\nMonitoring\nCitizens\nManagement\n\n\n\n\nBrazil\nX\nX\nX\nX\n\n\n\nChina\n\nX\nX\nX\n\n\n\nCosta Rica\nX\nX\nX\nX\nX\n\n\nLiberia\nX\nX\nX\nX\nX\n\n\nPeru\nX\nX\nX\nX\nX\n\n\nUganda\nX\nX\nX\nX\nX"
+  },
+  {
+    "objectID": "slides/11_slides.html#findings",
+    "href": "slides/11_slides.html#findings",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Findings",
+    "text": "Findings"
+  },
+  {
+    "objectID": "slides/11_slides.html#why-without-brazil",
+    "href": "slides/11_slides.html#why-without-brazil",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Why without Brazil?",
+    "text": "Why without Brazil?"
+  },
+  {
+    "objectID": "slides/11_slides.html#next-week",
+    "href": "slides/11_slides.html#next-week",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Next Week",
+    "text": "Next Week\nQuasi-experiments\nFocus on: What makes these designs credible?"
+  },
+  {
+    "objectID": "slides/11_slides.html#break-time",
+    "href": "slides/11_slides.html#break-time",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Break time!",
+    "text": "Break time!"
+  },
+  {
+    "objectID": "slides/11_slides.html#fa-laptop-code-lab",
+    "href": "slides/11_slides.html#fa-laptop-code-lab",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": " Lab",
+    "text": "Lab"
+  },
+  {
+    "objectID": "slides/11_slides.html#slough-et-al-2021-community-monitoring-of-common-pool-resources-1",
+    "href": "slides/11_slides.html#slough-et-al-2021-community-monitoring-of-common-pool-resources-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Slough et al (2021): Community monitoring of common pool resources",
+    "text": "Slough et al (2021): Community monitoring of common pool resources\n\n\n\n\n\n\n\n\n\n\n\nExcludable\n\n\n\n\nYes\nNo\n\n\n\n\nRivalrous\n\n\nYes\nPrivate Goods\nCommon Pool Resources\n\n\nNo\nClub goods\nPublic Goods\n\n\n\n\n\n\n\n\n\nProblem: Prone to congestion, overextraction\n\n\n\nTypes of goods"
+  },
+  {
+    "objectID": "slides/09_slides.html",
+    "href": "slides/09_slides.html",
+    "title": "Examples",
+    "section": "",
+    "text": "POLSCI 4SS3\nWinter 2024"
+  },
+  {
+    "objectID": "slides/10_slides.html",
+    "href": "slides/10_slides.html",
+    "title": "Improving Precision",
+    "section": "",
+    "text": "POLSCI 4SS3\nWinter 2024"
   }
 ]
