@@ -346,7 +346,7 @@ goods %>%
   add_header_above(c(" ", "Excludable" = 2)) %>% 
   pack_rows("Rivalrous", 1, 2) %>% 
   column_spec(1, bold = T) %>% 
-  column_spec(3, bold = c(F, T))
+  column_spec(3, bold = c(T, F))
 ```
 
 ::: aside
