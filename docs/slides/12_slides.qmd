@@ -1,0 +1,455 @@
+---
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    slide-number: false
+    progress: false
+---
+
+```{r setup, message=FALSE, warning=FALSE, include=FALSE}
+library(tidyverse)
+library(DeclareDesign)
+library(kableExtra)
+
+
+
+# Global options
+theme_set(theme_bw(base_size = 20))
+
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warnings = FALSE,
+                      results = "asis")
+```
+
+
+::: {style="text-align: center"}
+## Quasi-Experiments {.center background-color="#ac1455"}
+
+&nbsp;
+
+**POLSCI 4SS3**  
+Winter 2024
+:::
+
+## Announcements {background-color="#8BD3E6"}
+
+- Decide if you will sign up for final project by April 4
+
+- Instructor traveling April 3-7
+
+# What did you learn this semester? {background-color="#8BD3E6"}
+
+## Where to go from here?
+
+### Go back to foundations
+
+- Probability and statistics
+- Philosophy of science
+- Research design
+- R programming
+
+::: aside
+Happy to help if you want to know more!
+:::
+
+    
+## Where to go from here? {visibility="uncounted"}
+
+### Further learning
+
+- Programming in Python, Julia
+- Survey design
+- Program evaluation
+- Science of science
+
+::: aside
+Happy to help if you want to know more!
+:::
+    
+## Where to go from here? {visibility="uncounted"}
+
+### Careers & fields
+
+- Data science, computer science, statistics
+
+- Computational/quantitative social science
+
+- Econometrics
+
+- Evidence-informed policy
+
+- Public administration
+
+- Business, marketing
+
+::: aside
+Happy to help if you want to know more!
+:::
+
+## Quasi-experiments {.center background-color="#8BD3E6"}
+
+## Data strategies
+
+```{r}
+types = tribble(
+  ~Inquiry, ~Observational, ~Experimental,
+  "Descriptive", "Sample survey", "List experiment",
+  "Causal", "Quasi-experiment", "Survey/field experiment"
+)
+
+types %>% 
+  kbl() %>% 
+  add_header_above(c(" " = 1, "Data strategy" = 2)) %>% 
+  column_spec(1, bold = TRUE) %>% 
+  column_spec(2, bold = c(FALSE, TRUE)) %>% 
+  column_spec(2, color = c("black", "white"))
+```
+
+## Data strategies 
+
+```{r}
+types %>% 
+  kbl() %>% 
+  add_header_above(c(" " = 1, "Data strategy" = 2)) %>% 
+  column_spec(1, bold = TRUE) %>% 
+  column_spec(2, bold = c(FALSE, TRUE))
+```
+
+## Challenges to causal interpretations
+
+. . .
+
+### 1. Reverse causation
+
+
+::: incremental
+
+- Instead of $Z$ causing $Y$, $Y$ causes $Z$
+
+- **Simultaneity:** $Z$ causes $Y$ and vice versa
+
+:::
+
+## Challenges to causal interpretations
+
+### 1. Reverse causation
+
+
+
+- Instead of $Z$ causing $Y$, $Y$ causes $Z$
+
+- **Simultaneity:** $Z$ causes $Y$ and vice versa
+
+
+::: {.callout-note}
+### Example
+
+Students who are likely to participate enroll in Political Science courses more often
+:::
+
+## Challenges to causal interpretations
+
+### 2. Omitted variable bias
+
+
+## Challenges to causal interpretations
+
+### 2. Omitted variable bias
+
+- There is an unobserved factor $X$ that explains the relationship between $Z$ and $Y$
+
+
+## Challenges to causal interpretations
+
+### 2. Omitted variable bias
+
+- There is an unobserved factor $X$ that explains the relationship between $Z$ and $Y$
+
+
+::: {.callout-note}
+### Example
+
+- We believe that more education increases income
+
+- But having smart parents increases both education and income
+:::
+
+
+## Challenges to causal interpretations
+
+### 3. Selection bias
+
+::: incremental
+
+- Individuals *sort* into condition $Z$ in a manner that predicts outcome $Y$
+
+- Treatment and control are not comparable
+
+:::
+
+## Challenges to causal interpretations
+
+### 3. Selection bias
+
+
+- Individuals *sort* into condition $Z$ in a manner that predicts outcome $Y$
+
+- Treatment and control are not comparable
+
+
+::: {.callout-note}
+### Example
+
+- Always-takers are more likely to participate in the TUP program
+:::
+
+## Challenges to causal interpretations
+
+### 1. Reverse causation
+
+### 2. Omitted variable bias
+
+### 3. Selection bias
+
+
+::: incremental
+
+- Random assignment avoids this *in expectation*
+
+- Hard to overcome with *observational causal* data strategies
+
+- Need to pretend that we can analyze data as if it was an experiment
+:::
+
+## Quasi-experiments
+
+::: incremental
+- Answer strategies that produce data as-if they were drawn from an experiment
+
+- **Natural experiment:** Random assignment outside of the researcher control
+
+- **Example:** Choosing municipalities at random for auditing
+
+- **Quasi-experiment:** Conditions are assigned in a manner that is **sufficiently orthogonal** to potential outcomes
+:::
+
+
+# Regression Discontinuity {background-color="#8BD3E6"}
+
+## Hoekstra (2019)
+
+. . .
+
+
+![](figs/hoekstra_2.png){fig-align="center"}
+
+## Treatment take-up
+
+![](figs/hoekstra_1.png){fig-align="center"}
+
+
+## Regression discontinuity designs
+
+- Three ingredients:
+
+. . .
+
+1. Score `(running variable)`
+
+2. Cutoff `(threshold)`
+
+3. Treatment `(at least two conditions)`
+
+## Visual representation
+
+![](figs/rdd_viz.png){fig-align="center"}
+
+
+
+## How do you get an estimate?
+
+. . .
+
+- Two approaches to RDD data:
+
+. . .
+
+1. Local randomization
+
+2. Continuity-based
+
+## Local randomization
+
+::: incremental
+- Potential outcomes are not random because they depend on the score `(and other things)`
+
+- However, around the cutoff, treatment assignment is as good as random
+
+- **Example:** Barely winning an election
+
+- So we can pretend we have an experiment within a **bandwidth** around the cutoff
+
+:::
+
+## Bandwidth tradeoff
+
+![](figs/rdd_bw.png){fig-align="center" width="90%"}
+
+::: aside
+A small bandwidth has low bias but high variance. A larger bandwidth has lower variance but more bias.
+:::
+
+
+## Continuity-based approach
+
+::: incremental
+- Treatment assignment is **deterministic at** the cutoff
+
+- **Example:** Financial aid if income below a threshold
+
+- But usually too few or no units at the cutoff
+
+- **Task:** Approximate the *gap* at the cutoff as best as possible
+
+- This becomes a **line drawing** problem
+:::
+
+## Line drawing: Parametric
+
+![](figs/rdd_poly.png){fig-align="center" width="90%"}
+
+::: aside
+Different functional forms change the size of the gap
+:::
+
+## Line drawing: Nonparametric
+
+![](figs/rdd_loess.png){fig-align="center" width="90%"}
+
+::: aside
+These lines are made by an algorithm that calculates the local average at many windows or bins of data
+:::
+
+## Line drawing: Bandwidth
+
+![](figs/rdd_bw2.png){fig-align="center" width="90%"}
+
+::: aside
+The size of the bandwidth determines the data you use to draw lines
+:::
+
+# Difference-in-differences {background-color="#8BD3E6"}
+
+## Leininger et al (2023)
+
+. . .
+
+![](figs/leininger_1.png)
+
+. . .
+
+- **Temporary disenfranchisement** may push voters away from democracy
+
+. . .
+
+- **Outcomes:** Survey questions about internal/external efficacy, satisfaction with democracy, political interest
+
+## Comparisons
+
+![](figs/leininger_2.png){fig-align="center"}
+
+## Results
+
+![](figs/leininger_3.png)
+
+::: aside
+ATEs estimated via difference-in-differences
+:::
+
+## Difference-in-differences design
+
+::: incremental
+- *At least* two groups or conditions `(treatment,control)`
+
+- *At least* two time periods `(pre- and post-treatment)`
+
+- Once treated, units **stay on**
+
+- We accept that selection bias is unavoidable
+
+- But comparing before-after changes between groups allows us to calculate treatment effect
+
+:::
+
+::: aside
+aka DD, DiD, Diff-in-diffs for short
+:::
+
+## Diff-in-diffs estimator
+
+```{r}
+dd = tribble(
+  ~Group, ~Before, ~After,
+  "Treatment", "A", "B",
+  "Control", "C", "D"
+)
+
+dd %>% 
+  kbl(align = "lcc") %>% 
+  add_header_above(c(" " = 1, "Timing" = 2))
+```
+
+. . .
+
+$$
+\widehat{ATE} =  [\text{Mean}(B) - \text{Mean}(A)] - [\text{Mean}(D) - \text{Mean}(C)]
+$$
+
+## Diff-in-diffs estimator {visibility="uncounted"}
+
+```{r}
+dd %>% 
+  kbl(align = "lcc") %>% 
+  add_header_above(c(" " = 1, "Timing" = 2))
+```
+
+
+$$
+\widehat{ATE} =  \underbrace{[\text{Mean}(B) - \text{Mean}(A)]}_\text{Difference} - \underbrace{[\text{Mean}(D) - \text{Mean}(C)]}_\text{Difference}
+$$
+
+## Diff-in-diffs estimator {visibility="uncounted"}
+
+```{r}
+dd %>% 
+  kbl(align = "lcc") %>% 
+  add_header_above(c(" " = 1, "Timing" = 2))
+```
+
+
+$$
+\widehat{ATE} =  \underbrace{\underbrace{[\text{Mean}(B) - \text{Mean}(A)]}_\text{Difference} - \underbrace{[\text{Mean}(D) - \text{Mean}(C)]}_\text{Difference}}_\text{Difference in differences}
+$$
+
+## Assumption: Parallel trends
+
+![](figs/dd.png){.absolute top=50 left=50}
+
+::: aside
+Assuming the treatment group follows the dotted line absent treatment, the difference in difference estimator recovers the causal effect
+:::
+
+
+## What happens if we break parallel trends?
+
+![](figs/dd_trend_1.png)
+
+## What happens if we break parallel trends? {visibility="uncounted"}
+
+![](figs/dd_trend_2.png)
+
+## What happens if we break parallel trends? {visibility="uncounted"}
+
+![](figs/dd_trend_3.png)
+
+
+

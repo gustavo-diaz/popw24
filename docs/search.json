@@ -270,7 +270,7 @@
     "href": "content/12_content.html#lab",
     "title": "Week 12: Quasi-experiments",
     "section": "Lab",
-    "text": "Lab\n[Quasi-experimental designs  (coming soon!)\n\n\n\n\n\n\nDue\n\n\n\nMonday, April 1, 5 PM"
+    "text": "Lab\nQuasi-experimental designs \n\n\n\n\n\n\nDue\n\n\n\nMonday, April 1, 11:59 PM"
   },
   {
     "objectID": "content/10_content.html",
@@ -2187,8 +2187,8 @@
     "objectID": "slides/11_slides.html#beyond-experimentation",
     "href": "slides/11_slides.html#beyond-experimentation",
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
-    "section": "Beyond Experimentation",
-    "text": "Beyond Experimentation\n \nPOLSCI 4SS3\nWinter 2024"
+    "section": "",
+    "text": "POLSCI 4SS3\nWinter 2024"
   },
   {
     "objectID": "slides/11_slides.html#last-two-weeks",
@@ -2202,21 +2202,21 @@
     "href": "slides/11_slides.html#learning-from-experiments",
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": "Learning from experiments",
-    "text": "Learning from experiments\n\nHow do you prove that a policy intervention works?\n\n\n\nWe want to make statements about causation\n\nTUP program improves income\n\n\n\n\n\nTo back up those statements, we need to rule out confounding factors\n\nThose who join the TUP program are more likely to seek economic opportunities"
+    "text": "Learning from experiments\n\nHow do you prove that a policy intervention works?\n\n. . .\n\nWe want to make statements about causation\n\nTUP program improves income\n\n\n. . .\n\nTo back up those statements, we need to rule out confounding factors\n\nThose who join the TUP program are more likely to seek economic opportunities"
   },
   {
     "objectID": "slides/11_slides.html#ruling-out-confounders",
     "href": "slides/11_slides.html#ruling-out-confounders",
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": "Ruling out confounders",
-    "text": "Ruling out confounders\n\nOne way to rule out potential confounders is to conduct an experiment or analyze existing data that looks like an experiment (coming soon!)\n\n\n\nChallenge: This is only true in expectation"
+    "text": "Ruling out confounders\n\nOne way to rule out potential confounders is to conduct an experiment or analyze existing data that looks like an experiment (coming soon!)\n\n. . .\n\nChallenge: This is only true in expectation"
   },
   {
     "objectID": "slides/11_slides.html#a-small-experiment",
     "href": "slides/11_slides.html#a-small-experiment",
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": "A small experiment",
-    "text": "A small experiment\n\n\n\n\nID\nFemale\nY(0)\nY(1)\n\n\n\n\n1\n0\n0\n0\n\n\n2\n0\n0\n1\n\n\n3\n1\n0\n1\n\n\n4\n1\n1\n1\n\n\n\n\n\n\n\n\n\\(Y(*)\\) are the potential outcomes under control (0) and treatment (1), respectively\n\\(Y(*) = 1\\) means person’s life improves, \\(Y(*) = 0\\) means life stays the same"
+    "text": "A small experiment\n\n\n\n\nID\nFemale\nY(0)\nY(1)\n\n\n\n\n1\n0\n0\n0\n\n\n2\n0\n0\n1\n\n\n3\n1\n0\n1\n\n\n4\n1\n1\n1\n\n\n\n\n\n\n. . .\n\n\\(Y(*)\\) are the potential outcomes under control (0) and treatment (1), respectively\n\\(Y(*) = 1\\) means person’s life improves, \\(Y(*) = 0\\) means life stays the same"
   },
   {
     "objectID": "slides/11_slides.html#a-small-experiment-1",
@@ -2230,14 +2230,14 @@
     "href": "slides/11_slides.html#assign-policy-treatment-at-random",
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": "Assign policy treatment at random",
-    "text": "Assign policy treatment at random\n\n\n\n\nID\nFemale\nY(0)\nY(1)\nZ\n\n\n\n\n1\n0\n0\n0\n0\n\n\n2\n0\n0\n1\n0\n\n\n3\n1\n0\n1\n1\n\n\n4\n1\n1\n1\n1\n\n\n\n\n\n\n\n\nWe happened to randomly assign the policy to the two women\nWe only observe the potential outcomes that corresponds to the treatment status"
+    "text": "Assign policy treatment at random\n\n\n\n\nID\nFemale\nY(0)\nY(1)\nZ\n\n\n\n\n1\n0\n0\n0\n0\n\n\n2\n0\n0\n1\n0\n\n\n3\n1\n0\n1\n1\n\n\n4\n1\n1\n1\n1\n\n\n\n\n\n\n. . .\n\nWe happened to randomly assign the policy to the two women\nWe only observe the potential outcomes that corresponds to the treatment status"
   },
   {
     "objectID": "slides/11_slides.html#revealing-outcomes",
     "href": "slides/11_slides.html#revealing-outcomes",
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": "Revealing outcomes",
-    "text": "Revealing outcomes\n\n\n\n\nID\nFemale\nY(0)\nY(1)\nZ\nY obs\n\n\n\n\n1\n0\n0\n0\n0\n0\n\n\n2\n0\n0\n1\n0\n0\n\n\n3\n1\n0\n1\n1\n1\n\n\n4\n1\n1\n1\n1\n1\n\n\n\n\n\n\n\n\nThe true treatment effect is\n\n\\[ATE = E[Y(1)] - E[Y(0)] = 3/4 - 1/4 = 1/2\\]\n\nWhich we cannot observe in the real world"
+    "text": "Revealing outcomes\n\n\n\n\nID\nFemale\nY(0)\nY(1)\nZ\nY obs\n\n\n\n\n1\n0\n0\n0\n0\n0\n\n\n2\n0\n0\n1\n0\n0\n\n\n3\n1\n0\n1\n1\n1\n\n\n4\n1\n1\n1\n1\n1\n\n\n\n\n\n\n. . .\n\nThe true treatment effect is\n\n\\[ATE = E[Y(1)] - E[Y(0)] = 3/4 - 1/4 = 1/2\\]\n\nWhich we cannot observe in the real world"
   },
   {
     "objectID": "slides/11_slides.html#revealing-outcomes-1",
@@ -2251,21 +2251,21 @@
     "href": "slides/11_slides.html#redoing-the-experiment",
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": "Redoing the experiment",
-    "text": "Redoing the experiment\n\n\n\n\nID\nFemale\nY(0)\nY(1)\nZ\nY obs\n\n\n\n\n1\n0\n0\n0\n1\n0\n\n\n2\n0\n0\n1\n0\n0\n\n\n3\n1\n0\n1\n1\n1\n\n\n4\n1\n1\n1\n0\n1\n\n\n\n\n\n\n\n\nWe still have \\(ATE = 1/2\\)\nBut now \\(\\widehat{ATE} = 1/2 - 1/2 = 0\\)\nOff the mark in the opposite direction"
+    "text": "Redoing the experiment\n\n\n\n\nID\nFemale\nY(0)\nY(1)\nZ\nY obs\n\n\n\n\n1\n0\n0\n0\n1\n0\n\n\n2\n0\n0\n1\n0\n0\n\n\n3\n1\n0\n1\n1\n1\n\n\n4\n1\n1\n1\n0\n1\n\n\n\n\n\n\n. . .\n\nWe still have \\(ATE = 1/2\\)\nBut now \\(\\widehat{ATE} = 1/2 - 1/2 = 0\\)\nOff the mark in the opposite direction"
   },
   {
     "objectID": "slides/11_slides.html#why-does-this-happen",
     "href": "slides/11_slides.html#why-does-this-happen",
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": "Why does this happen?",
-    "text": "Why does this happen?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExperiment 1\n\n\nExperiment 2\n\n\n\nID\nFemale\nY(0)\nY(1)\nZ\nY obs\nZ\nY obs\n\n\n\n\n1\n0\n0\n0\n0\n0\n1\n0\n\n\n2\n0\n0\n1\n0\n0\n0\n0\n\n\n3\n1\n0\n1\n1\n1\n1\n1\n\n\n4\n1\n1\n1\n1\n1\n0\n1\n\n\n\n\n\n\n\n\nPerhaps men and women react to the policy differently\nWe want to rule out results depending on whether we assign treatments to men or women"
+    "text": "Why does this happen?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExperiment 1\n\n\nExperiment 2\n\n\n\nID\nFemale\nY(0)\nY(1)\nZ\nY obs\nZ\nY obs\n\n\n\n\n1\n0\n0\n0\n0\n0\n1\n0\n\n\n2\n0\n0\n1\n0\n0\n0\n0\n\n\n3\n1\n0\n1\n1\n1\n1\n1\n\n\n4\n1\n1\n1\n1\n1\n0\n1\n\n\n\n\n\n\n. . .\n\nPerhaps men and women react to the policy differently\nWe want to rule out results depending on whether we assign treatments to men or women"
   },
   {
     "objectID": "slides/11_slides.html#why-does-this-happen-1",
     "href": "slides/11_slides.html#why-does-this-happen-1",
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": "Why does this happen?",
-    "text": "Why does this happen?\n\nExperiment 1: 2/2 women in treatment and 0/2 in control (imbalanced)\nExperiment 2: 1/2 woman in treatment and 1/2 in control (balanced)\n\n\n\nDoes that mean that experiment 2 is free from random confounding?"
+    "text": "Why does this happen?\n\nExperiment 1: 2/2 women in treatment and 0/2 in control (imbalanced)\nExperiment 2: 1/2 woman in treatment and 1/2 in control (balanced)\n\n. . .\n\nDoes that mean that experiment 2 is free from random confounding?"
   },
   {
     "objectID": "slides/11_slides.html#redo-1000-experiments",
@@ -2279,7 +2279,7 @@
     "href": "slides/11_slides.html#what-does-this-mean",
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": "What does this mean?",
-    "text": "What does this mean?\n\n\nExperiments only rule out the role of potential confounders IN EXPECTATION\nWe can sustain this claim in two ways\n\n\n\n\nWith a sufficiently large sample (But how large is large enough?)\nBy repeating the same experiment multiple times (Nobody does this)"
+    "text": "What does this mean?\n. . .\n\nExperiments only rule out the role of potential confounders IN EXPECTATION\nWe can sustain this claim in two ways\n\n. . .\n\nWith a sufficiently large sample (But how large is large enough?)\nBy repeating the same experiment multiple times (Nobody does this)"
   },
   {
     "objectID": "slides/11_slides.html#in-practice",
@@ -2293,7 +2293,7 @@
     "href": "slides/11_slides.html#generalization-and-extrapolation",
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": "Generalization and extrapolation",
-    "text": "Generalization and extrapolation\n\nCritique: Experiments invest in internal validity at the expense of external validity\n\n\n\nInternal validity: We can (probabilistically) attribute effect to policy intervention\nExternal validity: Whether effect extrapolates or generalizes\n\n\n\n\nExtrapolation: Whether it works elsewhere\nGeneralization: Whether it works everywhere"
+    "text": "Generalization and extrapolation\n\nCritique: Experiments invest in internal validity at the expense of external validity\n\n. . .\n\nInternal validity: We can (probabilistically) attribute effect to policy intervention\nExternal validity: Whether effect extrapolates or generalizes\n\n. . .\n\nExtrapolation: Whether it works elsewhere\nGeneralization: Whether it works everywhere"
   },
   {
     "objectID": "slides/11_slides.html#support-factors",
@@ -2307,7 +2307,7 @@
     "href": "slides/11_slides.html#scales-and-drills",
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": "Scales and drills",
-    "text": "Scales and drills\n\n\nScaling up: Whether we can apply intervention to broader area\n\nSmall scale interventions can become unfeasible or cost-prohibitive in a larger scale\nSome policies only work at a small scale!"
+    "text": "Scales and drills\n. . .\n\nScaling up: Whether we can apply intervention to broader area\n\nSmall scale interventions can become unfeasible or cost-prohibitive in a larger scale\nSome policies only work at a small scale!"
   },
   {
     "objectID": "slides/11_slides.html#scales-and-drills-1",
@@ -2321,14 +2321,14 @@
     "href": "slides/11_slides.html#coordinated-trials",
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": "Coordinated trials",
-    "text": "Coordinated trials\n\n\nMulti-site interventions that evaluate (more or less) the same policy\n\n\n\n\nGoals:\n\nEstablish whether a policy is generally advisable (pooling results)\nUnderstand why things work in some places but not others (support factors)"
+    "text": "Coordinated trials\n. . .\n\nMulti-site interventions that evaluate (more or less) the same policy\n\n. . .\n\nGoals:\n\nEstablish whether a policy is generally advisable (pooling results)\nUnderstand why things work in some places but not others (support factors)"
   },
   {
     "objectID": "slides/11_slides.html#slough-et-al-2021-community-monitoring-of-common-pool-resources",
     "href": "slides/11_slides.html#slough-et-al-2021-community-monitoring-of-common-pool-resources",
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": "Slough et al (2021): Community monitoring of common pool resources",
-    "text": "Slough et al (2021): Community monitoring of common pool resources\n\n\n\n\n\n\n\n\n\n\n\n\nExcludable\n\n\n\n\nYes\nNo\n\n\n\n\nRivalrous\n\n\nYes\nPrivate Goods\nCommon Pool Resources\n\n\nNo\nClub goods\nPublic Goods\n\n\n\n\n\n\n\n\n\nTypes of goods"
+    "text": "Slough et al (2021): Community monitoring of common pool resources\n. . .\n\n\n\n\n\n\n\n\n\n\n\nExcludable\n\n\n\n\nYes\nNo\n\n\n\n\nRivalrous\n\n\nYes\nPrivate Goods\nCommon Pool Resources\n\n\nNo\nClub goods\nPublic Goods\n\n\n\n\n\n\n\n\nTypes of goods"
   },
   {
     "objectID": "slides/11_slides.html#different-contexts",
@@ -2356,14 +2356,14 @@
     "href": "slides/11_slides.html#why-without-brazil",
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": "Why without Brazil?",
-    "text": "Why without Brazil?"
+    "text": "Why without Brazil?\n. . ."
   },
   {
     "objectID": "slides/11_slides.html#next-week",
     "href": "slides/11_slides.html#next-week",
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": "Next Week",
-    "text": "Next Week\nQuasi-experiments\nFocus on: What makes these designs credible?"
+    "text": "Next Week\n\nQuasi-experiments\nFocus on: What makes these designs credible?"
   },
   {
     "objectID": "slides/11_slides.html#break-time",
@@ -2384,7 +2384,7 @@
     "href": "slides/11_slides.html#slough-et-al-2021-community-monitoring-of-common-pool-resources-1",
     "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": "Slough et al (2021): Community monitoring of common pool resources",
-    "text": "Slough et al (2021): Community monitoring of common pool resources\n\n\n\n\n\n\n\n\n\n\n\nExcludable\n\n\n\n\nYes\nNo\n\n\n\n\nRivalrous\n\n\nYes\nPrivate Goods\nCommon Pool Resources\n\n\nNo\nClub goods\nPublic Goods\n\n\n\n\n\n\n\n\n\nProblem: Prone to congestion, overextraction\n\n\n\nTypes of goods"
+    "text": "Slough et al (2021): Community monitoring of common pool resources\n\n\n\n\n\n\n\n\n\n\n\nExcludable\n\n\n\n\nYes\nNo\n\n\n\n\nRivalrous\n\n\nYes\nPrivate Goods\nCommon Pool Resources\n\n\nNo\nClub goods\nPublic Goods\n\n\n\n\n\n\n\n\nTypes of goods\n. . .\n\nProblem: Prone to congestion, overextraction"
   },
   {
     "objectID": "slides/09_slides.html",
@@ -2397,6 +2397,356 @@
     "objectID": "slides/10_slides.html",
     "href": "slides/10_slides.html",
     "title": "Improving Precision",
+    "section": "",
+    "text": "POLSCI 4SS3\nWinter 2024"
+  },
+  {
+    "objectID": "slides/12_slides.html#quasi-experiments",
+    "href": "slides/12_slides.html#quasi-experiments",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Quasi-Experiments",
+    "text": "Quasi-Experiments\n \nPOLSCI 4SS3\nWinter 2024"
+  },
+  {
+    "objectID": "slides/12_slides.html#announcements",
+    "href": "slides/12_slides.html#announcements",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Announcements",
+    "text": "Announcements\n\nDecide if you will sign up for final project by April 4\nInstructor traveling April 3-7"
+  },
+  {
+    "objectID": "slides/12_slides.html#types-of-data-strategy",
+    "href": "slides/12_slides.html#types-of-data-strategy",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Types of data strategy",
+    "text": "Types of data strategy\n\n\n\n\n\n\n\n\n\n\n\nData strategy\n\n\n\nInquiry\nObservational\nExperimental\n\n\n\n\nDescriptive\nSample survey\nList experiment\n\n\nCausal\nQuasi-experiment\nSurvey/field experiment"
+  },
+  {
+    "objectID": "slides/12_slides.html#types-of-data-strategy-1",
+    "href": "slides/12_slides.html#types-of-data-strategy-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Types of data strategy",
+    "text": "Types of data strategy\n\n\n\n\n\n\n\n\n\n\n\nData strategy\n\n\n\nInquiry\nObservational\nExperimental\n\n\n\n\nDescriptive\nSample survey\nList experiment\n\n\nCausal\nQuasi-experiment\nSurvey/field experiment"
+  },
+  {
+    "objectID": "slides/12_slides.html#data-strategies",
+    "href": "slides/12_slides.html#data-strategies",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Data strategies",
+    "text": "Data strategies\n\n\n\n\n\n\n\n\n\n\n\nData strategy\n\n\n\nInquiry\nObservational\nExperimental\n\n\n\n\nDescriptive\nSample survey\nList experiment\n\n\nCausal\nQuasi-experiment\nSurvey/field experiment"
+  },
+  {
+    "objectID": "slides/12_slides.html#data-strategies-1",
+    "href": "slides/12_slides.html#data-strategies-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Data strategies",
+    "text": "Data strategies\n\n\n\n\n\n\n\n\n\n\n\nData strategy\n\n\n\nInquiry\nObservational\nExperimental\n\n\n\n\nDescriptive\nSample survey\nList experiment\n\n\nCausal\nQuasi-experiment\nSurvey/field experiment"
+  },
+  {
+    "objectID": "slides/12_slides.html#challenges-to-causal-interpretations",
+    "href": "slides/12_slides.html#challenges-to-causal-interpretations",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Challenges to causal interpretations",
+    "text": "Challenges to causal interpretations\n\n1. Reverse causation\n\n\nInstead of \\(Z\\) causing \\(Y\\), \\(Y\\) causes \\(Z\\)\nSimultaneity: \\(Z\\) causes \\(Y\\) and vice versa"
+  },
+  {
+    "objectID": "slides/12_slides.html#challenges-to-causal-interpretations-1",
+    "href": "slides/12_slides.html#challenges-to-causal-interpretations-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Challenges to causal interpretations",
+    "text": "Challenges to causal interpretations\n1. Reverse causation\n\nInstead of \\(Z\\) causing \\(Y\\), \\(Y\\) causes \\(Z\\)\nSimultaneity: \\(Z\\) causes \\(Y\\) and vice versa\n\n\n\n\n\n\n\nExample\n\n\nStudents who are likely to participate enroll in Political Science courses more often"
+  },
+  {
+    "objectID": "slides/12_slides.html#challenges-to-causal-interpretations-2",
+    "href": "slides/12_slides.html#challenges-to-causal-interpretations-2",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Challenges to causal interpretations",
+    "text": "Challenges to causal interpretations\n2. Omitted variable bias"
+  },
+  {
+    "objectID": "slides/12_slides.html#challenges-to-causal-interpretations-3",
+    "href": "slides/12_slides.html#challenges-to-causal-interpretations-3",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Challenges to causal interpretations",
+    "text": "Challenges to causal interpretations\n2. Omitted variable bias\n\nThere is an unobserved factor \\(X\\) that explains the relationship between \\(Z\\) and \\(Y\\)"
+  },
+  {
+    "objectID": "slides/12_slides.html#quasi-experiments-1",
+    "href": "slides/12_slides.html#quasi-experiments-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Quasi-experiments",
+    "text": "Quasi-experiments"
+  },
+  {
+    "objectID": "slides/12_slides.html#examples-of-quasi-experiment",
+    "href": "slides/12_slides.html#examples-of-quasi-experiment",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Examples of quasi-experiment",
+    "text": "Examples of quasi-experiment\n\n\nBenefits eligible only to people under a certain income\nInstitutional variation based on arbitrary population thresholds\nWinning an election by a narrow margin\nBeing barely inside/outside an administrative border\nUnexpected events"
+  },
+  {
+    "objectID": "slides/12_slides.html#challenges-to-causal-interpretations-4",
+    "href": "slides/12_slides.html#challenges-to-causal-interpretations-4",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Challenges to causal interpretations",
+    "text": "Challenges to causal interpretations\n2. Omitted variable bias\n\nThere is an unobserved factor \\(X\\) that explains the relationship between \\(Z\\) and \\(Y\\)\n\n\n\n\n\n\n\nExample\n\n\n\nWe believe that more education increases income\nBut having smart parents increases both education and income"
+  },
+  {
+    "objectID": "slides/12_slides.html#challenges-to-causal-interpretations-5",
+    "href": "slides/12_slides.html#challenges-to-causal-interpretations-5",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Challenges to causal interpretations",
+    "text": "Challenges to causal interpretations\n3. Selection bias\n\n\nIndividuals sort into condition \\(Z\\) in a manner that predicts outcome \\(Y\\)\nTreatment and control are not comparable"
+  },
+  {
+    "objectID": "slides/12_slides.html#challenges-to-causal-interpretations-6",
+    "href": "slides/12_slides.html#challenges-to-causal-interpretations-6",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Challenges to causal interpretations",
+    "text": "Challenges to causal interpretations\n3. Selection bias\n\nIndividuals sort into condition \\(Z\\) in a manner that predicts outcome \\(Y\\)\nTreatment and control are not comparable\n\n\n\n\n\n\n\nExample\n\n\n\nAlways-takers are more likely to participate in the TUP program"
+  },
+  {
+    "objectID": "slides/12_slides.html#challenges-to-causal-interpretations-7",
+    "href": "slides/12_slides.html#challenges-to-causal-interpretations-7",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Challenges to causal interpretations",
+    "text": "Challenges to causal interpretations\n1. Reverse causation\n2. Omitted variable bias\n3. Selection bias\n\n\nRandom assignment avoids this in expectation\nHard to overcome with observational causal data strategies\nNeed to pretend that we can analyze data as if it was an experiment"
+  },
+  {
+    "objectID": "slides/12_slides.html#regression-discontinuity-designs",
+    "href": "slides/12_slides.html#regression-discontinuity-designs",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Regression discontinuity designs",
+    "text": "Regression discontinuity designs\n\nThree ingredients:\n\n\n\nScore (running variable)\nCutoff (threshold)\nTreatment (at least two conditions)"
+  },
+  {
+    "objectID": "slides/12_slides.html#visual-representation",
+    "href": "slides/12_slides.html#visual-representation",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Visual representation",
+    "text": "Visual representation"
+  },
+  {
+    "objectID": "slides/12_slides.html#as-a-graph",
+    "href": "slides/12_slides.html#as-a-graph",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "As a graph",
+    "text": "As a graph"
+  },
+  {
+    "objectID": "slides/12_slides.html#example-hoekstra-2019",
+    "href": "slides/12_slides.html#example-hoekstra-2019",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Example: Hoekstra (2019)",
+    "text": "Example: Hoekstra (2019)\n\n\nQuestion: Effect of higher education on earnings\nChallenge: Selection bias\nSolution: Focus on attendance at US state flagship university among 28-33 year olds\nOutcome: Earnings\nScore: SAT test scores\nCutoff: Admission cutoff\nTreatment: Attending flagship university"
+  },
+  {
+    "objectID": "slides/12_slides.html#treatment-take-up",
+    "href": "slides/12_slides.html#treatment-take-up",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Treatment take-up",
+    "text": "Treatment take-up"
+  },
+  {
+    "objectID": "slides/12_slides.html#results",
+    "href": "slides/12_slides.html#results",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Results",
+    "text": "Results\n\n\n\nATEs estimated via difference-in-differences"
+  },
+  {
+    "objectID": "slides/12_slides.html#how-do-you-get-an-estimate",
+    "href": "slides/12_slides.html#how-do-you-get-an-estimate",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "How do you get an estimate?",
+    "text": "How do you get an estimate?\n\n\nTwo approaches to RDD data:\n\n\n\n\nLocal randomization\nContinuity-based"
+  },
+  {
+    "objectID": "slides/12_slides.html#local-randomization",
+    "href": "slides/12_slides.html#local-randomization",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Local randomization",
+    "text": "Local randomization\n\n\nPotential outcomes are not random because they depend on the score (and other things)\nHowever, around the cutoff, treatment assignment is as good as random\nExample: Barely winning an election\nSo we can pretend we have an experiment within a bandwidth around the cutoff"
+  },
+  {
+    "objectID": "slides/12_slides.html#bandwidth-tradeoff",
+    "href": "slides/12_slides.html#bandwidth-tradeoff",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Bandwidth tradeoff",
+    "text": "Bandwidth tradeoff\n\n\n\n\n\n\n\nA small bandwidth has low bias but high variance. A larger bandwidth has lower variance but more bias."
+  },
+  {
+    "objectID": "slides/12_slides.html#rdd-assumptions",
+    "href": "slides/12_slides.html#rdd-assumptions",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "RDD assumptions",
+    "text": "RDD assumptions\n\n\n\n\n\n\n\n1. Continuity\n\n\nScore is continuous at the cutoff\n\n\n\n\n\n\n\n\n\n\n\n2. Comparability\n\n\nUnits are comparable at or around the cutoff\n\n\n\n\n\n\nThese imply no manipulation and no selection bias\n\n\n\n\nLocal randomization is sufficient but not necessary to satisfy these assumptions"
+  },
+  {
+    "objectID": "slides/12_slides.html#hoekstra-2019",
+    "href": "slides/12_slides.html#hoekstra-2019",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Hoekstra (2019)",
+    "text": "Hoekstra (2019)"
+  },
+  {
+    "objectID": "slides/12_slides.html#continuity-based-approach",
+    "href": "slides/12_slides.html#continuity-based-approach",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Continuity-based approach",
+    "text": "Continuity-based approach\n\n\nTreatment assignment is deterministic at the cutoff\nExample: Financial aid if income below a threshold\nBut usually too few or no units at the cutoff\nTask: Approximate the gap at the cutoff as best as possible\nThis becomes a line drawing problem"
+  },
+  {
+    "objectID": "slides/12_slides.html#line-drawing-parametric",
+    "href": "slides/12_slides.html#line-drawing-parametric",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Line drawing: Parametric",
+    "text": "Line drawing: Parametric\n\n\n\n\n\n\n\nDifferent functional forms change the size of the gap"
+  },
+  {
+    "objectID": "slides/12_slides.html#line-drawing-nonparametric",
+    "href": "slides/12_slides.html#line-drawing-nonparametric",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Line drawing: Nonparametric",
+    "text": "Line drawing: Nonparametric\n\n\n\n\n\n\n\nThese lines are made by an algorithm that calculates the local average at many windows or bins of data"
+  },
+  {
+    "objectID": "slides/12_slides.html#line-drawing-bandwidth",
+    "href": "slides/12_slides.html#line-drawing-bandwidth",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Line drawing: Bandwidth",
+    "text": "Line drawing: Bandwidth\n\n\n\n\n\n\n\nThe size of the bandwidth determines the data you use to draw lines"
+  },
+  {
+    "objectID": "slides/12_slides.html#leininger-et-al-2023",
+    "href": "slides/12_slides.html#leininger-et-al-2023",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Leininger et al (2023)",
+    "text": "Leininger et al (2023)\n\n\n\n\n\nTemporary disenfranchisement may push voters away from democracy\n\n\n\n\nOutcomes: Survey questions about internal/external efficacy, satisfaction with democracy, political interest"
+  },
+  {
+    "objectID": "slides/12_slides.html#research-design",
+    "href": "slides/12_slides.html#research-design",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Research design",
+    "text": "Research design\n\n\n\nOutcomes: Survey questions about internal/external efficacy, satisfaction with democracy, political interest"
+  },
+  {
+    "objectID": "slides/12_slides.html#counterfactuals",
+    "href": "slides/12_slides.html#counterfactuals",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Counterfactuals",
+    "text": "Counterfactuals"
+  },
+  {
+    "objectID": "slides/12_slides.html#comparisons",
+    "href": "slides/12_slides.html#comparisons",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Comparisons",
+    "text": "Comparisons"
+  },
+  {
+    "objectID": "slides/12_slides.html#difference-in-differences-design",
+    "href": "slides/12_slides.html#difference-in-differences-design",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Difference-in-differences design",
+    "text": "Difference-in-differences design\n\n\nAt least two groups or conditions (treatment,control)\nAt least two time periods (pre- and post-treatment)\nOnce treated, units stay on\nWe accept that selection bias is unavoidable\nBut comparing before-after changes between groups allows us to calculate treatment effect\n\n\n\n\naka DD, DiD, Diff-in-diffs for short"
+  },
+  {
+    "objectID": "slides/12_slides.html#diff-in-diffs-estimator",
+    "href": "slides/12_slides.html#diff-in-diffs-estimator",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Diff-in-diffs estimator",
+    "text": "Diff-in-diffs estimator\n\n\n\n\n\n\n\n\n\n\n\nTiming\n\n\n\nGroup\nBefore\nAfter\n\n\n\n\nTreatment\nA\nB\n\n\nControl\nC\nD\n\n\n\n\n\n\n\n\\[\n\\widehat{ATE} =  [\\text{Mean}(B) - \\text{Mean}(A)] - [\\text{Mean}(D) - \\text{Mean}(C)]\n\\]"
+  },
+  {
+    "objectID": "slides/12_slides.html#diff-in-diffs-estimator-1",
+    "href": "slides/12_slides.html#diff-in-diffs-estimator-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Diff-in-diffs estimator",
+    "text": "Diff-in-diffs estimator\n\n\n\n\n\n\n\n\n\n\n\nTiming\n\n\n\nGroup\nBefore\nAfter\n\n\n\n\nTreatment\nA\nB\n\n\nControl\nC\nD\n\n\n\n\n\n\n\\[\n\\widehat{ATE} =  \\underbrace{[\\text{Mean}(B) - \\text{Mean}(A)]}_\\text{Difference} - \\underbrace{[\\text{Mean}(D) - \\text{Mean}(C)]}_\\text{Difference}\n\\]"
+  },
+  {
+    "objectID": "slides/12_slides.html#diff-in-diffs-estimator-2",
+    "href": "slides/12_slides.html#diff-in-diffs-estimator-2",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Diff-in-diffs estimator",
+    "text": "Diff-in-diffs estimator\n\n\n\n\n\n\n\n\n\n\n\nTiming\n\n\n\nGroup\nBefore\nAfter\n\n\n\n\nTreatment\nA\nB\n\n\nControl\nC\nD\n\n\n\n\n\n\n\\[\n\\widehat{ATE} =  \\underbrace{\\underbrace{[\\text{Mean}(B) - \\text{Mean}(A)]}_\\text{Difference} - \\underbrace{[\\text{Mean}(D) - \\text{Mean}(C)]}_\\text{Difference}}_\\text{Difference in differences}\n\\]"
+  },
+  {
+    "objectID": "slides/12_slides.html#assumption",
+    "href": "slides/12_slides.html#assumption",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Assumption",
+    "text": "Assumption\n\n\n\n\n\n\n\nParallel trends\n\n\n\nTreatment and control may have different values before treatment\nAbsent treatment, the treatment group would have changed like the control group\n\n\n\n\n\n\nThis is equivalent to claiming that treatment and control, while different, follow a similar trajectory\nIdeally, you justify by observing the outcome over many pre-treatment periods"
+  },
+  {
+    "objectID": "slides/12_slides.html#what-happens-if-we-break-parallel-trends",
+    "href": "slides/12_slides.html#what-happens-if-we-break-parallel-trends",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "What happens if we break parallel trends?",
+    "text": "What happens if we break parallel trends?"
+  },
+  {
+    "objectID": "slides/12_slides.html#what-happens-if-we-break-parallel-trends-1",
+    "href": "slides/12_slides.html#what-happens-if-we-break-parallel-trends-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "What happens if we break parallel trends?",
+    "text": "What happens if we break parallel trends?"
+  },
+  {
+    "objectID": "slides/12_slides.html#what-happens-if-we-break-parallel-trends-2",
+    "href": "slides/12_slides.html#what-happens-if-we-break-parallel-trends-2",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "What happens if we break parallel trends?",
+    "text": "What happens if we break parallel trends?"
+  },
+  {
+    "objectID": "slides/12_slides.html#assumption-parallel-trends",
+    "href": "slides/12_slides.html#assumption-parallel-trends",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Assumption: Parallel trends",
+    "text": "Assumption: Parallel trends\n\n\n\nAssuming the treatment group follows the dotted line absent treatment, the difference in difference estimator recovers the causal effect"
+  },
+  {
+    "objectID": "slides/12_slides.html#where-to-go-from-here",
+    "href": "slides/12_slides.html#where-to-go-from-here",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Where to go from here?",
+    "text": "Where to go from here?\nGo back to foundations\n\nProbability and statistics\nPhilosophy of science\nResearch design\nR programming\n\n\n\nHappy to help if you want to know more!"
+  },
+  {
+    "objectID": "slides/12_slides.html#what-did-you-learn-this-semester",
+    "href": "slides/12_slides.html#what-did-you-learn-this-semester",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "What did you learn this semester?",
+    "text": "What did you learn this semester?"
+  },
+  {
+    "objectID": "slides/12_slides.html#where-to-go-from-here-1",
+    "href": "slides/12_slides.html#where-to-go-from-here-1",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Where to go from here?",
+    "text": "Where to go from here?\nFurther learning\n\nProgramming in Python, Julia\nSurvey design\nProgram evaluation\nScience of science\n\n\n\nHappy to help if you want to know more!"
+  },
+  {
+    "objectID": "slides/12_slides.html#where-to-go-from-here-2",
+    "href": "slides/12_slides.html#where-to-go-from-here-2",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Where to go from here?",
+    "text": "Where to go from here?\nCareers & fields\n\nData science, computer science, statistics\nComputational/quantitative social science\nEconometrics\nEvidence-informed policy\nPublic administration\nBusiness, marketing\n\n\n\nHappy to help if you want to know more!"
+  },
+  {
+    "objectID": "slides/12_slides.html#quasi-experiments-2",
+    "href": "slides/12_slides.html#quasi-experiments-2",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
+    "section": "Quasi-experiments",
+    "text": "Quasi-experiments\n\n\nAnswer strategies that produce data as-if they were drawn from an experiment\nNatural experiment: Random assignment outside of the researcher control\nExample: Choosing municipalities at random for auditing\nQuasi-experiment: Conditions are assigned in a manner that is sufficiently orthogonal to potential outcomes"
+  },
+  {
+    "objectID": "slides/11_slides.html",
+    "href": "slides/11_slides.html",
+    "title": "POLSCI 4SS3 <br> Public Opinion <br> and Policy",
     "section": "",
     "text": "POLSCI 4SS3\nWinter 2024"
   }

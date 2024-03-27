@@ -33,16 +33,16 @@ Click on the frame below and use the arrows to navigate. You can type <kbd class
 :::
 
 ```{r show-slides, echo = FALSE, results = "asis"}
-show_slide("/slides/13_slides")
-slide_buttons("/slides/13_slides")
+show_slide("/slides/12_slides")
+slide_buttons("/slides/12_slides")
 ```
 
 ## Lab
 
-[Quasi-experimental designs {{< fa brands r-project >}} (coming soon!)
+[Quasi-experimental designs {{< fa brands r-project >}}](https://github.com/gustavo-diaz/popw24/blob/main/content/labs/12_lab.qmd)
 
 ::: {.callout-warning}
 ## Due
 
-Monday, April 1, 5 PM
+Monday, April 1, 11:59 PM
 :::
