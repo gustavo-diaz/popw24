@@ -452,4 +452,22 @@ Assuming the treatment group follows the dotted line absent treatment, the diffe
 ![](figs/dd_trend_3.png)
 
 
+::: {style="text-align: center"}
+## Thank you! {.center background-color="#8BD3E6"}
+
+:::
+
+
+::: {style="text-align: center"}
+## Break time! {.center background-color="#D2D755"}
+
+&nbsp;
+
+![](figs/panda_dance.gif){fig-align="center" width="10%" height="10%"} 
+:::
+
+::: {style="text-align: center"}
+## {{< fa laptop-code >}} Lab {.center background-color="#007096"}
+:::
+
 
